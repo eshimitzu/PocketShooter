@@ -1,0 +1,52 @@
+
+database:
+    users:
+      - name: root
+        keys: /database/ssh/root/authorized_keys
+      - name: read
+        keys: /database/ssh/read/authorized_keys 
+    nodes:
+      - name: database_1
+        publicIp : 95.211.255.185
+        privateIp: 10.32.27.208      
+        os: ubuntu
+      - name: database_2
+        publicIp : 81.171.3.89
+        privateIp: 10.32.27.194
+      - name: database_3
+        publicIp : 81.171.3.87
+        privateIp: 10.32.27.195
+        os: ubuntu
+
+realtime:
+    users:
+      - name: Administrator
+        keys: all/ssh/Administrator/authorized_keys 
+    nodes:        
+      - name: ams_realtime_1
+        publicIp : 212.32.254.57
+        privateIp: 10.32.27.193
+        os: windows
+      - name: ams_realtime_2
+        publicIp : 95.211.255.183
+        privateIp: 10.32.27.205        
+        os: windows  
+      - name: usa_west_realtime_3
+        publicIp : 23.105.40.220
+        privateIp: 169.254.86.133       
+        os: windows          
+    runtime:
+      copy:
+        - path: realtime/y.grinevich@heyworks.com.Photon-vX.free.100-ccu.license
+          into: photon/deploy/bin_Win64/
+
+meta:
+    users:
+      - name: Administrator
+        keys: all/ssh/Administrator/authorized_keys 
+    nodes:
+      - name: meta_1
+        publicIp : 95.211.255.184
+        privateIp: 10.32.27.196         
+        os: windows
+ 

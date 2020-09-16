@@ -1,0 +1,12 @@
+{
+    "name": "Heyworks.PocketShooter.Meta.Common",
+    "references": ["Heyworks.PocketShooter.Common"],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

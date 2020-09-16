@@ -1,0 +1,102 @@
+fileFormatVersion: 2
+guid: 7d41b427b7de818498034a28b51feba6
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: boris
+    100002: Grenadier_Hat
+    100004: Rambo_Hat
+    100006: Rocketier_hat
+    100008: //RootNode
+    100010: Sniper_Hat
+    100012: Spy_Hat
+    400000: boris
+    400002: Grenadier_Hat
+    400004: Rambo_Hat
+    400006: Rocketier_hat
+    400008: //RootNode
+    400010: Sniper_Hat
+    400012: Spy_Hat
+    2300000: boris
+    2300002: Grenadier_Hat
+    2300004: Rambo_Hat
+    2300006: Rocketier_hat
+    2300008: Sniper_Hat
+    2300010: Spy_Hat
+    3300000: boris
+    3300002: Grenadier_Hat
+    3300004: Rambo_Hat
+    3300006: Rocketier_hat
+    3300008: Sniper_Hat
+    3300010: Spy_Hat
+    4300000: Spy_Hat
+    4300002: Grenadier_Hat
+    4300004: Rambo_Hat
+    4300006: Rocketier_hat
+    4300008: Sniper_Hat
+    4300010: boris
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

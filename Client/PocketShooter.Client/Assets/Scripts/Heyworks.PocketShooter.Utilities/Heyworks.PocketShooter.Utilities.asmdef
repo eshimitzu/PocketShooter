@@ -1,0 +1,24 @@
+{
+    "name": "Heyworks.PocketShooter.Utilities",
+    "references": [
+        "Heyworks.PocketShooter.Client",
+        "Unity.StandartAssets",
+        "Zenject",
+        "Heyworks.PocketShooter.Common",
+        "ThirdParties",
+        "Heyworks.PocketShooter.Client.Common",
+        "Heyworks.PocketShooter.Client.Editor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

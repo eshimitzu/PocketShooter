@@ -1,0 +1,58 @@
+{
+  "Versions": [
+    {
+      "VersionName": 1,
+      "PlatformName": 0,
+      "CommonSettings": {
+        "CompanyName": "StagingIOS",
+        "ProductName": "StagingIOS",
+        "Identification": {
+          "BundleVersion": "StagingIOS",
+          "ShortBundleVersion": "StagingIOS"
+        },
+        "AppConfiguration": {
+          "Version": "StagingIOS",
+          "MetaServerIp": "StagingIOS",
+          "MetaServerPort": "StagingIOS",
+          "BundleId": "StagingIOS"
+        },
+        "StoreLink": "StagingIOS",
+        "AppMetricaApiKey": null,
+        "DataDogApiKey": "StagingIOS"
+      },
+      "AndroidSettings": null,
+      "IOSSettings": {
+        "IconsScriptableObject": "",
+        "GameCenter": "StagingIOS"
+      }
+    },
+    {
+      "VersionName": 1,
+      "PlatformName": 1,
+      "CommonSettings": {
+        "CompanyName": "StagingAndroid",
+        "ProductName": "StagingAndroid",
+        "Identification": {
+          "BundleVersion": "StagingAndroid",
+          "ShortBundleVersion": "StagingAndroid"
+        },
+        "AppConfiguration": {
+          "Version": "StagingAndroid",
+          "MetaServerIp": "StagingAndroid",
+          "MetaServerPort": "StagingAndroid",
+          "BundleId": "StagingAndroid"
+        },
+        "StoreLink": "StagingAndroid",
+        "AppMetricaApiKey": null,
+        "DataDogApiKey": "StagingAndroid"
+      },
+      "AndroidSettings": {
+        "IconsScriptableObject": "",
+        "GooglePlayAppId": null,
+        "GooglePlayWebClientId": null,
+        "GooglePlayResourcesXML": null
+      },
+      "IOSSettings": null
+    }
+  ]
+}

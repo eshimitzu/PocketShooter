@@ -1,0 +1,16 @@
+{
+    "name": "Heyworks.PocketShooter.Realtime.Client.Common",
+    "references": [
+        "Heyworks.PocketShooter.Realtime.Client",
+        "Heyworks.PocketShooter.Realtime.Common",
+        "Microsoft.Extensions.Logging.Unity"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

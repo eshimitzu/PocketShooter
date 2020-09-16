@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	222863352	PlayMexOrchestra			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexOrchestra	
+	622281027	PlayMexVoice			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexVoice	
+	1671523902	PlayMexBar			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexBar	
+	1933013991	PlayMexParrot			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexParrot	
+	1993538625	PlayMexBirds			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexBirds	
+	2141150139	PlayMexCar			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexCar	
+	3865633915	PlayMexArcade			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexArcade	
+	3975203989	PlayMexGuitar			\Default Work Unit\EnvironmentEvents\Mexico\PlayMexGuitar	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	514646071	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexVoice\MexVoicePause\Wwise Silence	
+	678787135	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexParrot\MexParrotPause\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	15838308	MexCar	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexCar_CFB351BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexCar		34416
+	146115207	MexGuitar_02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexGuitar_5226DA65.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexGuitar\MexGuitar_02		23805
+	378459362	MexBirds	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\AmbCountry_Birds_Short_DF4C57CA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexBirds		32226
+	402361195	MexGuitar_01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexGuitar_A693DFCF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexGuitar\MexGuitar_01		18430
+	450767814	MexBar	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexBar_CFB351BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexBar		89122
+	493953531	MexParrotShort	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexParrotShort_9CCE7FFA_38489071.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexParrot\MexParrotShort		97683
+	652859077	MexGuitar	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexGuitar_1A721CDE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexGuitar\MexGuitar		22062
+	665215274	MexArcade	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MilitaryBaseOutdoor_CFB351BA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexArcade		175239
+	861843118	MexOrchestra	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexicoEnv2_C3C6BE49.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexOrchestra		148724
+	886863994	MexVoice	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Android\SFX\MexVoice_41EBA446.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\Mex\MexVoice\MexVoice		108507
+

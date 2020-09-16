@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="iOS" BasePlatform="iOS" SchemaVersion="11" SoundbankVersion="132">
+	<RootPaths>
+		<ProjectRoot>C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\GeneratedSoundBanks\iOS\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\GeneratedSoundBanks\iOS</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="436743010" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Character</ObjectPath>
+			<ShortName>Character</ShortName>
+			<Path>Character.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1030691167" Name="PlayDash" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayDash"/>
+				<Event Id="2840201783" Name="PlayDeath" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayDeath"/>
+				<Event Id="677081109" Name="PlayDive" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayDive" MaxAttenuation="10.000000"/>
+				<Event Id="3203537172" Name="PlayDiveAim" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayDiveAim" MaxAttenuation="10.000000"/>
+				<Event Id="182173234" Name="PlayDiveExplosion" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayDiveExplosion" MaxAttenuation="10.000000"/>
+				<Event Id="2647086485" Name="PlayDiveRocket" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayDiveRocket" MaxAttenuation="10.000000"/>
+				<Event Id="3327443438" Name="PlayFootstepsCommando" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsCommando" MaxAttenuation="10.000000"/>
+				<Event Id="1798292410" Name="PlayFootstepsNeo" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNeo" MaxAttenuation="10.000000"/>
+				<Event Id="3276813625" Name="PlayFootstepsNorris" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNorris" MaxAttenuation="10.000000"/>
+				<Event Id="2610787897" Name="PlayFootstepsRambo" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRambo" MaxAttenuation="10.000000"/>
+				<Event Id="3960134683" Name="PlayFootstepsRock" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRock" MaxAttenuation="10.000000"/>
+				<Event Id="4245983556" Name="PlayFootstepsRocketeer" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRocketeer" MaxAttenuation="10.000000"/>
+				<Event Id="570964110" Name="PlayFootstepsScout" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsScout" MaxAttenuation="10.000000"/>
+				<Event Id="2417476225" Name="PlayFootstepsSniper" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSniper" MaxAttenuation="10.000000"/>
+				<Event Id="1415805818" Name="PlayFootstepsSpy" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSpy" MaxAttenuation="10.000000"/>
+				<Event Id="873250360" Name="PlayFootstepsStatham" ObjectPath="\Events\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsStatham" MaxAttenuation="10.000000"/>
+				<Event Id="3057966133" Name="PlayGrenadeCollision" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayGrenadeCollision" MaxAttenuation="12.000000"/>
+				<Event Id="3395014464" Name="PlayGrenadeExplosion" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayGrenadeExplosion" MaxAttenuation="50.000000"/>
+				<Event Id="2032244284" Name="PlayGrenadePin" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayGrenadePin" MaxAttenuation="12.000000"/>
+				<Event Id="2971556329" Name="PlayGrenadeStunCollision" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayGrenadeStunCollision" MaxAttenuation="12.000000"/>
+				<Event Id="821551381" Name="PlayGrenadeThrow" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayGrenadeThrow" MaxAttenuation="10.000000"/>
+				<Event Id="1313462519" Name="PlayHealing" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayHealing"/>
+				<Event Id="3393109598" Name="PlayImmortalityImpact" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayImmortalityImpact" MaxAttenuation="10.000000"/>
+				<Event Id="377947503" Name="PlayImmortalitySphere" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayImmortalitySphere" MaxAttenuation="10.000000"/>
+				<Event Id="3883208773" Name="PlayInstantReload" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayInstantReload"/>
+				<Event Id="642563282" Name="PlayInvisibility" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayInvisibility" MaxAttenuation="10.000000"/>
+				<Event Id="1717476791" Name="PlayJump" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayJump" MaxAttenuation="10.000000"/>
+				<Event Id="2605355262" Name="PlayJumpEnd" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayJumpEnd" MaxAttenuation="10.000000"/>
+				<Event Id="4052284670" Name="PlayLifesteal" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayLifesteal" MaxAttenuation="10.000000"/>
+				<Event Id="1729824178" Name="PlayLifestealMinus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayLifestealMinus"/>
+				<Event Id="1956159050" Name="PlayLifestealPlus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayLifestealPlus"/>
+				<Event Id="921201313" Name="PlayLucky" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayLucky" MaxAttenuation="10.000000"/>
+				<Event Id="1007243845" Name="PlayNeoFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayNeoFocus"/>
+				<Event Id="3320537866" Name="PlayNorrisFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayNorrisFocus"/>
+				<Event Id="1998507580" Name="PlayRage" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayRage" MaxAttenuation="10.000000"/>
+				<Event Id="4201560764" Name="PlayRamboFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayRamboFocus"/>
+				<Event Id="1027081642" Name="PlayRegeneration" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayRegeneration"/>
+				<Event Id="389124200" Name="PlayReloadM16" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayReloadM16" MaxAttenuation="10.000000"/>
+				<Event Id="4022900357" Name="PlayReloadMinigun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayReloadMinigun" MaxAttenuation="10.000000"/>
+				<Event Id="440143028" Name="PlayReloadRocket" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayReloadRocket" MaxAttenuation="10.000000"/>
+				<Event Id="21563610" Name="PlayReloadShotgun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayReloadShotgun" MaxAttenuation="10.000000"/>
+				<Event Id="3389360877" Name="PlayReloadSvd" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayReloadSvd" MaxAttenuation="10.000000"/>
+				<Event Id="888888696" Name="PlayRocketExplosion" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayRocketExplosion" MaxAttenuation="50.000000"/>
+				<Event Id="2447162584" Name="PlayRocketShoot" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayRocketShoot" MaxAttenuation="35.000000"/>
+				<Event Id="35691788" Name="PlayRockFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayRockFocus"/>
+				<Event Id="925121273" Name="PlayScoutFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayScoutFocus"/>
+				<Event Id="2673989888" Name="PlayShockwave" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayShockwave" MaxAttenuation="50.000000"/>
+				<Event Id="2951439723" Name="PlayShockwaveHorn" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayShockwaveHorn" MaxAttenuation="10.000000"/>
+				<Event Id="824809494" Name="PlaySniperFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlaySniperFocus"/>
+				<Event Id="2476989423" Name="PlaySprint" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlaySprint"/>
+				<Event Id="2880499329" Name="PlaySpyFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlaySpyFocus"/>
+				<Event Id="652493511" Name="PlayStathamFocus" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlayStathamFocus"/>
+				<Event Id="3429197936" Name="PlayStunEffect" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayStunEffect"/>
+				<Event Id="328285970" Name="PlaySuffer" ObjectPath="\Events\Default Work Unit\CharachterEvents\Voiceovers\PlaySuffer"/>
+				<Event Id="4153127022" Name="PlayTrap" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\PlayTrap" MaxAttenuation="10.000000"/>
+				<Event Id="520122814" Name="PlayTrooperImpact" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayTrooperImpact" MaxAttenuation="5.000000"/>
+				<Event Id="3864859669" Name="PlayWallImpact" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWallImpact" MaxAttenuation="5.000000"/>
+				<Event Id="1674377184" Name="PlayWarmUpMinigun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWarmUpMinigun" MaxAttenuation="10.000000"/>
+				<Event Id="3751915472" Name="PlayWarmUpStopMinigun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWarmUpStopMinigun" MaxAttenuation="0.000000"/>
+				<Event Id="891302319" Name="PlayWeaponBarret" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponBarret" MaxAttenuation="35.000000"/>
+				<Event Id="1614160601" Name="PlayWeaponKatana" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatana" MaxAttenuation="7.000000"/>
+				<Event Id="1148768871" Name="PlayWeaponKatanaWhip" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatanaWhip" MaxAttenuation="7.000000"/>
+				<Event Id="1373079386" Name="PlayWeaponKnife" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnife" MaxAttenuation="7.000000"/>
+				<Event Id="3585203664" Name="PlayWeaponKnifeWhip" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnifeWhip" MaxAttenuation="7.000000"/>
+				<Event Id="3772532305" Name="PlayWeaponM16" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponM16" MaxAttenuation="35.000000"/>
+				<Event Id="626967428" Name="PlayWeaponMinigun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponMinigun" MaxAttenuation="35.000000"/>
+				<Event Id="1171507898" Name="PlayWeaponShotgunRemington" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunRemington" MaxAttenuation="35.000000"/>
+				<Event Id="3015014434" Name="PlayWeaponShotgunSpas" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunSpas" MaxAttenuation="35.000000"/>
+				<Event Id="2652080524" Name="PlayWeaponSvd" ObjectPath="\Events\Default Work Unit\CharachterEvents\Weapons\PlayWeaponSvd" MaxAttenuation="35.000000"/>
+				<Event Id="3722533827" Name="StateCharacterDead" ObjectPath="\Events\Default Work Unit\CharachterEvents\StateCharacterDead" MaxAttenuation="0.000000"/>
+				<Event Id="2828262823" Name="StateEffectStun" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\StateEffectStun" MaxAttenuation="0.000000"/>
+				<Event Id="1307850985" Name="StopImmortalitySphere" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\StopImmortalitySphere" MaxAttenuation="0.000000"/>
+				<Event Id="1517601480" Name="StopLifesteal" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\StopLifesteal" MaxAttenuation="0.000000"/>
+				<Event Id="3711495321" Name="StopSprint" ObjectPath="\Events\Default Work Unit\CharachterEvents\Skills\StopSprint"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="21801019" Language="SFX">
+					<ShortName>WeaponKatanaWhip_2.wav</ShortName>
+					<Path>SFX\WeaponKatanaWhip_2_B2354A63_004609EB.wem</Path>
+				</File>
+				<File Id="25665503" Language="SFX">
+					<ShortName>Trap.wav</ShortName>
+					<Path>SFX\Trap_B2354A63.wem</Path>
+				</File>
+				<File Id="27330049" Language="SFX">
+					<ShortName>ReloadRocket.wav</ShortName>
+					<Path>SFX\ReloadRocket_5651D0BE.wem</Path>
+				</File>
+				<File Id="29256653" Language="SFX">
+					<ShortName>Suffers\Suffer06.wav</ShortName>
+					<Path>SFX\Suffers\Suffer06_B2354A63.wem</Path>
+				</File>
+				<File Id="29273590" Language="SFX">
+					<ShortName>EffectStun.wav</ShortName>
+					<Path>SFX\EffectStun_1CD3FC5F.wem</Path>
+				</File>
+				<File Id="35911826" Language="SFX">
+					<ShortName>Suffers\Suffer01.wav</ShortName>
+					<Path>SFX\Suffers\Suffer01_B2354A63.wem</Path>
+				</File>
+				<File Id="36574813" Language="SFX">
+					<ShortName>Design, Whoosh, Metallic 1 SND11967 1.wav</ShortName>
+					<Path>SFX\Design, Whoosh, Metallic 1 SND11967 1_71C3E949.wem</Path>
+				</File>
+				<File Id="43428189" Language="SFX">
+					<ShortName>WeaponBarret03.wav</ShortName>
+					<Path>SFX\WeaponBarret03_B2354A63.wem</Path>
+				</File>
+				<File Id="47360111" Language="SFX">
+					<ShortName>RamboFs04.wav</ShortName>
+					<Path>SFX\RamboFs04_CE23F0D0.wem</Path>
+				</File>
+				<File Id="52185697" Language="SFX">
+					<ShortName>WeaponShotgunRemington02.wav</ShortName>
+					<Path>SFX\WeaponShotgunRemington02_B2354A63.wem</Path>
+				</File>
+				<File Id="57033575" Language="SFX">
+					<ShortName>ImmortalitySphereOn.wav</ShortName>
+					<Path>SFX\ImmortalitySphereOn_FE09A4B1.wem</Path>
+				</File>
+				<File Id="59100695" Language="SFX">
+					<ShortName>InstantReload.wav</ShortName>
+					<Path>SFX\InstantReload_B2354A63.wem</Path>
+				</File>
+				<File Id="62123051" Language="SFX">
+					<ShortName>WeaponM1601.wav</ShortName>
+					<Path>SFX\WeaponM1601_B2354A63.wem</Path>
+				</File>
+				<File Id="75778750" Language="SFX">
+					<ShortName>Suffers\Suffer03.wav</ShortName>
+					<Path>SFX\Suffers\Suffer03_B2354A63.wem</Path>
+				</File>
+				<File Id="82876590" Language="SFX">
+					<ShortName>RamboFs03.wav</ShortName>
+					<Path>SFX\RamboFs03_DA8098DC.wem</Path>
+				</File>
+				<File Id="83127967" Language="SFX">
+					<ShortName>FsCommando07.wav</ShortName>
+					<Path>SFX\FsCommando07_2ABBD0F8.wem</Path>
+				</File>
+				<File Id="83710797" Language="SFX">
+					<ShortName>RamboFs02.wav</ShortName>
+					<Path>SFX\RamboFs02_9C54B248.wem</Path>
+				</File>
+				<File Id="85382981" Language="SFX">
+					<ShortName>WeaponShotgunSpas03.wav</ShortName>
+					<Path>SFX\WeaponShotgunSpas03_4DF4AC3B.wem</Path>
+				</File>
+				<File Id="90150293" Language="SFX">
+					<ShortName>ImmortalityImpact03.wav</ShortName>
+					<Path>SFX\ImmortalityImpact03_B2354A63.wem</Path>
+				</File>
+				<File Id="92861816" Language="SFX">
+					<ShortName>Death\Death6.wav</ShortName>
+					<Path>SFX\Death\Death6_B2354A63.wem</Path>
+				</File>
+				<File Id="104494497" Language="SFX">
+					<ShortName>Sprint02.wav</ShortName>
+					<Path>SFX\Sprint02_5D098EFB.wem</Path>
+				</File>
+				<File Id="104837638" Language="SFX">
+					<ShortName>WeaponBarret02.wav</ShortName>
+					<Path>SFX\WeaponBarret02_B2354A63.wem</Path>
+				</File>
+				<File Id="121558942" Language="SFX">
+					<ShortName>Suffers\Suffer10.wav</ShortName>
+					<Path>SFX\Suffers\Suffer10_B2354A63.wem</Path>
+				</File>
+				<File Id="135635603" Language="SFX">
+					<ShortName>Suffers\Suffer11.wav</ShortName>
+					<Path>SFX\Suffers\Suffer11_B2354A63.wem</Path>
+				</File>
+				<File Id="135723844" Language="SFX">
+					<ShortName>FoleyCommando03.wav</ShortName>
+					<Path>SFX\FoleyCommando03_B2354A63.wem</Path>
+				</File>
+				<File Id="144327441" Language="SFX">
+					<ShortName>LauncherSingleRocket.wav</ShortName>
+					<Path>SFX\LauncherSingleRocket_B2354A63.wem</Path>
+				</File>
+				<File Id="147349247" Language="SFX">
+					<ShortName>NeoDejaVu.wav</ShortName>
+					<Path>SFX\NeoDejaVu_B2354A63.wem</Path>
+				</File>
+				<File Id="152088484" Language="SFX">
+					<ShortName>WeaponKatana.wav</ShortName>
+					<Path>SFX\WeaponKatana_3F35904D.wem</Path>
+				</File>
+				<File Id="178994087" Language="SFX">
+					<ShortName>DiveRocket.wav</ShortName>
+					<Path>SFX\DiveRocket_B2354A63.wem</Path>
+				</File>
+				<File Id="184366295" Language="SFX">
+					<ShortName>Whip_Short_DYN2_RR2.wav</ShortName>
+					<Path>SFX\Whip_Short_DYN2_RR2_B2354A63.wem</Path>
+				</File>
+				<File Id="194537141" Language="SFX">
+					<ShortName>LauncherM202.wav</ShortName>
+					<Path>SFX\LauncherM202_B2354A63.wem</Path>
+				</File>
+				<File Id="197709163" Language="SFX">
+					<ShortName>ScoutFs03.wav</ShortName>
+					<Path>SFX\ScoutFs03_973CDEC6.wem</Path>
+				</File>
+				<File Id="208143398" Language="SFX">
+					<ShortName>Suffers\Suffer12.wav</ShortName>
+					<Path>SFX\Suffers\Suffer12_B2354A63.wem</Path>
+				</File>
+				<File Id="210398223" Language="SFX">
+					<ShortName>Healing.wav</ShortName>
+					<Path>SFX\Healing_B2354A63.wem</Path>
+				</File>
+				<File Id="219119742" Language="SFX">
+					<ShortName>WeaponBarret04.wav</ShortName>
+					<Path>SFX\WeaponBarret04_B2354A63.wem</Path>
+				</File>
+				<File Id="222709588" Language="SFX">
+					<ShortName>Knife.wav</ShortName>
+					<Path>SFX\Knife_B2354A63.wem</Path>
+				</File>
+				<File Id="228382889" Language="SFX">
+					<ShortName>ScoutFs04.wav</ShortName>
+					<Path>SFX\ScoutFs04_19EF5B2F.wem</Path>
+				</File>
+				<File Id="229981047" Language="SFX">
+					<ShortName>explosion.wav</ShortName>
+					<Path>SFX\explosion_16AD8D0B.wem</Path>
+				</File>
+				<File Id="238379353" Language="SFX">
+					<ShortName>Windshield_Hit_01.wav</ShortName>
+					<Path>SFX\Windshield_Hit_01_FAFBC53F.wem</Path>
+				</File>
+				<File Id="242498465" Language="SFX">
+					<ShortName>Whip_Short_DYN2_RR4.wav</ShortName>
+					<Path>SFX\Whip_Short_DYN2_RR4_B2354A63.wem</Path>
+				</File>
+				<File Id="261588463" Language="SFX">
+					<ShortName>RamboFs01.wav</ShortName>
+					<Path>SFX\RamboFs01_98367DE5.wem</Path>
+				</File>
+				<File Id="270346793" Language="SFX">
+					<ShortName>DiveExplosion.wav</ShortName>
+					<Path>SFX\DiveExplosion_B2354A63.wem</Path>
+				</File>
+				<File Id="279681926" Language="SFX">
+					<ShortName>scout_copy.wav</ShortName>
+					<Path>SFX\scout_copy_B2354A63.wem</Path>
+				</File>
+				<File Id="279710590" Language="SFX">
+					<ShortName>Death\Death5.wav</ShortName>
+					<Path>SFX\Death\Death5_B2354A63.wem</Path>
+				</File>
+				<File Id="280732065" Language="SFX">
+					<ShortName>ClothCommando08.wav</ShortName>
+					<Path>SFX\ClothCommando08_BB005D50.wem</Path>
+				</File>
+				<File Id="281002167" Language="SFX">
+					<ShortName>trooper_kill_em_all.wav</ShortName>
+					<Path>SFX\trooper_kill_em_all_B2354A63.wem</Path>
+				</File>
+				<File Id="296001355" Language="SFX">
+					<ShortName>WeaponSvd01.wav</ShortName>
+					<Path>SFX\WeaponSvd01_B2354A63.wem</Path>
+				</File>
+				<File Id="296184789" Language="SFX">
+					<ShortName>SpyFs04.wav</ShortName>
+					<Path>SFX\SpyFs04_39A49216.wem</Path>
+				</File>
+				<File Id="299859960" Language="SFX">
+					<ShortName>BulletWallImpact02.wav</ShortName>
+					<Path>SFX\BulletWallImpact02_B2354A63.wem</Path>
+				</File>
+				<File Id="307978837" Language="SFX">
+					<ShortName>FootstepsCommandoLow.wav</ShortName>
+					<Path>SFX\FootstepsCommandoLow_B2354A63.wem</Path>
+				</File>
+				<File Id="335257554" Language="SFX">
+					<ShortName>Lifesteal.wav</ShortName>
+					<Path>SFX\Lifesteal_FE09A4B1.wem</Path>
+				</File>
+				<File Id="338793523" Language="SFX">
+					<ShortName>spy_will_do.wav</ShortName>
+					<Path>SFX\spy_will_do_B2354A63.wem</Path>
+				</File>
+				<File Id="343762296" Language="SFX">
+					<ShortName>DiveAim.wav</ShortName>
+					<Path>SFX\DiveAim_B2354A63.wem</Path>
+				</File>
+				<File Id="349689896" Language="SFX">
+					<ShortName>SpyFs03.wav</ShortName>
+					<Path>SFX\SpyFs03_F6ED099D.wem</Path>
+				</File>
+				<File Id="359809607" Language="SFX">
+					<ShortName>GrenadeCollision02.wav</ShortName>
+					<Path>SFX\GrenadeCollision02_B2354A63.wem</Path>
+				</File>
+				<File Id="367985423" Language="SFX">
+					<ShortName>WeaponShotgunSpas02.wav</ShortName>
+					<Path>SFX\WeaponShotgunSpas02_BC37670A.wem</Path>
+				</File>
+				<File Id="379154003" Language="SFX">
+					<ShortName>WeaponM1604.wav</ShortName>
+					<Path>SFX\WeaponM1604_B2354A63.wem</Path>
+				</File>
+				<File Id="386203276" Language="SFX">
+					<ShortName>MinigunReload.wav</ShortName>
+					<Path>SFX\MinigunReload_B2354A63.wem</Path>
+				</File>
+				<File Id="398498733" Language="SFX">
+					<ShortName>WeaponShotgunRemington03.wav</ShortName>
+					<Path>SFX\WeaponShotgunRemington03_B2354A63.wem</Path>
+				</File>
+				<File Id="400555669" Language="SFX">
+					<ShortName>NorrisBang.wav</ShortName>
+					<Path>SFX\NorrisBang_B2354A63.wem</Path>
+				</File>
+				<File Id="413831909" Language="SFX">
+					<ShortName>GrenadeCollision03.wav</ShortName>
+					<Path>SFX\GrenadeCollision03_B2354A63.wem</Path>
+				</File>
+				<File Id="438277189" Language="SFX">
+					<ShortName>BulletWallImpact01.wav</ShortName>
+					<Path>SFX\BulletWallImpact01_B2354A63.wem</Path>
+				</File>
+				<File Id="442325913" Language="SFX">
+					<ShortName>sniper_picaboo.wav</ShortName>
+					<Path>SFX\sniper_picaboo_B2354A63.wem</Path>
+				</File>
+				<File Id="447661959" Language="SFX">
+					<ShortName>Footsteps, Asphalt, Sneaker, Medium SND0989 3.wav</ShortName>
+					<Path>SFX\Footsteps, Asphalt, Sneaker, Medium SND0989 3_59068CFA.wem</Path>
+				</File>
+				<File Id="450947778" Language="SFX">
+					<ShortName>GrenadeStunCollision02.wav</ShortName>
+					<Path>SFX\GrenadeStunCollision02_88202555.wem</Path>
+				</File>
+				<File Id="464787711" Language="SFX">
+					<ShortName>NeoKungFu.wav</ShortName>
+					<Path>SFX\NeoKungFu_B2354A63.wem</Path>
+				</File>
+				<File Id="465051163" Language="SFX">
+					<ShortName>SpyFs02.wav</ShortName>
+					<Path>SFX\SpyFs02_382EFB2E.wem</Path>
+				</File>
+				<File Id="484765171" Language="SFX">
+					<ShortName>Shockwave.wav</ShortName>
+					<Path>SFX\Shockwave_B2354A63.wem</Path>
+				</File>
+				<File Id="487997870" Language="SFX">
+					<ShortName>WeaponM1603.wav</ShortName>
+					<Path>SFX\WeaponM1603_B2354A63.wem</Path>
+				</File>
+				<File Id="488845179" Language="SFX">
+					<ShortName>SprintStart.wav</ShortName>
+					<Path>SFX\SprintStart_B2354A63.wem</Path>
+				</File>
+				<File Id="502435711" Language="SFX">
+					<ShortName>Design, Whoosh, Low, Thunder 1 SND12023.wav</ShortName>
+					<Path>SFX\Design, Whoosh, Low, Thunder 1 SND12023_B2354A63.wem</Path>
+				</File>
+				<File Id="505489977" Language="SFX">
+					<ShortName>FsCommando03.wav</ShortName>
+					<Path>SFX\FsCommando03_B5FFE4CF.wem</Path>
+				</File>
+				<File Id="518495252" Language="SFX">
+					<ShortName>WeaponMinigun03.wav</ShortName>
+					<Path>SFX\WeaponMinigun03_B2354A63.wem</Path>
+				</File>
+				<File Id="531059462" Language="SFX">
+					<ShortName>ImmortalityImpact01.wav</ShortName>
+					<Path>SFX\ImmortalityImpact01_B2354A63.wem</Path>
+				</File>
+				<File Id="536243856" Language="SFX">
+					<ShortName>GrenadeStunCollision01.wav</ShortName>
+					<Path>SFX\GrenadeStunCollision01_B2354A63.wem</Path>
+				</File>
+				<File Id="544688403" Language="SFX">
+					<ShortName>FsCommando08.wav</ShortName>
+					<Path>SFX\FsCommando08_975AB418.wem</Path>
+				</File>
+				<File Id="550107063" Language="SFX">
+					<ShortName>ScoutFs01.wav</ShortName>
+					<Path>SFX\ScoutFs01_12DD1A74.wem</Path>
+				</File>
+				<File Id="554358893" Language="SFX">
+					<ShortName>Suffers\Suffer08.wav</ShortName>
+					<Path>SFX\Suffers\Suffer08_B2354A63.wem</Path>
+				</File>
+				<File Id="555832269" Language="SFX">
+					<ShortName>SniperFs01.wav</ShortName>
+					<Path>SFX\SniperFs01_0B055390.wem</Path>
+				</File>
+				<File Id="559599286" Language="SFX">
+					<ShortName>SprintStop.wav</ShortName>
+					<Path>SFX\SprintStop_B2354A63.wem</Path>
+				</File>
+				<File Id="560518470" Language="SFX">
+					<ShortName>LifestealEmemy.wav</ShortName>
+					<Path>SFX\LifestealEmemy_B2354A63.wem</Path>
+				</File>
+				<File Id="565874661" Language="SFX">
+					<ShortName>StathamFatChance.wav</ShortName>
+					<Path>SFX\StathamFatChance_B2354A63.wem</Path>
+				</File>
+				<File Id="567409900" Language="SFX">
+					<ShortName>WeaponShotgunRemington01.wav</ShortName>
+					<Path>SFX\WeaponShotgunRemington01_B2354A63.wem</Path>
+				</File>
+				<File Id="572353186" Language="SFX">
+					<ShortName>SpyFs01.wav</ShortName>
+					<Path>SFX\SpyFs01_2A5F6DDD.wem</Path>
+				</File>
+				<File Id="573634064" Language="SFX">
+					<ShortName>ReloadM16.wav</ShortName>
+					<Path>SFX\ReloadM16_B2354A63.wem</Path>
+				</File>
+				<File Id="581048698" Language="SFX">
+					<ShortName>Death\Death4.wav</ShortName>
+					<Path>SFX\Death\Death4_B2354A63.wem</Path>
+				</File>
+				<File Id="616112800" Language="SFX">
+					<ShortName>Suffers\Suffer07.wav</ShortName>
+					<Path>SFX\Suffers\Suffer07_B2354A63.wem</Path>
+				</File>
+				<File Id="617826988" Language="SFX">
+					<ShortName>ShockwaveHorn.wav</ShortName>
+					<Path>SFX\ShockwaveHorn_B2354A63.wem</Path>
+				</File>
+				<File Id="622963306" Language="SFX">
+					<ShortName>BulletImpactIce.wav</ShortName>
+					<Path>SFX\BulletImpactIce_B2354A63.wem</Path>
+				</File>
+				<File Id="638996517" Language="SFX">
+					<ShortName>WeaponKatanaWhip.wav</ShortName>
+					<Path>SFX\WeaponKatanaWhip_B2354A63_004609EB.wem</Path>
+				</File>
+				<File Id="641307925" Language="SFX">
+					<ShortName>WeaponBarret01.wav</ShortName>
+					<Path>SFX\WeaponBarret01_B2354A63.wem</Path>
+				</File>
+				<File Id="648413186" Language="SFX">
+					<ShortName>ScoutFs02.wav</ShortName>
+					<Path>SFX\ScoutFs02_9DCBD471.wem</Path>
+				</File>
+				<File Id="651053087" Language="SFX">
+					<ShortName>Footsteps, Asphalt, Sneaker, Medium SND0989 4.wav</ShortName>
+					<Path>SFX\Footsteps, Asphalt, Sneaker, Medium SND0989 4_878E2160.wem</Path>
+				</File>
+				<File Id="651833903" Language="SFX">
+					<ShortName>WeaponMinigun02.wav</ShortName>
+					<Path>SFX\WeaponMinigun02_B2354A63.wem</Path>
+				</File>
+				<File Id="663771886" Language="SFX">
+					<ShortName>Rage.wav</ShortName>
+					<Path>SFX\Rage_B2354A63.wem</Path>
+				</File>
+				<File Id="669021361" Language="SFX">
+					<ShortName>WeaponKatanaWhip_1.wav</ShortName>
+					<Path>SFX\WeaponKatanaWhip_1_B2354A63_004609EB.wem</Path>
+				</File>
+				<File Id="674537842" Language="SFX">
+					<ShortName>Flyby_02.wav</ShortName>
+					<Path>SFX\Flyby_02_B2354A63.wem</Path>
+				</File>
+				<File Id="684293905" Language="SFX">
+					<ShortName>GrenadePin.wav</ShortName>
+					<Path>SFX\GrenadePin_B2354A63.wem</Path>
+				</File>
+				<File Id="719747670" Language="SFX">
+					<ShortName>Suffers\Suffer09.wav</ShortName>
+					<Path>SFX\Suffers\Suffer09_B2354A63.wem</Path>
+				</File>
+				<File Id="720982452" Language="SFX">
+					<ShortName>SniperFs04.wav</ShortName>
+					<Path>SFX\SniperFs04_2014BC8E.wem</Path>
+				</File>
+				<File Id="724105491" Language="SFX">
+					<ShortName>ClothCommando06.wav</ShortName>
+					<Path>SFX\ClothCommando06_64AEA454.wem</Path>
+				</File>
+				<File Id="728153363" Language="SFX">
+					<ShortName>WeaponShotgunSpas01.wav</ShortName>
+					<Path>SFX\WeaponShotgunSpas01_716B28C1.wem</Path>
+				</File>
+				<File Id="744236395" Language="SFX">
+					<ShortName>WeaponM1602.wav</ShortName>
+					<Path>SFX\WeaponM1602_B2354A63.wem</Path>
+				</File>
+				<File Id="750585038" Language="SFX">
+					<ShortName>spy_five_by_five.wav</ShortName>
+					<Path>SFX\spy_five_by_five_B2354A63.wem</Path>
+				</File>
+				<File Id="761066873" Language="SFX">
+					<ShortName>tarmac_04.wav</ShortName>
+					<Path>SFX\tarmac_04_8CD7AD17.wem</Path>
+				</File>
+				<File Id="774750914" Language="SFX">
+					<ShortName>Suffers\Suffer02.wav</ShortName>
+					<Path>SFX\Suffers\Suffer02_B2354A63.wem</Path>
+				</File>
+				<File Id="778747842" Language="SFX">
+					<ShortName>FoleyCommando06.wav</ShortName>
+					<Path>SFX\FoleyCommando06_B2354A63.wem</Path>
+				</File>
+				<File Id="778915457" Language="SFX">
+					<ShortName>WeaponMinigun02.wav</ShortName>
+					<Path>SFX\WeaponMinigun02_A3E98876_674158A7.wem</Path>
+				</File>
+				<File Id="780883211" Language="SFX">
+					<ShortName>WeaponSvd03.wav</ShortName>
+					<Path>SFX\WeaponSvd03_B2354A63.wem</Path>
+				</File>
+				<File Id="804359881" Language="SFX">
+					<ShortName>Death\Death3.wav</ShortName>
+					<Path>SFX\Death\Death3_B2354A63.wem</Path>
+				</File>
+				<File Id="811448585" Language="SFX">
+					<ShortName>ToothFairyDoesntMatter.wav</ShortName>
+					<Path>SFX\ToothFairyDoesntMatter_B2354A63.wem</Path>
+				</File>
+				<File Id="829104249" Language="SFX">
+					<ShortName>FsCommando06.wav</ShortName>
+					<Path>SFX\FsCommando06_0C87AD23.wem</Path>
+				</File>
+				<File Id="835485921" Language="SFX">
+					<ShortName>StathamTikiTi.wav</ShortName>
+					<Path>SFX\StathamTikiTi_B2354A63.wem</Path>
+				</File>
+				<File Id="853507456" Language="SFX">
+					<ShortName>ImmortalityImpact02.wav</ShortName>
+					<Path>SFX\ImmortalityImpact02_B2354A63.wem</Path>
+				</File>
+				<File Id="857859271" Language="SFX">
+					<ShortName>GrenadeCollision04.wav</ShortName>
+					<Path>SFX\GrenadeCollision04_B2354A63.wem</Path>
+				</File>
+				<File Id="864848772" Language="SFX">
+					<ShortName>scout_sir_yes_sir.wav</ShortName>
+					<Path>SFX\scout_sir_yes_sir_B2354A63.wem</Path>
+				</File>
+				<File Id="867738315" Language="SFX">
+					<ShortName>Whip_Long_DYN2_RR4.wav</ShortName>
+					<Path>SFX\Whip_Long_DYN2_RR4_B2354A63.wem</Path>
+				</File>
+				<File Id="875597298" Language="SFX">
+					<ShortName>WeaponMinigun04.wav</ShortName>
+					<Path>SFX\WeaponMinigun04_B2354A63.wem</Path>
+				</File>
+				<File Id="891787428" Language="SFX">
+					<ShortName>Death\Death2.wav</ShortName>
+					<Path>SFX\Death\Death2_B2354A63.wem</Path>
+				</File>
+				<File Id="892923160" Language="SFX">
+					<ShortName>WarmUp.wav</ShortName>
+					<Path>SFX\WarmUp_FE09A4B1.wem</Path>
+				</File>
+				<File Id="894775793" Language="SFX">
+					<ShortName>SniperFs02.wav</ShortName>
+					<Path>SFX\SniperFs02_AE19B342.wem</Path>
+				</File>
+				<File Id="903811352" Language="SFX">
+					<ShortName>sniper_this_is_my_rifle.wav</ShortName>
+					<Path>SFX\sniper_this_is_my_rifle_B2354A63.wem</Path>
+				</File>
+				<File Id="903941155" Language="SFX">
+					<ShortName>Invisibility.wav</ShortName>
+					<Path>SFX\Invisibility_B2354A63.wem</Path>
+				</File>
+				<File Id="915449404" Language="SFX">
+					<ShortName>Healing02.wav</ShortName>
+					<Path>SFX\Healing02_B2354A63.wem</Path>
+				</File>
+				<File Id="930161263" Language="SFX">
+					<ShortName>ReloadShotgun.wav</ShortName>
+					<Path>SFX\ReloadShotgun_B2354A63.wem</Path>
+				</File>
+				<File Id="947786799" Language="SFX">
+					<ShortName>Whip_Short_DYN2_RR3.wav</ShortName>
+					<Path>SFX\Whip_Short_DYN2_RR3_B2354A63.wem</Path>
+				</File>
+				<File Id="954464211" Language="SFX">
+					<ShortName>Suffers\Suffer05.wav</ShortName>
+					<Path>SFX\Suffers\Suffer05_B2354A63.wem</Path>
+				</File>
+				<File Id="956270199" Language="SFX">
+					<ShortName>FoleyCommando04.wav</ShortName>
+					<Path>SFX\FoleyCommando04_48847FBA.wem</Path>
+				</File>
+				<File Id="977896999" Language="SFX">
+					<ShortName>WeaponSvd02.wav</ShortName>
+					<Path>SFX\WeaponSvd02_B2354A63.wem</Path>
+				</File>
+				<File Id="978148205" Language="SFX">
+					<ShortName>trooper_to_the_battle.wav</ShortName>
+					<Path>SFX\trooper_to_the_battle_B2354A63.wem</Path>
+				</File>
+				<File Id="981394895" Language="SFX">
+					<ShortName>LifeStealOn.wav</ShortName>
+					<Path>SFX\LifeStealOn_B2354A63.wem</Path>
+				</File>
+				<File Id="985243582" Language="SFX">
+					<ShortName>NorrisWillKill.wav</ShortName>
+					<Path>SFX\NorrisWillKill_B2354A63.wem</Path>
+				</File>
+				<File Id="1000444586" Language="SFX">
+					<ShortName>ClothCommando04.wav</ShortName>
+					<Path>SFX\ClothCommando04_E1DC000F.wem</Path>
+				</File>
+				<File Id="1002579607" Language="SFX">
+					<ShortName>ClothCommando07.wav</ShortName>
+					<Path>SFX\ClothCommando07_0B21F078.wem</Path>
+				</File>
+				<File Id="1010502144" Language="SFX">
+					<ShortName>DiveButton.wav</ShortName>
+					<Path>SFX\DiveButton_B2354A63.wem</Path>
+				</File>
+				<File Id="1010656985" Language="SFX">
+					<ShortName>GrenadeDefault.wav</ShortName>
+					<Path>SFX\GrenadeDefault_AE1ABCD9_4038B643.wem</Path>
+				</File>
+				<File Id="1015568181" Language="SFX">
+					<ShortName>SniperFs03.wav</ShortName>
+					<Path>SFX\SniperFs03_D76BAB67.wem</Path>
+				</File>
+				<File Id="1022175535" Language="SFX">
+					<ShortName>FoleyCommando05.wav</ShortName>
+					<Path>SFX\FoleyCommando05_629EE1BC.wem</Path>
+				</File>
+				<File Id="1022370741" Language="SFX">
+					<ShortName>WeaponMinigun01.wav</ShortName>
+					<Path>SFX\WeaponMinigun01_B2354A63.wem</Path>
+				</File>
+				<File Id="1060480543" Language="SFX">
+					<ShortName>GrenadeCollision09.wav</ShortName>
+					<Path>SFX\GrenadeCollision09_B2354A63.wem</Path>
+				</File>
+				<File Id="1063266035" Language="SFX">
+					<ShortName>Suffers\Suffer04.wav</ShortName>
+					<Path>SFX\Suffers\Suffer04_B2354A63.wem</Path>
+				</File>
+				<File Id="1066083824" Language="SFX">
+					<ShortName>Death\Death01.wav</ShortName>
+					<Path>SFX\Death\Death01_B2354A63.wem</Path>
+				</File>
+				<File Id="1068343675" Language="SFX">
+					<ShortName>ToothFairyJabroni.wav</ShortName>
+					<Path>SFX\ToothFairyJabroni_B2354A63.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1551306167" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UI</ObjectPath>
+			<ShortName>UI</ShortName>
+			<Path>UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3105979793" Name="PlayButtonClick" ObjectPath="\Events\Default Work Unit\UIEvents\Lobby\PlayButtonClick"/>
+				<Event Id="316625824" Name="PlayButtonReload" ObjectPath="\Events\Default Work Unit\UIEvents\Battle\PlayButtonReload"/>
+				<Event Id="155309140" Name="PlayZoneProgressEnemy" ObjectPath="\Events\Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressEnemy"/>
+				<Event Id="1998900360" Name="PlayZoneProgressFriend" ObjectPath="\Events\Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressFriend"/>
+				<Event Id="2783781982" Name="StopZoneProgressEnemy" ObjectPath="\Events\Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressEnemy" MaxAttenuation="0.000000"/>
+				<Event Id="975959046" Name="StopZoneProgressFriend" ObjectPath="\Events\Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressFriend" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="88901944" Language="SFX">
+					<ShortName>CaptureZoneChange.wav</ShortName>
+					<Path>SFX\CaptureZoneChange_5CAF53E5.wem</Path>
+				</File>
+				<File Id="114419416" Language="SFX">
+					<ShortName>ButtonReload.wav</ShortName>
+					<Path>SFX\ButtonReload_20765300.wem</Path>
+				</File>
+				<File Id="442081163" Language="SFX">
+					<ShortName>HF HANDLING Rifle Breechload Cocking Medium 0m.wav</ShortName>
+					<Path>SFX\HF HANDLING Rifle Breechload Cocking Medium 0m_2F04B72D.wem</Path>
+				</File>
+				<File Id="826365871" Language="SFX">
+					<ShortName>ZoneChange02.wav</ShortName>
+					<Path>SFX\ZoneChange02_35356760.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1785558720" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Environments\EnvMexNightBank</ObjectPath>
+			<ShortName>EnvMexNightBank</ShortName>
+			<Path>EnvMexNightBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="757514116" Name="PlayMexNeonBuzz" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNeonBuzz" MaxAttenuation="10.000000"/>
+				<Event Id="1385766959" Name="PlayMexNightArcade" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightArcade" MaxAttenuation="5.000000"/>
+				<Event Id="2705825680" Name="PlayMexNightBorder01" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder01" MaxAttenuation="40.000000"/>
+				<Event Id="2705825683" Name="PlayMexNightBorder02" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder02" MaxAttenuation="40.000000"/>
+				<Event Id="1369822775" Name="PlayMexNightCar" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCar" MaxAttenuation="10.000000"/>
+				<Event Id="1635926023" Name="PlayMexNightCrickets" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCrickets" MaxAttenuation="10.000000"/>
+				<Event Id="19614224" Name="PlayMexNightFridge" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridge" MaxAttenuation="5.000000"/>
+				<Event Id="3836397147" Name="PlayMexNightFridgeCollisions" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridgeCollisions" MaxAttenuation="10.000000"/>
+				<Event Id="2477669841" Name="PlayMexNightGuitar" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightGuitar" MaxAttenuation="10.000000"/>
+				<Event Id="2639876882" Name="PlayMexNightPopcorn" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightPopcorn" MaxAttenuation="5.000000"/>
+				<Event Id="1256139746" Name="PlayMexNightSpeaker" ObjectPath="\Events\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightSpeaker" MaxAttenuation="15.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="20453790" Language="SFX">
+					<ShortName>MexNightArcade.wav</ShortName>
+					<Path>SFX\MexNightArcade_D5226196.wem</Path>
+				</File>
+				<File Id="146115207" Language="SFX">
+					<ShortName>MexGuitar.wav</ShortName>
+					<Path>SFX\MexGuitar_6450900F.wem</Path>
+				</File>
+				<File Id="186164303" Language="SFX">
+					<ShortName>MexNightParakeet.wav</ShortName>
+					<Path>SFX\MexNightParakeet_9A60064C.wem</Path>
+				</File>
+				<File Id="214672011" Language="SFX">
+					<ShortName>MexNightCity.wav</ShortName>
+					<Path>SFX\MexNightCity_D5226196.wem</Path>
+				</File>
+				<File Id="239545689" Language="SFX">
+					<ShortName>ElectricBuzz.wav</ShortName>
+					<Path>SFX\ElectricBuzz_D5226196.wem</Path>
+				</File>
+				<File Id="402361195" Language="SFX">
+					<ShortName>MexGuitar.wav</ShortName>
+					<Path>SFX\MexGuitar_E9D01220.wem</Path>
+				</File>
+				<File Id="421029485" Language="SFX">
+					<ShortName>MexNightSpeaker.wav</ShortName>
+					<Path>SFX\MexNightSpeaker_D5226196_9A7F5E49.wem</Path>
+				</File>
+				<File Id="448080358" Language="SFX">
+					<ShortName>MexNightBorder01_2.wav</ShortName>
+					<Path>SFX\MexNightBorder01_2_D5226196.wem</Path>
+				</File>
+				<File Id="458475430" Language="SFX">
+					<ShortName>MexNightPopcorn.wav</ShortName>
+					<Path>SFX\MexNightPopcorn_D5226196.wem</Path>
+				</File>
+				<File Id="530594686" Language="SFX">
+					<ShortName>FridgeCollision02.wav</ShortName>
+					<Path>SFX\FridgeCollision02_9A60064C_5B2DE158.wem</Path>
+				</File>
+				<File Id="652859077" Language="SFX">
+					<ShortName>MexGuitar.wav</ShortName>
+					<Path>SFX\MexGuitar_F82C0CEA.wem</Path>
+				</File>
+				<File Id="757782554" Language="SFX">
+					<ShortName>MexNightFridge.wav</ShortName>
+					<Path>SFX\MexNightFridge_D5226196.wem</Path>
+				</File>
+				<File Id="913288158" Language="SFX">
+					<ShortName>FridgeCollision01.wav</ShortName>
+					<Path>SFX\FridgeCollision01_9A60064C_5B2DE158.wem</Path>
+				</File>
+				<File Id="945217229" Language="SFX">
+					<ShortName>Appliances, Fridge, Door, Open, Close 1 SND11232.wav</ShortName>
+					<Path>SFX\Appliances, Fridge, Door, Open, Close 1 SND11232_9A60064C_5B2DE158.wem</Path>
+				</File>
+				<File Id="1061732495" Language="SFX">
+					<ShortName>MexCar.wav</ShortName>
+					<Path>SFX\MexCar_D5226196.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="3991942870" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Music</ObjectPath>
+			<ShortName>Music</ShortName>
+			<Path>Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1591770036" Name="PauseLobbyMusic" ObjectPath="\Events\Default Work Unit\MusicEvents\PauseLobbyMusic" MaxAttenuation="0.000000"/>
+				<Event Id="2062291618" Name="PlayLobbyMusic" ObjectPath="\Events\Default Work Unit\MusicEvents\PlayLobbyMusic"/>
+				<Event Id="1882043397" Name="ResumeLobbyMusic" ObjectPath="\Events\Default Work Unit\MusicEvents\ResumeLobbyMusic" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="47296991" Language="SFX">
+					<ShortName>LobbyTheme.wav</ShortName>
+					<Path>SFX\LobbyTheme_F7A86E09.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

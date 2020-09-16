@@ -1,0 +1,58 @@
+{
+  "Versions": [
+    {
+      "VersionName": 2,
+      "PlatformName": 0,
+      "CommonSettings": {
+        "CompanyName": "DemoIOS",
+        "ProductName": "DemoIOS",
+        "Identification": {
+          "BundleVersion": "DemoIOS",
+          "ShortBundleVersion": "DemoIOS"
+        },
+        "AppConfiguration": {
+          "Version": "DemoIOS",
+          "MetaServerIp": "DemoIOS",
+          "MetaServerPort": "DemoIOS",
+          "BundleId": "DemoIOS"
+        },
+        "StoreLink": "DemoIOS",
+        "AppMetricaApiKey": null,
+        "DataDogApiKey": "DemoIOS"
+      },
+      "AndroidSettings": null,
+      "IOSSettings": {
+        "IconsScriptableObject": "",
+        "GameCenter": "DemoIOS"
+      }
+    },
+    {
+      "VersionName": 2,
+      "PlatformName": 1,
+      "CommonSettings": {
+        "CompanyName": "DemoAndroid",
+        "ProductName": "DemoAndroid",
+        "Identification": {
+          "BundleVersion": "DemoAndroid",
+          "ShortBundleVersion": "DemoAndroid"
+        },
+        "AppConfiguration": {
+          "Version": "DemoAndroid",
+          "MetaServerIp": "DemoAndroid",
+          "MetaServerPort": "DemoAndroid",
+          "BundleId": "DemoAndroid"
+        },
+        "StoreLink": "DemoAndroid",
+        "AppMetricaApiKey": null,
+        "DataDogApiKey": "DemoAndroid"
+      },
+      "AndroidSettings": {
+        "IconsScriptableObject": "",
+        "GooglePlayAppId": null,
+        "GooglePlayWebClientId": null,
+        "GooglePlayResourcesXML": null
+      },
+      "IOSSettings": null
+    }
+  ]
+}

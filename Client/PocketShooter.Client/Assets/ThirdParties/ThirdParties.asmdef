@@ -1,0 +1,15 @@
+{
+    "name": "ThirdParties",
+    "references": [
+        "Microsoft.Extensions.Logging.Unity",
+        "Unity.TextMeshPro"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

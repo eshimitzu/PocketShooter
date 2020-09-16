@@ -1,0 +1,114 @@
+{
+    "filters": [
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Net",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Net",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Simulation",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Simulation",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Analytics",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Analytics",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Audio",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Audio",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Input",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Input",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Game",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Game",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Graphics",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Graphics",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Serialization",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Serialization",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Reconciliation",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Reconciliation",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Purchase",
+            "level": 3
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Purchase",
+            "level": 6
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.ConsoleLoggerProvider",
+            "category": "Auth",
+            "level": 2
+        },
+        {
+            "providerName": "Microsoft.Extensions.Logging.FileLoggerProvider",
+            "category": "Auth",
+            "level": 6
+        }
+    ]
+}

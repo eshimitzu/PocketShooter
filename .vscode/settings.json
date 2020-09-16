@@ -1,0 +1,36 @@
+{
+    "FSharp.fsacRuntime": "netcore",
+    "sshfs.configs": [
+        {
+            "host": "94.130.51.232",
+            "name": "Testing",
+            "privateKeyPath": "$USERPROFILE/.ssh/id_rsa",
+            "root": "/C:/PocketShooter/Server",
+            "username": "Administrator"
+        },
+        {
+            "host": "178.162.205.2",
+            "name": "Staging",
+            "privateKeyPath": "$USERPROFILE/.ssh/id_rsa",
+            "root": "/C:/PocketShooter/Server",
+            "username": "Administrator"
+        }
+    ],
+    
+    "omnisharp.defaultLaunchSolution": "/Server/Heyworks.PocketShooter.Server.sln",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*pocketshooter.json"
+            ],
+            "url": "./Server/.gameconfigs/pocketshooter.schema.json"        
+        }
+    ],
+    "cSpell.words": [
+        "Heyworks",
+        "Realtime",
+        "Respawn",
+        "Serilog",
+        "nunit"
+    ]
+}

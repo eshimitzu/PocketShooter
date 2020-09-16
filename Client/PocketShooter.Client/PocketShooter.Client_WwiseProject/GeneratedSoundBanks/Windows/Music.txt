@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1591770036	PauseLobbyMusic			\Default Work Unit\MusicEvents\PauseLobbyMusic	
+	1882043397	ResumeLobbyMusic			\Default Work Unit\MusicEvents\ResumeLobbyMusic	
+	2062291618	PlayLobbyMusic			\Default Work Unit\MusicEvents\PlayLobbyMusic	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	47296991	LobbyTheme	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\LobbyTheme_08988B6E.wem		\Interactive Music Hierarchy\Default Work Unit\LobbyMusic\LobbyTheme\LobbyTheme		1486603
+

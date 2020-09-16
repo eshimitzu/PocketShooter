@@ -1,0 +1,2153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Chests
+      TermType: 0
+      Description: 
+      Languages:
+      - CHESTS
+      - "\u0421\u0423\u041D\u0414\u0423\u041A\u0418"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Currency
+      TermType: 0
+      Description: 
+      Languages:
+      - CURRENCY
+      - "\u0412\u0410\u041B\u042E\u0422\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Connected
+      TermType: 0
+      Description: 
+      Languages:
+      - Connected
+      - "\u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Connecting
+      TermType: 0
+      Description: 
+      Languages:
+      - Connecting...
+      - "\u041F\u043E\u0434\u043A\u043B\u044E\u0447\u0435\u043D\u0438\u0435..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Disconnected
+      TermType: 0
+      Description: 
+      Languages:
+      - Disconnected
+      - "\u041E\u0442\u043A\u043B\u044E\u0447\u0435\u043D\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: FireRate
+      TermType: 0
+      Description: 
+      Languages:
+      - Fire rate
+      - "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u0440\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: JoiningRoom
+      TermType: 0
+      Description: 
+      Languages:
+      - Joining battle...
+      - "\u0412\u0445\u043E\u0434\u0438\u043C \u0432 \u0431\u043E\u0439..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Music
+      TermType: 0
+      Description: 
+      Languages:
+      - Music
+      - "\u041C\u0443\u0437\u044B\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Turkish
+      TermType: 0
+      Description: 
+      Languages:
+      - "T\xFCrk"
+      - "T\xFCrk"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: GrenadeDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Deals damage to enemies within a radius.
+      - "\u041D\u0430\u043D\u043E\u0441\u0438\u0442 \u0443\u0440\u043E\u043D \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430\u043C
+        \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: MedKitDescription
+      TermType: 0
+      Description: 
+      Languages:
+      - Restores the character's health.
+      - "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435 \u0431\u043E\u0439\u0446\u0430."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AidKit
+      TermType: 0
+      Description: 
+      Languages:
+      - MedKit
+      - "\u0410\u043F\u0442\u0435\u0447\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Grenade
+      TermType: 0
+      Description: 
+      Languages:
+      - Grenade
+      - "\u0413\u0440\u0430\u043D\u0430\u0442\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Roaster_Power
+      TermType: 0
+      Description: 
+      Languages:
+      - POW
+      - "\u0421\u0418\u041B\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Power_Shortest
+      TermType: 0
+      Description: 
+      Languages:
+      - P.
+      - "\u0421."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Roaster_Lvl
+      TermType: 0
+      Description: 
+      Languages:
+      - LVL
+      - "\u0423\u0420. "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Roaster_Lock_Lvl
+      TermType: 0
+      Description: 
+      Languages:
+      - LVL
+      - "\u0423\u0420."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Power
+      TermType: 0
+      Description: 
+      Languages:
+      - POWER
+      - "\u0421\u0418\u041B\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Max_Power
+      TermType: 0
+      Description: 
+      Languages:
+      - MAX POWER
+      - "\u041C\u0410\u041A\u0421 \u0421\u0418\u041B\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Lvl
+      TermType: 0
+      Description: 
+      Languages:
+      - LEVEL
+      - "\u0423\u0420\u041E\u0412\u0415\u041D\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Max_Lvl
+      TermType: 0
+      Description: 
+      Languages:
+      - MAX LEVEL
+      - "\u041C\u0410\u041A\u0421 \u0423\u0420\u041E\u0412\u0415\u041D\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Health
+      TermType: 0
+      Description: 
+      Languages:
+      - Health
+      - "\u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Armor
+      TermType: 0
+      Description: 
+      Languages:
+      - Armor
+      - "\u0411\u0440\u043E\u043D\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Speed
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed
+      - "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Damage
+      TermType: 0
+      Description: 
+      Languages:
+      - Attack
+      - "\u0410\u0442\u0430\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Range
+      TermType: 0
+      Description: 
+      Languages:
+      - Range
+      - "\u0414\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Ammo
+      TermType: 0
+      Description: 
+      Languages:
+      - Ammo
+      - "\u041E\u0431\u043E\u0439\u043C\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Recharge
+      TermType: 0
+      Description: 
+      Languages:
+      - Reload
+      - "\u041F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_LvlUP
+      TermType: 0
+      Description: 
+      Languages:
+      - TRAIN
+      - "\u0422\u0420\u0415\u041D\u0418\u0420\u041E\u0412\u0410\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Evolve
+      TermType: 0
+      Description: 
+      Languages:
+      - RANK UP
+      - "\u041F\u041E\u0412\u042B\u0421\u0418\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Upgrade
+      TermType: 0
+      Description: 
+      Languages:
+      - UPGRADE
+      - "\u0423\u041B\u0423\u0427\u0428\u0418\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Equip
+      TermType: 0
+      Description: 
+      Languages:
+      - EQUIP
+      - "\u042D\u041A\u0418\u041F\u0418\u0420\u041E\u0412\u0410\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Equiped
+      TermType: 0
+      Description: 
+      Languages:
+      - EQUIPPED
+      - "\u042D\u041A\u0418\u041F\u0418\u0420\u041E\u0412\u0410\u041D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Instant
+      TermType: 0
+      Description: 
+      Languages:
+      - Instant
+      - "\u041C\u0433\u043D\u043E\u0432\u0435\u043D\u043D\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Complete
+      TermType: 0
+      Description: 
+      Languages:
+      - Complete
+      - "\u0417\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_Training
+      TermType: 0
+      Description: 
+      Languages:
+      - Level UP
+      - "\u0422\u0440\u0435\u043D\u0438\u0440\u043E\u0432\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: EntityInfo/Info_SpeedUp
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed-UP
+      - "\u0423\u0441\u043A\u043E\u0440\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Sniper
+      TermType: 0
+      Description: 
+      Languages:
+      - Gunslinger
+      - "\u0421\u0442\u0440\u0435\u043B\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Rambo
+      TermType: 0
+      Description: 
+      Languages:
+      - Trooper
+      - "\u041F\u0435\u0445\u043E\u0442\u0438\u043D\u0435\u0446"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Scout
+      TermType: 0
+      Description: 
+      Languages:
+      - Scout
+      - "\u0421\u043A\u0430\u0443\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Spy
+      TermType: 0
+      Description: 
+      Languages:
+      - Spy
+      - "\u0428\u043F\u0438\u043E\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Neo
+      TermType: 0
+      Description: 
+      Languages:
+      - John Bleak
+      - "\u0411\u043B\u0435\u0434\u043D\u044B\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Norris
+      TermType: 0
+      Description: 
+      Languages:
+      - Ranger
+      - "\u0420\u0435\u0439\u043D\u0434\u0436\u0435\u0440"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Rock
+      TermType: 0
+      Description: 
+      Languages:
+      - Bull
+      - "\u0413\u043E\u0440\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Statham
+      TermType: 0
+      Description: 
+      Languages:
+      - Bacon
+      - "\u0411\u0435\u043A\u043E\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Stallone
+      TermType: 0
+      Description: 
+      Languages:
+      - Stallone
+      - "\u0421\u0442\u0430\u043B\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Terminator
+      TermType: 0
+      Description: 
+      Languages:
+      - Terminator
+      - "\u0422\u0435\u0440\u043C\u043E\u0441"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Junkrat
+      TermType: 0
+      Description: 
+      Languages:
+      - Junkrat
+      - "\u0414\u0436\u0430\u043D\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Spidy
+      TermType: 0
+      Description: 
+      Languages:
+      - Spidy
+      - "\u0421\u043F\u0430\u0439\u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Irokez
+      TermType: 0
+      Description: 
+      Languages:
+      - Irokez
+      - "\u0418\u0440\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_Stryker
+      TermType: 0
+      Description: 
+      Languages:
+      - Stryker
+      - "\u0421\u0442\u0440\u0430\u0439\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_WillSmith
+      TermType: 0
+      Description: 
+      Languages:
+      - WillSmith
+      - "\u0412\u0438\u043B\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_McClane
+      TermType: 0
+      Description: 
+      Languages:
+      - McClane
+      - "\u041C\u0430\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_MadMax
+      TermType: 0
+      Description: 
+      Languages:
+      - MadMax
+      - "\u041C\u044D\u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: SoldierClasses/Character_Name_PUBG
+      TermType: 0
+      Description: 
+      Languages:
+      - ChickenDinner
+      - "\u0427\u0438\u043A\u0435\u043D\u0414\u0438\u043D\u0435\u0440"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Main/Fight_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - FIGHT!
+      - "\u0412 \u0411\u041E\u0419!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Main/Back_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - BACK
+      - "\u041D\u0410\u0417\u0410\u0414"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Main/Back_Button_Direction
+      TermType: 0
+      Description: 
+      Languages:
+      - MAIN MENU
+      - "\u0413\u041B\u0410\u0412\u041D\u041E\u0415 \u041C\u0415\u041D\u042E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Main/Battle_Mode_Supremacy
+      TermType: 0
+      Description: 
+      Languages:
+      - CONTROL POINTS
+      - "\u0417\u0410\u0425\u0412\u0410\u0422 \u0422\u041E\u0427\u0415\u041A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_M16
+      TermType: 0
+      Description: 
+      Languages:
+      - M16A4
+      - M16A4
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Remington
+      TermType: 0
+      Description: 
+      Languages:
+      - Remington
+      - "\u0420\u0435\u043C\u0438\u043D\u0433\u0442\u043E\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_SVD
+      TermType: 0
+      Description: 
+      Languages:
+      - SVD
+      - "\u0421\u0412\u0414"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Knife
+      TermType: 0
+      Description: 
+      Languages:
+      - Tactical knife
+      - "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u043D\u043E\u0436"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Sawedoff
+      TermType: 0
+      Description: 
+      Languages:
+      - Justice
+      - "\u041F\u0440\u0430\u0432\u043E\u0441\u0443\u0434\u0438\u0435"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Katana
+      TermType: 0
+      Description: 
+      Languages:
+      - Muramasa blade
+      - "\u041A\u043B\u0438\u043D\u043E\u043A \u041C\u0443\u0440\u0430\u043C\u0430\u0441\u044B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Barret
+      TermType: 0
+      Description: 
+      Languages:
+      - Blondie
+      - "\u0411\u043B\u043E\u043D\u0434\u0438\u043D\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Weapon_Minigun
+      TermType: 0
+      Description: 
+      Languages:
+      - Avenger minigun
+      - "\u041C\u0438\u043D\u0438\u0433\u0430\u043D \xAB\u041C\u0441\u0442\u0438\u0442\u0435\u043B\u044C\xBB"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Helmet_Helmet1
+      TermType: 0
+      Description: 
+      Languages:
+      - Soldier's helmet
+      - "\u0428\u043B\u0435\u043C \u0441\u043E\u043B\u0434\u0430\u0442\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Helmet_Helmet2
+      TermType: 0
+      Description: 
+      Languages:
+      - Police helmet
+      - "\u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Helmet_Helmet3
+      TermType: 0
+      Description: 
+      Languages:
+      - Tactical helmet
+      - "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Helmet_Helmet4
+      TermType: 0
+      Description: 
+      Languages:
+      - Hawk
+      - "\u042F\u0441\u0442\u0440\u0435\u0431"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Helmet_Helmet5
+      TermType: 0
+      Description: 
+      Languages:
+      - Chameleon
+      - "\u0425\u0430\u043C\u0435\u043B\u0435\u043E\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Armor_Armor1
+      TermType: 0
+      Description: 
+      Languages:
+      - Armor plate
+      - "\u0417\u0430\u0449\u0438\u0442\u043D\u0430\u044F \u043F\u043B\u0430\u0441\u0442\u0438\u043D\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Armor_Armor2
+      TermType: 0
+      Description: 
+      Languages:
+      - Reinforced armor
+      - "\u0423\u0441\u0438\u043B\u0435\u043D\u043D\u044B\u0439 \u0431\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Armor_Armor3
+      TermType: 0
+      Description: 
+      Languages:
+      - SWAT armor
+      - "\u0411\u0440\u043E\u043D\u044F \u0441\u043F\u0435\u0446\u043D\u0430\u0437\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Armor_Armor4
+      TermType: 0
+      Description: 
+      Languages:
+      - Exo-armor
+      - "\u042D\u043A\u0437\u043E\u0441\u043A\u0435\u043B\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Items/Armor_Armor5
+      TermType: 0
+      Description: 
+      Languages:
+      - H3L protective suit
+      - "\u0417\u0430\u0449\u0438\u0442\u043D\u044B\u0439 \u043A\u043E\u0441\u0442\u044E\u043C
+        H3L"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Options_Name
+      TermType: 0
+      Description: 
+      Languages:
+      - SETTINGS
+      - "\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Sound
+      TermType: 0
+      Description: 
+      Languages:
+      - Sound
+      - "\u0417\u0432\u0443\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Sound_Turn_On
+      TermType: 0
+      Description: 
+      Languages:
+      - ON
+      - "\u0412\u041A\u041B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Sound_Turn_Off
+      TermType: 0
+      Description: 
+      Languages:
+      - OFF
+      - "\u0412\u042B\u041A\u041B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Language
+      TermType: 0
+      Description: 
+      Languages:
+      - Language
+      - "\u042F\u0437\u044B\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Language_English
+      TermType: 0
+      Description: 
+      Languages:
+      - English
+      - English
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Language_Russian
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+      - "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/ChangeName_Name
+      TermType: 0
+      Description: 
+      Languages:
+      - CHANGE NAME
+      - "\u0418\u0417\u041C\u0415\u041D\u0418\u0422\u042C \u0418\u041C\u042F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/ChangeName_Description
+      TermType: 0
+      Description: 
+      Languages:
+      - Input a new name. Use letters and numbers.
+      - "\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u043D\u043E\u0432\u043E\u0435
+        \u0438\u043C\u044F. \u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435
+        \u0442\u043E\u043B\u044C\u043A\u043E \u0431\u0443\u043A\u0432\u044B \u0438
+        \u0446\u0438\u0444\u0440\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/ChangeName_InputField
+      TermType: 0
+      Description: 
+      Languages:
+      - INPUT NAME
+      - "\u0412\u0412\u0415\u0414\u0418\u0422\u0415 \u0418\u041C\u042F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/ChangeName_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - SAVE
+      - "\u0421\u041E\u0425\u0420\u0410\u041D\u0418\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/ChangeName_InvalidName
+      TermType: 0
+      Description: 
+      Languages:
+      - Invalid name
+      - "\u041D\u0435\u043A\u043E\u0440\u0440\u0435\u043A\u0442\u043D\u043E\u0435
+        \u0438\u043C\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/OK
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - OK
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/YOU_GOT
+      TermType: 0
+      Description: 
+      Languages:
+      - CONGRATULATIONS!
+      - "\u041F\u041E\u0417\u0414\u0420\u0410\u0412\u041B\u042F\u0415\u041C!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/GDPR_Title
+      TermType: 0
+      Description: 
+      Languages:
+      - IMPORTANT INFORMATION
+      - "\u0412\u0410\u0416\u041D\u0410\u042F \u0418\u041D\u0424\u041E\u0420\u041C\u0410\u0426\u0418\u042F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/GDPR_Text
+      TermType: 0
+      Description: 
+      Languages:
+      - You need to agree to the Privacy Policy and Terms of Use to continue.
+      - "\u0414\u043B\u044F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0435\u043D\u0438\u044F
+        \u0438\u0433\u0440\u044B \u0432\u0430\u043C \u043D\u0435\u043E\u0431\u0445\u043E\u0434\u0438\u043C\u043E
+        \u0441\u043E\u0433\u043B\u0430\u0441\u0438\u0442\u044C\u0441\u044F \u0441
+        \u041F\u043E\u043B\u0438\u0442\u0438\u043A\u043E\u0439 \u043A\u043E\u043D\u0444\u0438\u0434\u0435\u043D\u0446\u0438\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0438
+        \u0438 \u0423\u0441\u043B\u043E\u0432\u0438\u044F\u043C\u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u044F
+        \u0438\u0433\u0440\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/GDPR_Button_1
+      TermType: 0
+      Description: 
+      Languages:
+      - I Agree
+      - "\u0421\u043E\u0433\u043B\u0430\u0441\u0435\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/GDPR_Button_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms
+      - "\u0423\u0441\u043B\u043E\u0432\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Game_Version_Title
+      TermType: 0
+      Description: 
+      Languages:
+      - NEW VERSION AVAILABLE
+      - "\u041D\u041E\u0412\u0410\u042F \u0412\u0415\u0420\u0421\u0418\u042F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Game_Version_Description
+      TermType: 0
+      Description: 
+      Languages:
+      - 'We''ve been working hard to supply you with the latest version.
+
+        Please download and update the game.'
+      - "\u041C\u044B \u0443\u043F\u043E\u0440\u043D\u043E \u0442\u0440\u0443\u0434\u0438\u043B\u0438\u0441\u044C
+        - \u043D\u043E\u0432\u0430\u044F \u0432\u0435\u0440\u0441\u0438\u044F \u0438\u0433\u0440\u044B
+        \u0433\u043E\u0442\u043E\u0432\u0430.\n\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+        \u0441\u043A\u0430\u0447\u0430\u0439 \u0438 \u0443\u0441\u0442\u0430\u043D\u043E\u0432\u0438
+        \u043E\u0431\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Game_Version_Go_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - Update
+      - "\u041E\u0431\u043D\u043E\u0432\u0438\u0442\u044C \u0418\u0433\u0440\u0443"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Account_Level_Up
+      TermType: 0
+      Description: 
+      Languages:
+      - ACCOUNT LEVEL UP
+      - "\u0423\u0420\u041E\u0412\u0415\u041D\u042C \u0410\u041A\u041A\u0410\u0423\u041D\u0422\u0410
+        \u041F\u041E\u0412\u042B\u0428\u0415\u041D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Profile
+      TermType: 0
+      Description: 
+      Languages:
+      - Profile
+      - "\u041F\u0440\u043E\u0444\u0438\u043B\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Log_In
+      TermType: 0
+      Description: 
+      Languages:
+      - Log in
+      - "\u0412\u043E\u0439\u0442\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Log_Out
+      TermType: 0
+      Description: 
+      Languages:
+      - Log out
+      - "\u0412\u044B\u0439\u0442\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Social_Google
+      TermType: 0
+      Description: 
+      Languages:
+      - Google ACC
+      - Google ACC
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Battle_Disconnect_Title
+      TermType: 0
+      Description: 
+      Languages:
+      - bad things
+      - "\u0411\u0435\u0434\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Battle_Disconnect_Description
+      TermType: 0
+      Description: 
+      Languages:
+      - Something terrible happed. Ask developer to implement reconnection and reconnect.
+      - "\u0421\u043B\u0443\u0447\u0438\u043B\u0430\u0441\u044C \u0431\u0435\u0434\u0430,
+        \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0432 \u0431\u0443\u0434\u0443\u0449\u0435\u043C
+        \u0432\u044B \u0441\u043C\u043E\u0436\u0435\u0442\u0435 \u043F\u0435\u0440\u0435\u043F\u043E\u0434\u043A\u043B\u044E\u0447\u0430\u0442\u044C\u0441\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Battle_Disconnect_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - "\u041E\u041A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Meta_Disconnect_Title
+      TermType: 0
+      Description: 
+      Languages:
+      - bad things
+      - "\u0411\u0435\u0434\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Meta_Disconnect_Description
+      TermType: 0
+      Description: 
+      Languages:
+      - Server unavailable. Wait please
+      - "\u0421\u0435\u0440\u0432\u0435\u0440 \u043D\u0435\u0434\u043E\u0441\u0442\u0443\u043F\u0435\u043D. "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Meta_Disconnect_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - OK
+      - "\u041E\u041A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/LV.
+      TermType: 0
+      Description: 
+      Languages:
+      - LV.
+      - "\u0423\u0420."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Level_Up
+      TermType: 0
+      Description: 
+      Languages:
+      - Level Up
+      - "\u0423\u0440\u043E\u0432\u0435\u043D\u044C \u043F\u043E\u0432\u044B\u0448\u0435\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Evolution
+      TermType: 0
+      Description: 
+      Languages:
+      - Evolution
+      - "\u042D\u0432\u043E\u043B\u044E\u0446\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: PopUPs/Claim_Reward
+      TermType: 0
+      Description: 
+      Languages:
+      - PICK UP
+      - "\u0417\u0410\u0411\u0420\u0410\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Battle_Loader_Search
+      TermType: 0
+      Description: 
+      Languages:
+      - SEARCHING...
+      - "\u041F\u041E\u0418\u0421\u041A \u041C\u0410\u0422\u0427\u0410..."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Battle_Loader_Timer
+      TermType: 0
+      Description: 
+      Languages:
+      - SEC
+      - "\u0421\u0415\u041A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Select_Trooper_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - FIGHT!
+      - "\u0412 \u0411\u041E\u0419!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Point_A
+      TermType: 0
+      Description: 
+      Languages:
+      - A
+      - A
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Point_B
+      TermType: 0
+      Description: 
+      Languages:
+      - B
+      - B
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Point_C
+      TermType: 0
+      Description: 
+      Languages:
+      - C
+      - C
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Match_Ended
+      TermType: 0
+      Description: 
+      Languages:
+      - Match ended!
+      - "\u041C\u0430\u0442\u0447 \u0437\u0430\u043A\u043E\u043D\u0447\u0435\u043D!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Kill_Series_2
+      TermType: 0
+      Description: 
+      Languages:
+      - Double Kill
+      - "\u0414\u0432\u0430 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0430 \u043F\u043E\u0434\u0440\u044F\u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Kill_Series_3
+      TermType: 0
+      Description: 
+      Languages:
+      - Multi Kill
+      - "\u041C\u0443\u043B\u044C\u0442\u0438 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Kill_Series_4
+      TermType: 0
+      Description: 
+      Languages:
+      - Mega Kill
+      - "\u041C\u0435\u0433\u0430 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Kill_Series_5
+      TermType: 0
+      Description: 
+      Languages:
+      - Ultra Kill
+      - "\u0423\u043B\u044C\u0442\u0440\u0430 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u043E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Battle/Kill_Series_6
+      TermType: 0
+      Description: 
+      Languages:
+      - Unstopable
+      - "\u041D\u0435\u043E\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u043C\u044B\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_Win
+      TermType: 0
+      Description: 
+      Languages:
+      - VICTORY!
+      - "\u041F\u041E\u0411\u0415\u0414\u0410!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_Lose
+      TermType: 0
+      Description: 
+      Languages:
+      - DEFEAT
+      - "\u041F\u041E\u0420\u0410\u0416\u0415\u041D\u0418\u0415"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_Draw
+      TermType: 0
+      Description: 
+      Languages:
+      - DRAW
+      - "\u041D\u0418\u0427\u042C\u042F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_Kills
+      TermType: 0
+      Description: 
+      Languages:
+      - Kills
+      - "\u0423\u0431\u0438\u0439\u0441\u0442\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_Deaths
+      TermType: 0
+      Description: 
+      Languages:
+      - Deaths
+      - "\u0421\u043C\u0435\u0440\u0442\u0435\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: AfterBattle/AfterBattle_AdRewardLabel
+      TermType: 0
+      Description: 
+      Languages:
+      - Rewards
+      - "\u041D\u0430\u0433\u0440\u0430\u0434\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Jump
+      TermType: 0
+      Description: 
+      Languages:
+      - Jump
+      - "\u041F\u0440\u044B\u0436\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Jump
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Allows to overcome obstacles and climb the surrounding objects.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u041F\u043E\u0437\u0432\u043E\u043B\u044F\u0435\u0442 \u043F\u0440\u0435\u043E\u0434\u043E\u043B\u0435\u0432\u0430\u0442\u044C
+        \u043F\u0440\u0435\u043F\u044F\u0442\u0441\u0442\u0432\u0438\u044F \u0438
+        \u0432\u0437\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F \u043D\u0430
+        \u043E\u043A\u0440\u0443\u0436\u0430\u044E\u0449\u0438\u0435 \u043E\u0431\u044A\u0435\u043A\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Sprint
+      TermType: 0
+      Description: 
+      Languages:
+      - Sprint
+      - "\u0421\u043F\u0440\u0438\u043D\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Sprint
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Temporarily increases character's speed.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0412\u0440\u0435\u043C\u0435\u043D\u043D\u043E \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442
+        \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F
+        \u0431\u043E\u0439\u0446\u0430."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Trap
+      TermType: 0
+      Description: 
+      Languages:
+      - Trap
+      - "\u041A\u0430\u043F\u043A\u0430\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Trap
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. An attack casts the trap. The enemy can't move, but still can
+        attack.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0430\u0442\u0430\u043A\u0438
+        \u0441\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u0435\u0442 \u044D\u0444\u0444\u0435\u043A\u0442
+        \u043A\u0430\u043F\u043A\u0430\u043D\u0430. \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
+        \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F,
+        \u043D\u043E \u043D\u0435 \u0442\u0435\u0440\u044F\u0435\u0442 \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C
+        \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_DefenseMatrix
+      TermType: 0
+      Description: 
+      Languages:
+      - Defense matrix
+      - "\u0417\u0430\u0449\u0438\u0442\u043D\u0430\u044F \u043C\u0430\u0442\u0440\u0438\u0446\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_DefenseMatrix
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. Activates the protective shield when damage is taken. The character
+        is invulnerable while the dome is active.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u041F\u0440\u0438 \u043F\u043E\u043B\u0443\u0447\u0435\u043D\u0438\u0438
+        \u0443\u0440\u043E\u043D\u0430 \u0430\u043A\u0442\u0438\u0432\u0438\u0440\u0443\u0435\u0442
+        \u0437\u0430\u0449\u0438\u0442\u043D\u044B\u0439 \u043A\u0443\u043F\u043E\u043B.
+        \u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u043A\u0443\u043F\u043E\u043B\u0430 \u0431\u043E\u0435\u0446 \u043D\u0435\u0443\u044F\u0437\u0432\u0438\u043C."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_SpareClip
+      TermType: 0
+      Description: 
+      Languages:
+      - Instant reload
+      - "\u041C\u0433\u043D\u043E\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_SpareClip
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Instant weapon reload.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u041C\u0433\u043D\u043E\u0432\u0435\u043D\u043D\u0430\u044F \u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u043A\u0430
+        \u043E\u0440\u0443\u0436\u0438\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_PainShock
+      TermType: 0
+      Description: 
+      Languages:
+      - Pain shock
+      - "\u0411\u043E\u043B\u0435\u0432\u043E\u0439 \u0448\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_PainShock
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. The attack stuns an enemy. The enemy can't move and attack.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0410\u0442\u0430\u043A\u0430 \u043E\u0448\u0435\u043B\u043E\u043C\u043B\u044F\u0435\u0442
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430. \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
+        \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F
+        \u0438 \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Stunning
+      TermType: 0
+      Description: 
+      Languages:
+      - Disorientation
+      - "\u0414\u0435\u0437\u043E\u0440\u0438\u0435\u043D\u0442\u0430\u0446\u0438\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Stunning
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. The loud sound desorientierts enemies within a radius. The enemy
+        can't move and attack.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0413\u0440\u043E\u043C\u043A\u0438\u0439 \u0437\u0432\u0443\u043A \u0434\u0435\u0437\u043E\u0440\u0438\u0435\u043D\u0442\u0438\u0440\u0443\u0435\u0442
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u043E\u0432 \u0432
+        \u0440\u0430\u0434\u0438\u0443\u0441\u0435. \u041F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A
+        \u043D\u0435 \u043C\u043E\u0436\u0435\u0442 \u0434\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F
+        \u0438 \u0430\u0442\u0430\u043A\u043E\u0432\u0430\u0442\u044C.  "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_LaunchSystem
+      TermType: 0
+      Description: 
+      Languages:
+      - Airstrike
+      - "\u0410\u0432\u0438\u0430\u0443\u0434\u0430\u0440"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_LaunchSystem
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Calls an airstrike dealing damage to all enemies within a radius.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0420\u0430\u043A\u0435\u0442\u043D\u044B\u0439 \u0443\u0434\u0430\u0440
+        \u043D\u0430\u043D\u043E\u0441\u0438\u0442 \u0443\u0440\u043E\u043D \u0432\u0441\u0435\u043C
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430\u043C \u0432
+        \u0440\u0430\u0434\u0438\u0443\u0441\u0435 \u043F\u043E\u043F\u0430\u0434\u0430\u043D\u0438\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_ShockWave
+      TermType: 0
+      Description: 
+      Languages:
+      - Shock wave
+      - "\u0423\u0434\u0430\u0440\u043D\u0430\u044F \u0432\u043E\u043B\u043D\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_ShockWave
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. The character makes a jump creating a shock wave. The wave stuns
+        all enemies within a radius.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u0430\u044F \u0441\u043F\u043E\u0441\u043E\u0431\u043D\u043E\u0441\u0442\u044C.
+        \u0411\u043E\u0435\u0446 \u0441\u043E\u0432\u0435\u0440\u0448\u0430\u0435\u0442
+        \u043F\u0440\u044B\u0436\u043E\u043A, \u043A\u043E\u0442\u043E\u0440\u044B\u0439
+        \u0441\u043E\u0437\u0434\u0430\u0435\u0442 \u0443\u0434\u0430\u0440\u043D\u0443\u044E
+        \u0432\u043E\u043B\u043D\u0443. \u0412\u043E\u043B\u043D\u0430 \u043E\u0433\u043B\u0443\u0448\u0430\u0435\u0442
+        \u0432\u0441\u0435\u0445 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u043E\u0432
+        \u0432 \u0440\u0430\u0434\u0438\u0443\u0441\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Endurance
+      TermType: 0
+      Description: 
+      Languages:
+      - Survivability
+      - "\u0416\u0438\u0432\u0443\u0447\u0435\u0441\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Endurance
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. The character's health can't drop below 1 point while the skill
+        is active.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0412\u043E \u0432\u0440\u0435\u043C\u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u044F
+        \u044D\u0444\u0444\u0435\u043A\u0442\u0430 \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435
+        \u0431\u043E\u0439\u0446\u0430 \u043D\u0435 \u043C\u043E\u0436\u0435\u0442
+        \u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C\u0441\u044F \u043D\u0438\u0436\u0435
+        1."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Lifesteal
+      TermType: 0
+      Description: 
+      Languages:
+      - Lifesteal
+      - "\u041A\u0440\u0430\u0436\u0430 \u0436\u0438\u0437\u043D\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Lifesteal
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. The character restores a part of his health with the dealed
+        damage.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0411\u043E\u0435\u0446 \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+        \u0447\u0430\u0441\u0442\u044C \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u044F
+        \u0437\u0430 \u0441\u0447\u0435\u0442 \u043D\u0430\u043D\u0435\u0441\u0435\u043D\u043D\u043E\u0433\u043E
+        \u0438\u043C \u0443\u0440\u043E\u043D\u0430."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Anatomy
+      TermType: 0
+      Description: 
+      Languages:
+      - Master of puppets
+      - "\u0425\u043E\u0437\u044F\u0438\u043D \u043C\u0430\u0440\u0438\u043E\u043D\u0435\u0442\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Anatomy
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. The character deals an extra damage to enemies cought in trap
+        and under stun effects.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0411\u043E\u0435\u0446 \u043D\u0430\u043D\u043E\u0441\u0442\u0438\u0442
+        \u0434\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u044B\u0439
+        \u0443\u0440\u043E\u043D \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430\u043C
+        \u043F\u043E\u0434 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435\u043C
+        \u043A\u0430\u043F\u043A\u0430\u043D\u0430 \u0438 \u044D\u0444\u0444\u0435\u043A\u0442\u043E\u0432
+        \u043E\u0433\u043B\u0443\u0448\u0435\u043D\u0438\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Dash
+      TermType: 0
+      Description: 
+      Languages:
+      - Dash
+      - "\u0420\u044B\u0432\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Dash
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Active skill. Instant speed up in the movement direction. The character is
+        invulnerable while the dash. Distance: average.'
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0420\u044B\u0432\u043E\u043A \u0443\u0441\u043A\u043E\u0440\u0435\u043D\u0438\u044F
+        \u043F\u043E \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044E
+        \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F. \u0412\u043E \u0432\u0440\u0435\u043C\u044F
+        \u0440\u044B\u0432\u043A\u0430 \u0431\u043E\u0435\u0446 \u043D\u0435\u0443\u044F\u0437\u0432\u0438\u043C.
+        \u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435: \u0441\u0440\u0435\u0434\u043D\u0435\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_DoubleDash
+      TermType: 0
+      Description: 
+      Languages:
+      - Power dash
+      - "\u0423\u0441\u0438\u043B\u0435\u043D\u043D\u044B\u0439 \u0440\u044B\u0432\u043E\u043A"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_DoubleDash
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Active skill. Instant speed up in the movement direction. The character is
+        invulnerable while the dash. Distance: long.'
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0420\u044B\u0432\u043E\u043A \u0443\u0441\u043A\u043E\u0440\u0435\u043D\u0438\u044F
+        \u043F\u043E \u043D\u0430\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044E
+        \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F. \u0412\u043E \u0432\u0440\u0435\u043C\u044F
+        \u0440\u044B\u0432\u043A\u0430 \u0431\u043E\u0435\u0446 \u043D\u0435\u0443\u044F\u0437\u0432\u0438\u043C.
+        \u0420\u0430\u0441\u0441\u0442\u043E\u044F\u043D\u0438\u0435: \u0431\u043E\u043B\u044C\u0448\u043E\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Rage
+      TermType: 0
+      Description: 
+      Languages:
+      - Rage
+      - "\u042F\u0440\u043E\u0441\u0442\u044C "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Rage
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. Each hit on the enemy increases the dealing damage. The rage
+        declines over time.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u041A\u0430\u0436\u0434\u043E\u0435 \u043F\u043E\u043F\u0430\u0434\u0430\u043D\u0438\u0435
+        \u043F\u043E \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443
+        \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u043D\u0430\u043D\u043E\u0441\u0438\u043C\u044B\u0439
+        \u0431\u043E\u0439\u0446\u043E\u043C \u0443\u0440\u043E\u043D. \u042F\u0440\u043E\u0441\u0442\u044C
+        \u0441\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0435\u043C \u0443\u043C\u0435\u043D\u044C\u0448\u0430\u0435\u0442\u0441\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_VampirismAura
+      TermType: 0
+      Description: 
+      Languages:
+      - Vampirism
+      - "\u0412\u0430\u043C\u043F\u0438\u0440\u0438\u0437\u043C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_VampirismAura
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Generates an aura dealing damage to enemies and restoring the
+        character's health in the amount of damage dealed.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0413\u0435\u043D\u0435\u0440\u0438\u0440\u0443\u0435\u0442 \u0430\u0443\u0440\u0443.
+        \u0410\u0443\u0440\u0430 \u043D\u0430\u043D\u043E\u0441\u0438\u0442 \u0443\u0440\u043E\u043D
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430\u043C \u0438
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435 \u0431\u043E\u0439\u0446\u0430
+        \u0432 \u0440\u0430\u0437\u043C\u0435\u0440\u0435 \u043D\u0430\u043D\u0435\u0441\u0435\u043D\u043D\u043E\u0433\u043E
+        \u0443\u0440\u043E\u043D\u0430."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Harvest
+      TermType: 0
+      Description: 
+      Languages:
+      - Grim reaper
+      - "\u041C\u0440\u0430\u0447\u043D\u0430\u044F \u0436\u0430\u0442\u0432\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Harvest
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. Restores the character's health by killing an enemy.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0417\u0434\u043E\u0440\u043E\u0432\u044C\u0435 \u0431\u043E\u0439\u0446\u0430
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043F\u0440\u0438 \u0443\u0431\u0438\u0439\u0441\u0442\u0432\u0435 \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0430."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_AmbulanceBox
+      TermType: 0
+      Description: 
+      Languages:
+      - Field medkit
+      - "\u041F\u043E\u0445\u043E\u0434\u043D\u0430\u044F \u0430\u043F\u0442\u0435\u0447\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_AmbulanceBox
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. Additional MedKit, restores the character's health.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u0430\u044F
+        \u0430\u043F\u0442\u0435\u0447\u043A\u0430. \u0412\u043E\u0441\u0441\u0442\u0430\u043D\u0430\u0432\u043B\u0438\u0432\u0430\u0435\u0442
+        \u0437\u0434\u043E\u0440\u043E\u0432\u044C\u0435 \u0431\u043E\u0439\u0446\u0430. "
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_OverDamage
+      TermType: 0
+      Description: 
+      Languages:
+      - Overdamage
+      - "\u0421\u0432\u0435\u0440\u0445\u0443\u0440\u043E\u043D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_OverDamage
+      TermType: 0
+      Description: 
+      Languages:
+      - Passive skill. Attack deals a critical damage to an enemy.
+      - "\u041F\u0430\u0441\u0441\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0410\u0442\u0430\u043A\u0430 \u043D\u0430\u043D\u043E\u0441\u0438\u0442
+        \u043F\u0440\u043E\u0442\u0438\u0432\u043D\u0438\u043A\u0443 \u043A\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439
+        \u0443\u0440\u043E\u043D."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_Camouflage
+      TermType: 0
+      Description: 
+      Languages:
+      - Camouflage
+      - "\u041C\u0430\u0441\u043A\u0438\u0440\u043E\u0432\u043A\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_Camouflage
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. The character becomes invisible for a short time.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0411\u043E\u0435\u0446 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
+        \u043D\u0435\u0432\u0438\u0434\u0438\u043C\u044B\u043C \u043D\u0430 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0435
+        \u0432\u0440\u0435\u043C\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Name_SilentRun
+      TermType: 0
+      Description: 
+      Languages:
+      - Silent sprint
+      - "\u0411\u0435\u0441\u0448\u0443\u043C\u043D\u044B\u0439 \u0441\u043F\u0440\u0438\u043D\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Abilities/Ability_Description_SilentRun
+      TermType: 0
+      Description: 
+      Languages:
+      - Active skill. The character becomes invisible for a short time, the speed
+        is temporarily increased.
+      - "\u0410\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u043D\u0430\u0432\u044B\u043A.
+        \u0411\u043E\u0435\u0446 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F
+        \u043D\u0435\u0432\u0438\u0434\u0438\u043C\u044B\u043C \u043D\u0430 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u0435
+        \u0432\u0440\u0435\u043C\u044F, \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C
+        \u0434\u0432\u0438\u0436\u0435\u043D\u0438\u044F \u0432\u0440\u0435\u043C\u0435\u043D\u043D\u043E
+        \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0432\u0430\u0435\u0442\u0441\u044F."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Tab_Name_Cash
+      TermType: 0
+      Description: 
+      Languages:
+      - CREDITS
+      - "\u041A\u0420\u0415\u0414\u0418\u0422\u042B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Tab_Name_Gold
+      TermType: 0
+      Description: 
+      Languages:
+      - COINS
+      - "\u041C\u041E\u041D\u0415\u0422\u042B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Tab_Name_Offers
+      TermType: 0
+      Description: 
+      Languages:
+      - OFFERS
+      - "\u0410\u041A\u0426\u0418\u0418"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Tab_Name_Consumables
+      TermType: 0
+      Description: 
+      Languages:
+      - CONSUMABLES
+      - "\u0420\u0410\u0421\u0425\u041E\u0414\u041D\u0418\u041A\u0418"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Buy
+      TermType: 0
+      Description: 
+      Languages:
+      - Buy
+      - "\u041A\u0443\u043F\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Empty_Tab
+      TermType: 0
+      Description: 
+      Languages:
+      - NEW OFFERS COMING SOON! DO NOT MISS!
+      - "\u041D\u041E\u0412\u042B\u0415 \u041F\u0420\u0415\u0414\u041B\u041E\u0416\u0415\u041D\u0418\u042F
+        \u0423\u0416\u0415 \u0421\u041A\u041E\u0420\u041E! \u041D\u0415 \u041F\u0420\u041E\u041F\u0423\u0421\u0422\u0418\u0422\u0415!"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Button
+      TermType: 0
+      Description: 
+      Languages:
+      - SHOP NOW
+      - "\u041A\u0423\u041F\u0418\u0422\u042C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Name_Neo
+      TermType: 0
+      Description: 
+      Languages:
+      - BREATHTAKING OFFER
+      - "\u0417\u0410\u0425\u0412\u0410\u0422\u042B\u0412\u0410\u042E\u0429\u0415\u0415
+        \u041F\u0420\u0415\u0414\u041B\u041E\u0416\u0415\u041D\u0418\u0415"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Desc_Neo
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Mr. Breathtaking. Pale as death and quick as its approach.
+
+        The set content: premium character John Bleak, Muramasa blade and coins.'
+      - "\u041C\u0438\u0441\u0442\u0435\u0440 \"\u0417\u0430\u0445\u0432\u0430\u0442\u044B\u0432\u0430\u044E\u0449\u0438\u0439\".
+        \u0411\u043B\u0435\u0434\u043D\u044B\u0439 \u043A\u0430\u043A \u0441\u043C\u0435\u0440\u0442\u044C
+        \u0438 \u0431\u044B\u0441\u0442\u0440\u044B\u0439 \u043A\u0430\u043A \u0435\u0435
+        \u043F\u0440\u0438\u0431\u043B\u0438\u0436\u0435\u043D\u0438\u0435.\n\u0421\u043E\u0441\u0442\u0430\u0432
+        \u043D\u0430\u0431\u043E\u0440\u0430: \u043F\u0440\u0435\u043C\u0438\u0443\u043C-\u0431\u043E\u0435\u0446
+        \u0411\u043B\u0435\u0434\u043D\u044B\u0439, \u041A\u043B\u0438\u043D\u043E\u043A
+        \u041C\u0443\u0440\u0430\u043C\u0430\u0441\u044B \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Name_Ranger
+      TermType: 0
+      Description: 
+      Languages:
+      - JUSTICE FOR ALL
+      - "\u041F\u0420\u0410\u0412\u041E\u0421\u0423\u0414\u0418\u0415 \u0414\u041B\u042F
+        \u041A\u0410\u0416\u0414\u041E\u0413\u041E"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Desc_Ranger
+      TermType: 0
+      Description: 
+      Languages:
+      - 'The one and only. He doesn''t need to aim, his buckshots are afraid to miss.
+
+        The set content: premium character Ranger, Justice shotgun and coins.'
+      - "\u0415\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439
+        \u0438 \u043D\u0435\u043F\u043E\u0432\u0442\u043E\u0440\u0438\u043C\u044B\u0439.
+        \u0415\u043C\u0443 \u043D\u0435 \u043D\u0430\u0434\u043E \u0446\u0435\u043B\u0438\u0442\u044C\u0441\u044F,
+        \u0435\u0433\u043E \u043F\u0443\u043B\u0438 \u043F\u0440\u043E\u0441\u0442\u043E
+        \u0431\u043E\u044F\u0442\u0441\u044F \u043F\u0440\u043E\u043C\u0430\u0445\u043D\u0443\u0442\u044C\u0441\u044F.\n\u0421\u043E\u0441\u0442\u0430\u0432
+        \u043D\u0430\u0431\u043E\u0440\u0430: \u043F\u0440\u0435\u043C\u0438\u0443\u043C-\u0431\u043E\u0435\u0446
+        \u0420\u0435\u0439\u043D\u0434\u0436\u0435\u0440, \u0434\u0440\u043E\u0431\u043E\u0432\u0438\u043A
+        \"\u041F\u0440\u0430\u0432\u043E\u0441\u0443\u0434\u0438\u0435\" \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Name_Bull
+      TermType: 0
+      Description: 
+      Languages:
+      - PEOPLE'S CHAMPION
+      - "\u041D\u0410\u0420\u041E\u0414\u041D\u042B\u0419 \u0427\u0415\u041C\u041F\u0418\u041E\u041D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Desc_Bull
+      TermType: 0
+      Description: 
+      Languages:
+      - 'The rage itself. Adheres to a simple principle: Make war, then talks.
+
+        The set content: premium character Bull, Avenger minigun and coins.'
+      - "\u0412\u043E\u043F\u043B\u043E\u0449\u0435\u043D\u0438\u0435 \u044F\u0440\u043E\u0441\u0442\u0438.
+        \u041F\u0440\u0438\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F
+        \u043F\u0440\u043E\u0441\u0442\u043E\u0433\u043E \u043F\u0440\u0438\u043D\u0446\u0438\u043F\u0430:
+        \u0421\u043D\u0430\u0447\u0430\u043B\u0430 \u0432\u043E\u0439\u043D\u0430
+        - \u043F\u043E\u0442\u043E\u043C \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440\u044B.
+        \n\u0421\u043E\u0441\u0442\u0430\u0432 \u043D\u0430\u0431\u043E\u0440\u0430:
+        \u043F\u0440\u0435\u043C\u0438\u0443\u043C-\u0431\u043E\u0435\u0446 \u0413\u043E\u0440\u0430,
+        \u043C\u0438\u043D\u0438\u0433\u0430\u043D \"\u041C\u0441\u0442\u0438\u0442\u0435\u043B\u044C\"
+        \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Name_Bacon
+      TermType: 0
+      Description: 
+      Languages:
+      - GENTLEMAN'S SET
+      - "\u0418\u0421\u0422\u0418\u041D\u041D\u042B\u0419 \u0414\u0416\u0415\u041D\u0422\u041B\u042C\u041C\u0415\u041D"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Character_Offer_Desc_Bacon
+      TermType: 0
+      Description: 
+      Languages:
+      - 'True gentleman. No one''s ever seen him up close, but many have received
+        his lead compliments.
+
+        The set content: premium character Bacon, Blondie sniper rifle and coins.'
+      - "\u0418\u0441\u0442\u0438\u043D\u043D\u044B\u0439 \u0434\u0436\u0435\u043D\u0442\u043B\u044C\u043C\u0435\u043D.
+        \u041D\u0438\u043A\u0442\u043E \u043D\u0435 \u0432\u0438\u0434\u0435\u043B
+        \u0435\u0433\u043E \u0432\u0431\u043B\u0438\u0437\u0438, \u043D\u043E \u043C\u043D\u043E\u0433\u0438\u0435
+        \u043F\u043E\u043B\u0443\u0447\u0438\u043B\u0438 \u043E\u0442 \u043D\u0435\u0433\u043E
+        \u0441\u0432\u0438\u043D\u0446\u043E\u0432\u044B\u0439 \u043F\u043E\u0434\u0430\u0440\u043E\u043A.\n\u0421\u043E\u0441\u0442\u0430\u0432
+        \u043D\u0430\u0431\u043E\u0440\u0430: \u043F\u0440\u0435\u043C\u0438\u0443\u043C-\u0431\u043E\u0435\u0446
+        \u0411\u0435\u043A\u043E\u043D, \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u0441\u043A\u0430\u044F
+        \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0430 \"\u0411\u043B\u043E\u043D\u0434\u0438\u043D\u043A\u0430\"
+        \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Description_Armor_2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Start the game with all guns blazing. Get a new armor and helmet for an efficient
+        fight!
+
+        The set content: Reinforced armor, Police helmet and coins.'
+      - "\u041D\u0430\u0447\u043D\u0438 \u0438\u0433\u0440\u0443 \u0432\u043E \u0432\u0441\u0435\u043E\u0440\u0443\u0436\u0438\u0438!
+        \u041F\u043E\u043B\u0443\u0447\u0438 \u043D\u043E\u0432\u0443\u044E \u0431\u0440\u043E\u043D\u044E
+        \u0438 \u0448\u043B\u0435\u043C \u0434\u043B\u044F \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+        \u0431\u043E\u044F!\n\u0421\u043E\u0441\u0442\u0430\u0432 \u043D\u0430\u0431\u043E\u0440\u0430:
+        \u0423\u0441\u0438\u043B\u0435\u043D\u043D\u044B\u0439 \u0431\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442,
+        \ \u041F\u043E\u043B\u0438\u0446\u0435\u0439\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C
+        \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Description_Armor_3
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Start the game with all guns blazing. Get a new armor and helmet for an efficient
+        fight!
+
+        The set content: SWAT armor, Tactical helmet and coins.'
+      - "\u041D\u0430\u0447\u043D\u0438 \u0438\u0433\u0440\u0443 \u0432\u043E \u0432\u0441\u0435\u043E\u0440\u0443\u0436\u0438\u0438!
+        \u041F\u043E\u043B\u0443\u0447\u0438 \u043D\u043E\u0432\u0443\u044E \u0431\u0440\u043E\u043D\u044E
+        \u0438 \u0448\u043B\u0435\u043C \u0434\u043B\u044F \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+        \u0431\u043E\u044F! \n\u0421\u043E\u0441\u0442\u0430\u0432 \u043D\u0430\u0431\u043E\u0440\u0430:
+        \u0411\u0440\u043E\u043D\u044F \u0441\u043F\u0435\u0446\u043D\u0430\u0437\u0430,
+        \u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0448\u043B\u0435\u043C
+        \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Description_Armor_4
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Start the game with all guns blazing. Get a new armor and helmet for an efficient
+        fight!
+
+        The set content: Exo-armor, Hawk helmet and coins.'
+      - "\u041D\u0430\u0447\u043D\u0438 \u0438\u0433\u0440\u0443 \u0432\u043E \u0432\u0441\u0435\u043E\u0440\u0443\u0436\u0438\u0438!
+        \u041F\u043E\u043B\u0443\u0447\u0438 \u043D\u043E\u0432\u0443\u044E \u0431\u0440\u043E\u043D\u044E
+        \u0438 \u0448\u043B\u0435\u043C \u0434\u043B\u044F \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+        \u0431\u043E\u044F! \n\u0421\u043E\u0441\u0442\u0430\u0432 \u043D\u0430\u0431\u043E\u0440\u0430:
+        \u042D\u043A\u0437\u043E\u0441\u043A\u0435\u043B\u0435\u0442, \u0448\u043B\u0435\u043C
+        \"\u042F\u0441\u0442\u0440\u0435\u0431\" \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Description_Armor_5
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Start the game with all guns blazing. Get a new armor and helmet for an efficient
+        fight!
+
+        The set content: H3L protective suit, Chameleon helmet and coins.'
+      - "\u041D\u0430\u0447\u043D\u0438 \u0438\u0433\u0440\u0443 \u0432\u043E \u0432\u0441\u0435\u043E\u0440\u0443\u0436\u0438\u0438!
+        \u041F\u043E\u043B\u0443\u0447\u0438 \u043D\u043E\u0432\u0443\u044E \u0431\u0440\u043E\u043D\u044E
+        \u0438 \u0448\u043B\u0435\u043C \u0434\u043B\u044F \u044D\u0444\u0444\u0435\u043A\u0442\u0438\u0432\u043D\u043E\u0433\u043E
+        \u0431\u043E\u044F! \n\u0421\u043E\u0441\u0442\u0430\u0432 \u043D\u0430\u0431\u043E\u0440\u0430:
+        \u0417\u0430\u0449\u0438\u0442\u043D\u044B\u0439 \u043A\u043E\u0441\u0442\u044E\u043C
+        H3L, \u0448\u043B\u0435\u043C \"\u0425\u0430\u043C\u0435\u043B\u0435\u043E\u043D\"
+        \u0438 \u043C\u043E\u043D\u0435\u0442\u044B."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Name_Armor_2
+      TermType: 0
+      Description: 
+      Languages:
+      - TRUE WARRIOR'S SET
+      - "\u041D\u0410\u0411\u041E\u0420 \u041D\u0410\u0421\u0422\u041E\u042F\u0429\u0415\u0413\u041E
+        \u0411\u041E\u0419\u0426\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Name_Armor_3
+      TermType: 0
+      Description: 
+      Languages:
+      - TRUE WARRIOR'S SET
+      - "\u041D\u0410\u0411\u041E\u0420 \u041D\u0410\u0421\u0422\u041E\u042F\u0429\u0415\u0413\u041E
+        \u0411\u041E\u0419\u0426\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Name_Armor_4
+      TermType: 0
+      Description: 
+      Languages:
+      - TRUE WARRIOR'S SET
+      - "\u041D\u0410\u0411\u041E\u0420 \u041D\u0410\u0421\u0422\u041E\u042F\u0429\u0415\u0413\u041E
+        \u0411\u041E\u0419\u0426\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Offer_Name_Armor_5
+      TermType: 0
+      Description: 
+      Languages:
+      - TRUE WARRIOR'S SET
+      - "\u041D\u0410\u0411\u041E\u0420 \u041D\u0410\u0421\u0422\u041E\u042F\u0429\u0415\u0413\u041E
+        \u0411\u041E\u0419\u0426\u0410"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Shop/Speed_Up
+      TermType: 0
+      Description: 
+      Languages:
+      - Speed-Up
+      - "\u0423\u0441\u043A\u043E\u0440\u0438\u0442\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t1_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - "2500 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      - "2500 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t2_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 12500 + 1250 credits
+      - "12500 + 1250 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t3_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 25000 + 5000 credits
+      - "25000 + 5000 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t4_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 62500 + 18750 credits
+      - "62500 + 18750 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t5_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 125000 + 50000 credits
+      - "125000 + 50000 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/product_t6_cash_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 250000 + 125000 credits
+      - "250000 + 125000 \u043A\u0440\u0435\u0434\u0438\u0442\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t1_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 100 coins
+      - "100 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t2_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 500 + 50 coins
+      - "500 + 50 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t3_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 1000 + 200 coins
+      - "1000 + 200 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t4_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 2.500 + 750 coins
+      - "2.500 + 750 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t5_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 5000 + 2000 coins
+      - "5000 + 2000 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: ShopItems/t6_gold_pack
+      TermType: 0
+      Description: 
+      Languages:
+      - 10000 + 5000 coins
+      - "10000 + 5000 \u043C\u043E\u043D\u0435\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} months
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} months'
+      - "{0} \u043C\u0435\u0441\u044F\u0446\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 month
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 month
+      - "1 \u043C\u0435\u0441\u044F\u0446"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} weeks
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} weeks'
+      - "{0} \u043D\u0435\u0434\u0435\u043B\u0438"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 week
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 week
+      - "1 \u043D\u0435\u0434\u0435\u043B\u044F"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} days
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} days'
+      - "{0} \u0434\u043D\u0435\u0439"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 day
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 day
+      - "1 \u0434\u0435\u043D\u044C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} hours
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} hours'
+      - "{0} \u0447\u0430\u0441\u043E\u0432"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 hour
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 hour
+      - "1 \u0447\u0430\u0441"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} minutes
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} minutes'
+      - "{0} \u043C\u0438\u043D\u0443\u0442"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 minute
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 minute
+      - "1 \u043C\u0438\u043D\u0443\u0442\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} seconds
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} seconds'
+      - "{0} \u0441\u0435\u043A\u0443\u043D\u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/1 second
+      TermType: 0
+      Description: 
+      Languages:
+      - 1 second
+      - "1 \u0441\u0435\u043A\u0443\u043D\u0434\u0430"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0} ago
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} ago'
+      - "{0} \u043D\u0430\u0437\u0430\u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}d {1}h
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}d {1}h'
+      - "{0} \u0434 {1} \u0447"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}h {1}m
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}h {1}m'
+      - "{0} \u0447 {1} \u043C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}m {1}s
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}m {1}s'
+      - "{0} \u043C {1} \u0441"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}s
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}s'
+      - "{0} \u0441"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}d
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}d'
+      - "{0} \u0434"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}h
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}h'
+      - "{0} \u0447"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Time/{0}m
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}m'
+      - "{0} \u043C"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_Title
+      TermType: 0
+      Description: 
+      Languages:
+      - ATTENTION
+      - "\u0412\u041D\u0418\u041C\u0410\u041D\u0418\u0415"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_RogerButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Roger That
+      - "\u0412\u0430\u0441 \u041F\u043E\u043D\u044F\u043B"
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_SocialNetworkError_GooglePlay
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Unable to connect to the server.
+
+        Please try to log into your Google Play account again.'
+      - "\u041E\u0448\u0438\u0431\u043A\u0430 \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u0438\u044F.\n\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439
+        \u043F\u0435\u0440\u0435\u0437\u0430\u0439\u0442\u0438 \u0432 \u0443\u0447\u0435\u0442\u043D\u0443\u044E
+        \u0437\u0430\u043F\u0438\u0441\u044C Google Play."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_UserAlreadyConnected
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u200BAccount {1} has no army linked to it.\n\u200BThe current army \u200Bis
+        connected to another account."
+      - "\u0421 \u0443\u0447\u0435\u0442\u043D\u043E\u0439 \u0437\u0430\u043F\u0438\u0441\u044C\u044E
+        \u200B{1}\u200B \u043D\u0435 \u0441\u0432\u044F\u0437\u0430\u043D\u043E \u043D\u0438\u043A\u0430\u043A\u043E\u0439
+        \u0430\u0440\u043C\u0438\u0438.\r\n\u0422\u0435\u043A\u0443\u0449\u0430\u044F
+        \u0430\u0440\u043C\u0438\u044F \u0441\u0432\u044F\u0437\u0430\u043D\u0430
+        \u0441 \u0434\u0440\u0443\u0433\u043E\u0439 \u0443\u0447\u0435\u0442\u043D\u043E\u0439
+        \u0437\u0430\u043F\u0438\u0441\u044C\u044E."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_UnknownAuthError
+      TermType: 0
+      Description: 
+      Languages:
+      - 'An unknown error occurred.
+
+        Please try again later.'
+      - "\u041D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u0430\u044F \u043E\u0448\u0438\u0431\u043A\u0430.\n\u041F\u043E\u043F\u0440\u043E\u0431\u0443\u0439\u0442\u0435
+        \u0441\u043E\u0432\u0435\u0440\u0448\u0438\u0442\u044C \u043E\u043F\u0435\u0440\u0430\u0446\u0438\u044E
+        \u043F\u043E\u0437\u0436\u0435."
+      Flags: 0000
+      Languages_Touch: []
+    - Term: Social/ErrorPopup_SocialAccountSwitchOrSkip
+      TermType: 0
+      Description: 
+      Languages:
+      - "Account {1} has army {2} linked to it.\nYou can login to account and use
+        army {2} or stay with army {0}.\n \nWhich army should be used?"
+      - "\u0423\u0447\u0435\u0442\u043D\u0430\u044F \u0437\u0430\u043F\u0438\u0441\u044C
+        {1} \u0441\u0432\u044F\u0437\u0430\u043D\u0430 \u0441 \u0430\u0440\u043C\u0438\u0435\u0439
+        {2}.\n\u0422\u044B \u043C\u043E\u0436\u0435\u0448\u044C \u0432\u043E\u0439\u0442\u0438
+        \u0432 \u0443\u0447\u0435\u0442\u043D\u0443\u044E \u0437\u0430\u043F\u0438\u0441\u044C
+        {1} \u0438 \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0442\u0430\u044C
+        \u0430\u0440\u043C\u0438\u044E {2} \u0438\u043B\u0438 \u043E\u0441\u0442\u0430\u0442\u044C\u0441\u044F
+        \u0441 \u0430\u0440\u043C\u0438\u0435\u0439 {0}.\n \n\u041A\u0430\u043A\u0443\u044E
+        \u0430\u0440\u043C\u0438\u044E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u0442\u044C?"
+      Flags: 0000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/a/heyworks.com/macros/s/AKfycbzxS3pMLezgymVMbIPnyy3owp1SvLfIUUtP4ZdL/exec
+    Google_SpreadsheetKey: 18RF_SoHIvfsns-0MomX2-_ic9ilHL-PZ77DiLceGIic
+    Google_SpreadsheetName: I2Loc Pocket Shooter Localization
+    Google_LastUpdatedVersion: 1568110523321
+    Google_Password: 12345678
+    GoogleUpdateFrequency: 1
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1

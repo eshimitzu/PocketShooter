@@ -1,0 +1,59 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RootNamespace>Heyworks.PocketShooter</RootNamespace>
+    <AssemblyName>Heyworks.PocketShooter.Realtime.Server.Photon</AssemblyName>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../.runtime/photon/deploy/PocketShooterDeploy/bin/</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>../.runtime/photon/deploy/PocketShooterDeploy/bin/</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\Heyworks.PocketShooter.Realtime.Server.Photon\Realtime\Photon\ClientPeerEx.cs" Link="Realtime\Photon\ClientPeerEx.cs" />
+    <Compile Include="..\Heyworks.PocketShooter.Realtime.Server.Photon\Realtime\Photon\ExitGamesLogger.cs" Link="Realtime\Photon\ExitGamesLogger.cs" />
+    <Compile Include="..\Heyworks.PocketShooter.Realtime.Server.Photon\Realtime\Photon\ExitGamesLoggerFactory.cs" Link="Realtime\Photon\ExitGamesLoggerFactory.cs" />
+    <Compile Include="..\Heyworks.PocketShooter.Realtime.Server.Photon\Realtime\Photon\PocketShooterApplicationBase.cs" Link="Realtime\Photon\PocketShooterApplicationBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Server.Runtime\Heyworks.PocketShooter.Realtime.Server.Runtime.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>../.runtime/photon/lib/ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>../.runtime/photon/lib/Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>../.runtime/photon/lib/PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+
+  <Import Project="../Environment.props" />
+
+  <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
+    <PackageReference Include="NuGet.Frameworks" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\.appsettings\Photon.PocketShooter.config" Link="Photon.PocketShooter.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Realtime\Gameplay\" />
+  </ItemGroup>
+</Project>

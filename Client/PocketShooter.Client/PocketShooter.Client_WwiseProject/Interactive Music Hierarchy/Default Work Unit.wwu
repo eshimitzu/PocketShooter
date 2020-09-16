@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CFF56AE9-90BB-410D-8618-325B691BBD04}" SchemaVersion="89">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{CFF56AE9-90BB-410D-8618-325B691BBD04}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="LobbyMusic" ID="{62F3116B-C508-4B68-BE4A-A736BFE75A56}" ShortID="805283715">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="MusicConversion" ID="{137A4AB5-D43C-4C03-A22B-12CBC2586A46}" WorkUnitID="{1117401B-3319-40B3-B87E-874EED6D4D3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{D82C691D-649D-47B6-9D95-AB59906AC046}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="LobbyTheme" ID="{FB696880-8C1E-48E7-ABF4-50318FEBEB86}" ShortID="591245055">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="160885.662431942"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="MusicConversion" ID="{137A4AB5-D43C-4C03-A22B-12CBC2586A46}" WorkUnitID="{1117401B-3319-40B3-B87E-874EED6D4D3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="LobbyTheme" ID="{C15DA517-F2D1-4441-9666-6E5DD15673AD}" ShortID="438607502">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="LobbyTheme" ID="{CB68550E-4A15-45CC-8FB0-1366EC173832}" ShortID="47296991">
+											<Language>SFX</Language>
+											<AudioFile>LobbyTheme.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C78AC291-8D38-4D10-89DC-9A16F0FC1DFD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{4F3DA339-7E74-49C5-883B-16766F6CD044}">
+											<ClipList>
+												<MusicClip Name="LobbyTheme" ID="{CF89E24E-718E-4056-B9D6-F1D25B4A4BB5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="144000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="LobbyTheme" ID="{CB68550E-4A15-45CC-8FB0-1366EC173832}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{93059399-EEDB-43F8-B370-2C8F99DB2FD2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>144</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{D2567874-CDEF-4864-8BA7-DB26143E8C54}"/>
+								<MusicCue Name="Exit Cue" ID="{7CEEDED4-E26F-409D-B52B-B9FD78782407}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="144000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{BB33EADC-AA9A-40DA-87AD-9F6B7BF30695}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{2FE4E985-FC88-48D8-9040-873EEBDF3C64}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{335C3AA0-B279-4F23-BA6A-8154EEF79A09}" ShortID="895701644">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7E64DC85-36E0-4488-A3F2-A5D97ED063D5}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{BEB4CE6B-CF38-4A16-83F2-B4312A0E3179}" ShortID="489559403">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+									</PropertyList>
+									<SegmentRef Name="LobbyTheme" ID="{FB696880-8C1E-48E7-ABF4-50318FEBEB86}"/>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

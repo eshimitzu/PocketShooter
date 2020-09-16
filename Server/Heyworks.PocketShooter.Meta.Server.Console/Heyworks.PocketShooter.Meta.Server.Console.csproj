@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework> 
+    <NoWarn>NU1605</NoWarn>    
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="$(MessagePackVersion)" />
+
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="$(MicrosoftExtensionsVersion)" />    
+
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.WebSockets" Version="$(MicrosoftAspNetCoreVersion)" />
+
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="$(MicrosoftAspNetCoreSignalRVersion)" />
+    <PackageReference Include="Unofficial.Microsoft.AspNetCore.SignalR.Protocols.MessagePack.Unity" Version="$(MicrosoftAspNetCoreSignalRVersion)" />
+
+    <PackageReference Include="Microsoft.Orleans.Client" Version="$(MicrosoftOrleansVersion)" />
+    <PackageReference Include="Microsoft.AspNetCore.Antiforgery" Version="2.1.1" />   
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.ViewFeatures " Version="2.1.1" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Client\PocketShooter.Client\Assets\Scripts\Heyworks.PocketShooter.Meta.Common\Heyworks.PocketShooter.Meta.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Server.Common\Heyworks.PocketShooter.Meta.Server.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Server\Heyworks.PocketShooter.Meta.Server.csproj" />
+  </ItemGroup>
+</Project>

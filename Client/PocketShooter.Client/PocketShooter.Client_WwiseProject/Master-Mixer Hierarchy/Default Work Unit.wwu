@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{DF62D094-FF46-4D4E-8953-9E93ADDBD3E0}" WorkUnitID="{9AE3D60A-F452-4124-A960-8C27E3078C27}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{6AE5D04E-0A4B-4B7A-97D1-286ED0032691}">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Environment" ID="{BD832ADB-FA0D-4894-B5C9-094C86429230}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ChildrenList>
+										<AuxBus Name="ReverbArc" ID="{D4E2031E-D8BA-4200-A2D0-6AD82168EC34}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="CharachterFootstepsAttenuation" ID="{1EEF7D21-EF6F-4AF1-B082-C62C009ED9F2}" WorkUnitID="{77E4C77F-35CE-4AD3-AD59-BDC6990610DD}"/>
+												</Reference>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="ReverbArcStone" ID="{0B0DAC38-7BAA-40B2-A255-53489B48820D}" WorkUnitID="{3C7A993A-4FB8-43B3-9D10-C1204E399535}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="ReverbTunnel" ID="{B2EC7694-8E06-4B65-82C3-029183CEF147}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="ReverbTunnelStone" ID="{EDE032BA-E1FE-474B-AF7D-BBAE9348C1B7}" WorkUnitID="{3C7A993A-4FB8-43B3-9D10-C1204E399535}"/>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+										<AuxBus Name="ReverbBox" ID="{A04C9A88-118A-492F-98AA-B66909E406BF}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Effect0">
+													<Custom CreatedFrom="{00074013-7D69-4F10-A57B-31064882DF7D}">
+														<Effect Name="ReverbBoxStone (Custom)" ID="{426330D0-8B4B-4920-8F52-FCBCE18A1CF2}" ShortID="614598429" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+															<PropertyList>
+																<Property Name="CenterLevel" Type="Real32" Value="-20"/>
+																<Property Name="DecayTime" Type="Real32" Value="2"/>
+																<Property Name="Density" Type="Real32" Value="21"/>
+																<Property Name="DryLevel" Type="Real32" Value="-96"/>
+																<Property Name="ERLevel" Type="Real32" Value="-19"/>
+																<Property Name="ERPattern" Type="int32" Value="2"/>
+																<Property Name="Filter1Freq" Type="Real32" Value="490"/>
+																<Property Name="Filter1Gain" Type="Real32" Value="-15.5"/>
+																<Property Name="Filter1InsertPos" Type="int32" Value="2"/>
+																<Property Name="Filter2InsertPos" Type="int32" Value="0"/>
+																<Property Name="Filter3Freq" Type="Real32" Value="11000"/>
+																<Property Name="Filter3Gain" Type="Real32" Value="-7"/>
+																<Property Name="FrontLevel" Type="Real32" Value="-11"/>
+																<Property Name="HFDamping" Type="Real32" Value="6"/>
+																<Property Name="PreDelay" Type="Real32" Value="2"/>
+																<Property Name="Quality" Type="int32" Value="2"/>
+																<Property Name="RearLevel" Type="Real32" Value="-14"/>
+																<Property Name="ReverbLevel" Type="Real32" Value="-50"/>
+																<Property Name="RoomSize" Type="Real32" Value="-100"/>
+																<Property Name="StereoWidth" Type="Real32" Value="95"/>
+															</PropertyList>
+														</Effect>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+										</AuxBus>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Character" ID="{1CBBAFC8-7F0D-46D9-9DD4-2CC46069CA30}">
+									<PropertyList>
+										<Property Name="RecoveryTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ChildrenList>
+										<Bus Name="Voiceover" ID="{032F0B61-3C8A-41D6-BB87-ECB18CA9805B}"/>
+										<Bus Name="Weapon" ID="{3195FC7A-05C1-4086-A227-9B1ED0D604A3}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+												<Property Name="ListenerRelativeRouting" Type="bool" Value="True"/>
+												<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="AutomaticWeaponAttenuation" ID="{AF3453D3-C497-433D-90FD-38E45F24CEFA}" WorkUnitID="{77E4C77F-35CE-4AD3-AD59-BDC6990610DD}"/>
+												</Reference>
+												<Reference Name="Effect0" CompanyID="4095" PluginID="65535" PluginType="15">
+													<ObjectRef Name="Pumping_and_Breathing_2" ID="{1E63EC43-20F0-4D27-A844-BD5F6AE9E3C9}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Bus Name="WeaponTier01" ID="{D2ADAE84-D6F9-4559-87FE-D35FC68E69C8}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+															<ObjectRef Name="WeaponCompTier01" ID="{174E7B9A-A16F-4CA7-86D0-530212B5A6AA}" WorkUnitID="{3C7A993A-4FB8-43B3-9D10-C1204E399535}"/>
+														</Reference>
+													</ReferenceList>
+												</Bus>
+												<Bus Name="WeaponTier02" ID="{A94D49C9-BFAA-466C-81B1-91301B7C2554}">
+													<PropertyList>
+														<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+															<ObjectRef Name="WeaponCompTier02" ID="{991B78DF-8EE3-4A61-8090-7021F9402B39}" WorkUnitID="{3C7A993A-4FB8-43B3-9D10-C1204E399535}"/>
+														</Reference>
+													</ReferenceList>
+													<DuckingList>
+														<DuckItem>
+															<BusRef Name="WeaponTier01" ID="{D2ADAE84-D6F9-4559-87FE-D35FC68E69C8}"/>
+															<DuckingParam>
+																<Volume>-3</Volume>
+																<FadeInTime>0.100000001490116</FadeInTime>
+																<FadeOutTime>0.100000001490116</FadeOutTime>
+																<FadeCurve>FadeExp2</FadeCurve>
+															</DuckingParam>
+														</DuckItem>
+													</DuckingList>
+												</Bus>
+											</ChildrenList>
+										</Bus>
+										<Bus Name="Footsteps" ID="{0972EAE1-8AE0-46C9-81A4-28279276F651}">
+											<PropertyList>
+												<Property Name="OutputBusVolume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+										</Bus>
+										<Bus Name="Skills2D" ID="{76307BA4-10E0-4DF3-83A4-56AC3A817F2E}">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64">
+													<ValueList>
+														<Value>-6</Value>
+													</ValueList>
+												</Property>
+												<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+											</PropertyList>
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="Weapon" ID="{3195FC7A-05C1-4086-A227-9B1ED0D604A3}"/>
+													<DuckingParam>
+														<Volume>-3</Volume>
+														<FadeInTime>0.100000001490116</FadeInTime>
+														<FadeOutTime>0.100000001490116</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
+										<Bus Name="Skills3D" ID="{F75CE9B5-19F1-4056-8965-9C7F5531B099}">
+											<PropertyList>
+												<Property Name="RecoveryTime" Type="Real64" Value="0.1"/>
+											</PropertyList>
+											<DuckingList>
+												<DuckItem>
+													<BusRef Name="Weapon" ID="{3195FC7A-05C1-4086-A227-9B1ED0D604A3}"/>
+													<DuckingParam>
+														<Volume>-3</Volume>
+														<FadeInTime>0.100000001490116</FadeInTime>
+														<FadeOutTime>0.100000001490116</FadeOutTime>
+														<FadeCurve>FadeLinear</FadeCurve>
+														<TargetProp>BusVolume</TargetProp>
+													</DuckingParam>
+												</DuckItem>
+											</DuckingList>
+										</Bus>
+									</ChildrenList>
+									<DuckingList>
+										<DuckItem>
+											<BusRef Name="Environment" ID="{BD832ADB-FA0D-4894-B5C9-094C86429230}"/>
+											<DuckingParam>
+												<Volume>-3</Volume>
+												<FadeInTime>0.5</FadeInTime>
+												<FadeOutTime>0.5</FadeOutTime>
+												<FadeCurve>FadeLinear</FadeCurve>
+											</DuckingParam>
+										</DuckItem>
+									</DuckingList>
+								</Bus>
+								<Bus Name="UI" ID="{515CD2FD-EB65-4B15-B988-48D4B44AB10E}"/>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="CharacterLocal" ID="{2E727F87-A190-4536-AE8D-BC7ECC39D6F7}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="EffectStun" ID="{59B0327D-BE50-42E5-A5B2-D0E944F1B989}"/>
+									</StateGroupInfo>
+									<StateGroupInfo>
+										<StateGroupRef Name="EffectDash" ID="{9E26D346-2C16-47D1-A524-23B2FFB8166B}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="EffectStun" ID="{8767BBC0-634D-40FB-A992-4A04381ABB34}"/>
+										<State Name="" ID="{27E029D1-815F-42E5-A7B8-EB7B92E655BC}" ShortID="1032064782">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="50"/>
+												<Property Name="Volume" Type="Real64" Value="-30"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Dash" ID="{CB59C257-4A79-4126-A49C-08F8CC2352D2}"/>
+										<State Name="" ID="{C468E58E-0459-4373-8F12-9534F02A1E6D}" ShortID="397209075">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32" Value="-1500"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="CharacterDead" ID="{CE7DCF83-4CE5-45AD-B4AE-B09F80525AD3}"/>
+										<State Name="" ID="{99BFDE78-5436-4D69-884C-8480AA8E3B49}" ShortID="660893906">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+												<Property Name="Lowpass" Type="int16" Value="65"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Music" ID="{D82C691D-649D-47B6-9D95-AB59906AC046}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

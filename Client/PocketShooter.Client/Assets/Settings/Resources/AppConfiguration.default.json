@@ -1,0 +1,6 @@
+{
+  "version": "v0.3",
+  "metaServerIp": "127.0.0.1", 
+  "metaServerPort": 5000,
+  "bundleId": "com.pocket.shooter.test"
+}

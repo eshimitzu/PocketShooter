@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Tests.Integration.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Tests.Integration.csproj.DotSettings" />
+    <None Remove="link.xml" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdk)" />
+    <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
+    <PackageReference Include="NUnit3TestAdapter" Version="$(NUnit3TestAdapter)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Client\Heyworks.PocketShooter.Meta.Client.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />    
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Client\Heyworks.PocketShooter.Realtime.Client.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Client.Common\Heyworks.PocketShooter.Realtime.Client.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Unity\Microsoft.Extensions.Logging.Unity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+   <Reference Include="Photon3Unity3D">
+      <HintPath>..\..\..\..\..\Client\PocketShooter.Client\Assets\ThirdParties\PhotonAssets\Plugins\Photon3Unity3D.dll</HintPath>
+    </Reference>    
+    
+  </ItemGroup>
+</Project>

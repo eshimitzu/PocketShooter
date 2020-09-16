@@ -1,0 +1,19 @@
+{
+    "name": "Heyworks.PocketShooter.Realtime.Common",
+    "references": [
+        "UniRx",
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.Realtime.Serialization",
+        "Microsoft.Extensions.Logging.Unity",
+        "Heyworks.Realtime.State",
+        "Collections.Pooled"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

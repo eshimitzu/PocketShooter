@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Common.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Common.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="$(MicrosoftExtensionsVersion)" />
+    <PackageReference Include="System.Numerics.Vectors" Version="4.5.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="$(JsonNetVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Collections.Pooled\Scripts\Collections.Pooled.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Common\Heyworks.PocketShooter.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.Serialization\Heyworks.Realtime.Serialization.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Unity\Microsoft.Extensions.Logging.Unity.csproj" />
+  </ItemGroup>
+</Project>

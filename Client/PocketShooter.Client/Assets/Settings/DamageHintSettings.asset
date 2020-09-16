@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7b0e2308d2e04c809ce05eba2ac0bfa, type: 3}
+  m_Name: DamageHintSettings
+  m_EditorClassIdentifier: 
+  initScale: {x: 0.00225, y: 0.00225, z: 0.00225}
+  fadeCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00004196167
+      value: 0.9995117
+      inSlope: 0.004363376
+      outSlope: 0.004363376
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49590766
+      value: 1.0016754
+      inSlope: -0.014580403
+      outSlope: -0.014580403
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21118271
+      outWeight: 0.31924385
+    - serializedVersion: 3
+      time: 0.99765015
+      value: 0.004386902
+      inSlope: -1.98765
+      outSlope: -1.98765
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  scaleCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.00004196167
+      value: -0.0005187988
+      inSlope: 1.4233664
+      outSlope: 1.4233664
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.70107734
+      value: 0.9973114
+      inSlope: -0.014580403
+      outSlope: -0.014580403
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.21118271
+      outWeight: 0.31924385
+    - serializedVersion: 3
+      time: 0.99765015
+      value: 0.49236298
+      inSlope: -1.702612
+      outSlope: -1.702612
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  upScaleMultiplier: 1.5
+  showingTime: 0.6
+  defaultDelayBetweenHints: 0.2
+  spawnDispersionRadius: 0.15
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  textCriticalColor: {r: 1, g: 0, b: 0, a: 0}
+  textExtraColor: {r: 1, g: 0, b: 0, a: 0}
+  textHealColor: {r: 0.09344962, g: 0.9433962, b: 0.09344962, a: 0}
+  extraHintScaleFactor: 2
+  damageOffsetDistance: 1
+  healOffsetDistance: 0.5

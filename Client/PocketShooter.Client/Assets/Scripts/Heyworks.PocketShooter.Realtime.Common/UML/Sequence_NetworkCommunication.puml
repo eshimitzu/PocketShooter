@@ -1,0 +1,49 @@
+@startuml
+participant View
+participant Presenter
+participant Model
+participant Simulation
+participant NetworkService
+participant DataHandlers
+participant Serializers
+participant PhotonConnection
+participant PhotonPeer
+
+... MonoBehaviours Update() calls...
+View -> Presenter : User input
+Presenter -> Simulation : QueueCommand()
+...Simulation Update() called after other GameObjects updates...
+Simulation -> NetworkService : Receive()
+NetworkService -> PhotonConnection : Receive()
+PhotonConnection -> PhotonPeer : DispatchIncomingCommands()
+PhotonConnection <- PhotonPeer : Queue data events 
+NetworkService -> PhotonConnection : while HasData() do GetData() 
+NetworkService <- PhotonConnection : Byte data
+NetworkService -> DataHandlers : Handle(NetworkData)
+DataHandlers -> Serializers : Deserialize(byte[])
+DataHandlers <- Serializers : Command data
+NetworkService <- DataHandlers : ICommand
+NetworkService -> NetworkService : Execute command
+Simulation <- DataHandlers : State buffer populated 
+|||
+...If tick occured...
+Simulation -> Simulation : Get states from buffer
+Simulation -> Simulation : Reconcilation
+Model <- Simulation : SetState()
+Presenter <- Model : Changes
+View <- Presenter : Render
+Model <- Simulation : Execute command
+Presenter <- Model : Changes
+View <- Presenter : Render
+Simulation <- Model : Success flag
+Simulation -> NetworkService : QueueCommand()
+NetworkService -> DataHandlers : CreateMessage()
+DataHandlers -> Serializers : Serialize()
+DataHandlers <- Serializers : Byte data
+NetworkService <- DataHandlers : Byte data
+NetworkService -> PhotonConnection : QueueMessage()
+PhotonConnection -> PhotonPeer : OpCusom()
+Simulation -> NetworkService : Send()
+NetworkService -> PhotonConnection : Send()
+PhotonConnection -> PhotonPeer : SendOutgoingCommands()
+@enduml

@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+    <ApplicationIcon />
+    <OutputType>Exe</OutputType>
+    <StartupObject />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <WarningLevel>2</WarningLevel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Common.Tests.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Common.Tests.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdk)" />
+    <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
+    <PackageReference Include="NUnit3TestAdapter" Version="$(NUnit3TestAdapter)" />
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Common\Heyworks.PocketShooter.Realtime.Common.csproj" />
+  </ItemGroup>
+</Project>

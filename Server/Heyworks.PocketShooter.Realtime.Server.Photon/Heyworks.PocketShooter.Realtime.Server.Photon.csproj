@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <RootNamespace>Heyworks.PocketShooter</RootNamespace>
+    <AssemblyName>Heyworks.PocketShooter.Realtime.Server.Photon</AssemblyName>
+    <!-- 
+    When adding new dependency or upgrading previous do:
+    1. Uncomment next lines.
+    2. Grab generated overides in config
+    3. Remove System.ValueTuple override.
+    4. Comment out generation.
+    4. Push new config.
+     -->
+    <!-- <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType> -->
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>../.runtime/photon/deploy/PocketShooter/bin/</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>../.runtime/photon/deploy/PocketShooter/bin/</OutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Server.Hosting.Development\Heyworks.PocketShooter.Server.Hosting.Development.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>../.runtime/photon/lib/ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>../.runtime/photon/lib/Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>../.runtime/photon/lib/PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+  
+  <Import Project="../Environment.props" />
+  <Import Project="../GameConfig.props" />
+
+  <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
+    <PackageReference Include="NuGet.Frameworks" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\.appsettings\Photon.PocketShooter.config" Link="Photon.PocketShooter.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Heyworks.PocketShooter.Realtime.Server.Photon.dll.config" Link="Heyworks.PocketShooter.Realtime.Server.Photon.dll.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

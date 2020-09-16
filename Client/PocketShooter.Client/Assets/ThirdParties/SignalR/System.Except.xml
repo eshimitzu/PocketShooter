@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.Except</name>
+    </assembly>
+    <members>
+        <member name="T:System.Except">
+            <summary>
+            Shortcuts to create errors to make defensive programming easier.
+            </summary>
+            <remarks>
+            Does not contains and will not contain Exception shortcut as designed for opposite - throw more concrete errors.
+            </remarks>
+        </member>
+        <member name="M:System.GenericClassExtensions.NotNull``1(``0,System.String)">
+            <summary>
+              Drop this with C# 8.0 wide spread adoption.
+            </summary>
+        </member>
+        <member name="T:System.Throw">
+            <summary>
+            Shortcuts to throw errors to make defensive programming easier.
+            </summary>
+            <remarks>
+            Does not contains and will not contain Exception shortcut as designed for opposite - throw more concrete errors.
+            </remarks>
+        </member>
+    </members>
+</doc>

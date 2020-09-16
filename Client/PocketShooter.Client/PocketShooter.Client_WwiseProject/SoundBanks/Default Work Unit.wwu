@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BB0DCBB3-D31E-411B-AF8D-150D65236B86}" SchemaVersion="89">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BB0DCBB3-D31E-411B-AF8D-150D65236B86}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Character" ID="{BBB3C0C4-D002-4EE7-A7CE-ED3F83EF2DDD}">
+					<ObjectInclusionList>
+						<ObjectRef Name="CharachterEvents" ID="{810CC138-1F39-4295-ACA3-377A28E569D0}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<Folder Name="Environments" ID="{C0AD365F-B8DF-45AD-BBE4-4E47F7594F5A}" ShortID="661290650">
+					<ChildrenList>
+						<SoundBank Name="EnvMexNightBank" ID="{7DF066DD-D644-48A1-A69A-C22BA5FA161F}">
+							<ObjectInclusionList>
+								<ObjectRef Name="MexNightFridge" ID="{8EBC753F-0B80-41B0-B80A-7F77D85C7DB2}" WorkUnitID="{4F6D512D-3B4B-41A8-B474-D4E5A4C84821}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightBorder01" ID="{1B722525-FEF9-4264-AECD-C18A3B71BD75}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightFridgeCollisions" ID="{6AA5B64F-85F4-439E-9A07-AC3B9497FB73}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightGuitar" ID="{FBC51514-25BB-43CA-9B33-390AF3A29BB1}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightCrickets" ID="{44E05F7A-8AFB-4597-BB43-CAA805B83D9B}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNeonBuzz" ID="{66327EFA-189A-46A7-AF70-46BE4C28D228}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightSpeaker" ID="{0DF10CB9-54C2-46FA-95E7-53098FDB3978}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightPopcorn" ID="{17D7A4DF-82B4-473B-A936-6758E335648D}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightCar" ID="{AA77325D-EFF1-49B0-A709-2137142294D7}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightArcade" ID="{903BC3CE-214D-49EF-8E7B-9E11685F2D8C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+								<ObjectRef Name="PlayMexNightBorder02" ID="{5B2940ED-5BEA-4D08-A03B-52BB9F584D3C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+							</ObjectInclusionList>
+							<ObjectExclusionList/>
+							<GameSyncExclusionList/>
+						</SoundBank>
+					</ChildrenList>
+				</Folder>
+				<SoundBank Name="UI" ID="{DC0DC725-4162-48DB-8DBE-513C6B9D3853}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayButtonReload" ID="{127EF528-8747-49B1-A933-6783F5B87C37}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayButtonClick" ID="{4B840849-0F9F-4A44-B0E6-E61ACD7E1DC1}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayZoneProgressFriend" ID="{4FFA3E90-AD51-4AC7-AD33-07C8EF0967ED}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopZoneProgressEnemy" ID="{E2A96C09-56A4-4B22-BB9A-E4C029E6E401}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="PlayZoneProgressEnemy" ID="{A135F083-42FB-4DE8-8D87-48C6119A7203}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopZoneProgressFriend" ID="{5757CB65-6A5D-4F06-894D-D465DC3C935C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Music" ID="{B2F98892-0E20-414A-8870-92971C99BEED}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MusicEvents" ID="{C6033FAE-6EDE-4110-82BC-433A4CF44ADA}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

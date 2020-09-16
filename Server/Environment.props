@@ -1,0 +1,39 @@
+﻿<Project>
+  <ItemGroup>
+    <Content Include="..\.appsettings\appsettings.json" Link="appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == '' OR '$(ASPNETCORE_ENVIRONMENT)' == 'Development'" Include="..\.appsettings\appsettings.Development.json" Link="appsettings.Development.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == '' OR '$(ASPNETCORE_ENVIRONMENT)' == 'Development'" Include="..\.appsettings\mongod.Development.cfg" Link="mongod.Development.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>    
+
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Testing'" Include="..\.appsettings\appsettings.Testing.json" Link="appsettings.Testing.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Testing'" Include="..\.appsettings\mongod.Testing.cfg" Link="mongod.Testing.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Integration'" Include="..\.appsettings\appsettings.Integration.json" Link="appsettings.Integration.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Integration'" Include="..\.appsettings\mongod.Integration.cfg" Link="mongod.Integration.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Staging'" Include="..\.appsettings\appsettings.Staging.json" Link="appsettings.Staging.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Staging'" Include="..\.appsettings\mongod.Staging.cfg" Link="mongod.Staging.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+
+    <Content Condition="'$(ASPNETCORE_ENVIRONMENT)' == 'Production'" Include="..\.appsettings\appsettings.Production.json" Link="appsettings.Production.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

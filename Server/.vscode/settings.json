@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "Heyworks",
+        "netcoreapp",
+        "netstandard"
+    ],
+    "FSharp.fsacRuntime": "netcore",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "*pocketshooter.json"
+            ],
+            "url": "./.gameconfigs/pocketshooter.schema.json"        
+        }
+    ]   
+}

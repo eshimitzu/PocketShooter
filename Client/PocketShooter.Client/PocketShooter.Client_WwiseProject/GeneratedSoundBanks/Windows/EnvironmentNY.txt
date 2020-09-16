@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	735439430	PlayNYBusFire			\Default Work Unit\EnvironmentsEvents\NY\PlayNYBusFire	
+	2229733188	PlayNYTaxi			\Default Work Unit\EnvironmentsEvents\NY\PlayNYTaxi	
+	2856193125	PlayNYRags			\Default Work Unit\EnvironmentsEvents\NY\PlayNYRags	
+	3515801139	PlayNYBuzz			\Default Work Unit\EnvironmentsEvents\NY\PlayNYBuzz	
+	3741778643	PlayNYMetro			\Default Work Unit\EnvironmentsEvents\NY\PlayNYMetro	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	289869781	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYMetro\NYMetroVoice\NYMetroSilence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1207482	NYBuzz	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYBuzz_015C5172.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYBuzz\NYBuzz		923640
+	75921096	NYMetroVoice03	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYMetroAmb_1959EA5C_3A4A998E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYMetro\NYMetroVoice\NYMetroVoice03		2109504
+	97945683	NYFire	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYFire_B433071C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYBusFire\NYFire		755848
+	665215274	NYRadio	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\MilitaryBaseOutdoor_F26CE7B0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYBusFire\NYRadio		9585572
+	685253767	NYMetroTrain	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYMetroTrain_7485AAB8_3A4A998E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYMetro\NYMetroTrain		4577344
+	773201575	NYTaxi	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYTaxi_9B15F7BD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYTaxi		397180
+	803222986	NYMetroVoice02	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYMetroAmb_D4FFCC96_3A4A998E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYMetro\NYMetroVoice\NYMetroVoice02		1929280
+	833396930	NYMetroVoice01	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYMetroAmb_C33E1959_3A4A998E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYMetro\NYMetroVoice\NYMetroVoice01		3129408
+	890922951	NYRags	E:\Projects\PocketShooter2018\Heyworks.Prototype.PocketShooter.Client\Heyworks.Prototype.PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NYRags_D6EAC1AA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\NY\NYRags		370990
+

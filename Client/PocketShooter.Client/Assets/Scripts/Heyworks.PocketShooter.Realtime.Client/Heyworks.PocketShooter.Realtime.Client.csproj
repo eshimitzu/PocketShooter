@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Client.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Client.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Common\Heyworks.PocketShooter.Realtime.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Common\Heyworks.PocketShooter.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Unity\Microsoft.Extensions.Logging.Unity.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+    <PackageReference Include="Unity3D.UnityEngine" Version="$(Unity3DVersion)" />
+  </ItemGroup>
+</Project>

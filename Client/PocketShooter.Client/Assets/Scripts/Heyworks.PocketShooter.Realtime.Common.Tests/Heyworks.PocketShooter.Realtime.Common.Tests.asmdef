@@ -1,0 +1,22 @@
+{
+    "name": "Heyworks.PocketShooter.Realtime.Common.Tests",
+    "references": [
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.PocketShooter.Realtime.Common",
+        "Heyworks.Realtime.State",
+        "UniRx",
+        "Collections.Pooled"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

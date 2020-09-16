@@ -1,0 +1,53 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2133833567	CharacterLocal			\Default Work Unit\CharacterLocal	
+	3103015060	MusicStates			\Default Work Unit\MusicStates	
+	3466749342	EffectDash			\Default Work Unit\EffectDash	
+	4058248134	EffectStun			\Default Work Unit\EffectStun	
+
+State	ID	Name	State Group			Notes
+	0	None	CharacterLocal			
+	2810514764	CharacterDead	CharacterLocal			
+	0	None	MusicStates			
+	2810514764	CharacterDead	MusicStates			
+	0	None	EffectDash			
+	1942692385	Dash	EffectDash			
+	0	None	EffectStun			
+	4058248134	EffectStun	EffectStun			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	397209075	Dash	EffectDash	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	660893906	CharacterDead	CharacterLocal	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	1032064782	EffectStun	EffectStun	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	236204486	Skills3D			\Default Work Unit\Master Audio Bus\SFX\Character\Skills3D	
+	252982097	Skills2D			\Default Work Unit\Master Audio Bus\SFX\Character\Skills2D	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	436743010	Character			\Default Work Unit\Master Audio Bus\SFX\Character	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\SFX\Character\Footsteps	
+	2937637356	WeaponTier01			\Default Work Unit\Master Audio Bus\SFX\Character\Weapon\WeaponTier01	
+	2937637359	WeaponTier02			\Default Work Unit\Master Audio Bus\SFX\Character\Weapon\WeaponTier02	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3893417221	Weapon			\Default Work Unit\Master Audio Bus\SFX\Character\Weapon	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	4041657371	Voiceover			\Default Work Unit\Master Audio Bus\SFX\Character\Voiceover	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2659487259	ReverbTunnel			\Default Work Unit\Master Audio Bus\SFX\Environment\ReverbTunnel	
+	3895364587	ReverbArc			\Default Work Unit\Master Audio Bus\SFX\Environment\ReverbArc	
+	4113326352	ReverbBox			\Default Work Unit\Master Audio Bus\SFX\Environment\ReverbBox	
+
+Effect plug-ins	ID	Name	Type				Notes
+	614598429	ReverbBoxStone (Custom)	Wwise RoomVerb			
+	1196650426	ReverbTunnelStone	Wwise RoomVerb			
+	2754648833	WeaponCompTier01	Wwise Compressor			
+	2754648834	WeaponCompTier02	Wwise Compressor			
+	2755291687	Pumping_and_Breathing_2	Wwise Compressor			
+	2784751594	ReverbArcStone	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

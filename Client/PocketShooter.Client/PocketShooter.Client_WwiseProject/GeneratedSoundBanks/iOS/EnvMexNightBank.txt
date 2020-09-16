@@ -1,0 +1,33 @@
+Event	ID	Name			Wwise Object Path	Notes
+	19614224	PlayMexNightFridge			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridge	
+	757514116	PlayMexNeonBuzz			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNeonBuzz	
+	1256139746	PlayMexNightSpeaker			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightSpeaker	
+	1369822775	PlayMexNightCar			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCar	
+	1385766959	PlayMexNightArcade			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightArcade	
+	1635926023	PlayMexNightCrickets			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCrickets	
+	2477669841	PlayMexNightGuitar			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightGuitar	
+	2639876882	PlayMexNightPopcorn			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightPopcorn	
+	2705825680	PlayMexNightBorder01			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder01	
+	2705825683	PlayMexNightBorder02			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder02	
+	3836397147	PlayMexNightFridgeCollisions			\Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridgeCollisions	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	306640770	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightCrickets\Pause\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20453790	MexNightArcade	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightArcade_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightArcade		37431
+	146115207	MexGuitar_02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexGuitar_6450900F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightGuitar\MexGuitar_02		10139
+	186164303	MexNightParakeet	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightParakeet_9A60064C.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightCrickets\MexNightParakeet		15861
+	214672011	MexNightBorder02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightCity_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightBorder02		94040
+	239545689	MexNeonBuzz	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\ElectricBuzz_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNeonBuzz		1980
+	402361195	MexGuitar_01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexGuitar_E9D01220.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightGuitar\MexGuitar_01		9887
+	421029485	MexNightSpeaker	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightSpeaker_D5226196_9A7F5E49.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightSpeaker		222012
+	448080358	MexNightBorder01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightBorder01_2_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightBorder01		111205
+	458475430	MexNightPopcorn	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightPopcorn_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightPopcorn		24386
+	530594686	FridgeCollision02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\FridgeCollision02_9A60064C_5B2DE158.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightFridgeCollisions\FridgeCoins\FridgeCollision02		4434
+	652859077	MexGuitar	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexGuitar_F82C0CEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightGuitar\MexGuitar		11219
+	757782554	MexNightFridge	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexNightFridge_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightFridge		4184
+	913288158	FridgeCollision01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\FridgeCollision01_9A60064C_5B2DE158.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightFridgeCollisions\FridgeCoins\FridgeCollision01		5789
+	945217229	FridgeCollision	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\Appliances, Fridge, Door, Open, Close 1 SND11232_9A60064C_5B2DE158.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightFridgeCollisions\FridgeCollision		3849
+	1061732495	MexNightCar	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MexCar_D5226196.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Environments\MexicoNight\MexNightCar		16194
+

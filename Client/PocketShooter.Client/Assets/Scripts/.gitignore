@@ -1,0 +1,4 @@
+
+# Unity and Sln crossbuild support
+.bin
+.obj

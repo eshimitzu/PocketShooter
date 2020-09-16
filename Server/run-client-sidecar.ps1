@@ -1,0 +1,1 @@
+go-shadowsocks2 -c 'ss://AEAD_CHACHA20_POLY1305:jsh7QepzI21@94.130.51.232:8487' -verbose -socks :1081 -u -tcptun :30001=127.0.0.1:30001

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7507E2C4-7321-4AAD-9D92-AA18998D8919}" SchemaVersion="89">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{7507E2C4-7321-4AAD-9D92-AA18998D8919}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Footsteps" ID="{7969422F-6486-4D36-B61B-0BE942FE13E7}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Outdoor" ID="{3ED018EF-4AAD-47D7-94A7-87E49883A50F}"/>
+						<Switch Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

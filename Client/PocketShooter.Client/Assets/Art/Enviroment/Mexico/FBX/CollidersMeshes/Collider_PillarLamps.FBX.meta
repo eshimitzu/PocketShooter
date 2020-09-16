@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: 41ff7adad27eb2d4f8bc644b58c61100
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Object001
+    100004: Object002
+    100006: Object003
+    100008: PillarLamp
+    100010: PillarLamp_Big
+    100012: Collider_PillarLamp
+    100014: Collider_PillarLamp_Big
+    100016: PillarLamp_Big_Glass
+    100018: PillarLamp_Glass
+    400000: //RootNode
+    400002: Object001
+    400004: Object002
+    400006: Object003
+    400008: PillarLamp
+    400010: PillarLamp_Big
+    400012: Collider_PillarLamp
+    400014: Collider_PillarLamp_Big
+    400016: PillarLamp_Big_Glass
+    400018: PillarLamp_Glass
+    2100000: 'Material #1618'
+    2100002: 'Material #101'
+    2100004: 'Material #116'
+    2300000: Object001
+    2300002: Object002
+    2300004: Object003
+    2300006: PillarLamp
+    2300008: PillarLamp_Big
+    2300010: Collider_PillarLamp
+    2300012: Collider_PillarLamp_Big
+    2300014: PillarLamp_Big_Glass
+    2300016: PillarLamp_Glass
+    3300000: Object001
+    3300002: Object002
+    3300004: Object003
+    3300006: PillarLamp
+    3300008: PillarLamp_Big
+    3300010: Collider_PillarLamp
+    3300012: Collider_PillarLamp_Big
+    3300014: PillarLamp_Big_Glass
+    3300016: PillarLamp_Glass
+    4300000: PillarLamp_Big
+    4300002: PillarLamp
+    4300004: Object001
+    4300006: Object002
+    4300008: Object003
+    4300010: Collider_PillarLamp_Big
+    4300012: Collider_PillarLamp
+    4300014: PillarLamp_Big_Glass
+    4300016: PillarLamp_Glass
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

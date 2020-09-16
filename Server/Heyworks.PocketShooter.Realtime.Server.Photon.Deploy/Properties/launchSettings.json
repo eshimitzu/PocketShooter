@@ -1,0 +1,20 @@
+{
+  "profiles": {
+    "Development": {
+      "commandName": "Executable",
+      "executablePath": "$(MSBuildProjectDirectory)..\\..\\.runtime/photon/deploy/bin_Win64/PhotonSocketServer.exe",
+      "commandLineArgs": "/debug PocketShooter /configPath $(MSBuildProjectDirectory)..\\..\\.runtime\\photon\\deploy\\PocketShooterDeploy\\bin /config Photon.PocketShooter.config",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Staging": {
+      "commandName": "Executable",
+      "executablePath": "$(MSBuildProjectDirectory)..\\..\\.runtime/photon/deploy/bin_Win64/PhotonSocketServer.exe",
+      "commandLineArgs": "/debug PocketShooter /configPath $(MSBuildProjectDirectory)..\\..\\.runtime\\photon\\deploy\\PocketShooterDeploy\\bin /config Photon.PocketShooter.config",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Staging"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+Event	ID	Name			Wwise Object Path	Notes
+	155309140	PlayZoneProgressEnemy			\Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressEnemy	
+	316625824	PlayButtonReload			\Default Work Unit\UIEvents\Battle\PlayButtonReload	
+	975959046	StopZoneProgressFriend			\Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressFriend	
+	1998900360	PlayZoneProgressFriend			\Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressFriend	
+	2783781982	StopZoneProgressEnemy			\Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressEnemy	
+	3105979793	PlayButtonClick			\Default Work Unit\UIEvents\Lobby\PlayButtonClick	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	541593294	ZoneProgressFriend			\Default Work Unit\ZoneProgressFriend	
+	3355860486	ZoneProgressEnemy			\Default Work Unit\ZoneProgressEnemy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	88901944	ZoneProgressEnemy	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\CaptureZoneChange_5CAF53E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Battle\ZoneChange\ZoneProgressEnemy		107524
+	114419416	ButtonReload	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\ButtonReload_20765300.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Battle\ButtonReload		961
+	442081163	ButtonClick	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\HF HANDLING Rifle Breechload Cocking Medium 0m_2F04B72D.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Lobby\ButtonClick		801
+	826365871	ZoneProgressFriend	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\ZoneChange02_35356760.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Battle\ZoneChange\ZoneProgressFriend		24252
+

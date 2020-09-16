@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Condition="'$(OS)' == 'Windows_NT'">
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Server\Heyworks.PocketShooter.Meta.Server.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Server.Back\Heyworks.PocketShooter.Meta.Server.Back.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Server.Runtime\Heyworks.PocketShooter.Realtime.Server.Runtime.csproj" />
+    <PackageReference Include="YamlDotNet" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ExitGamesLibs">
+      <HintPath>../.runtime/photon/lib/ExitGamesLibs.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon.SocketServer">
+      <HintPath>../.runtime/photon/lib/Photon.SocketServer.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonHostRuntimeInterfaces">
+      <HintPath>../.runtime/photon/lib/PhotonHostRuntimeInterfaces.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(OS)' != 'Windows_NT'">
+    <PackageReference Include="NuGet.Frameworks" Version="4.7.2" />
+  </ItemGroup>
+
+</Project>

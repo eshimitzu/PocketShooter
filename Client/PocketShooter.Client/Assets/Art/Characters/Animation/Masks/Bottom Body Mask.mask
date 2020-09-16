@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Bottom Body Mask
+  m_Mask: 01000000000000000000000001000000010000000000000000000000000000000000000001000000010000000000000000000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Trooper
+    m_Weight: 0
+  - m_Path: Trooper_Root
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_LeftUpLeg
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_LeftUpLeg/Trooper_LeftLeg
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_LeftUpLeg/Trooper_LeftLeg/Trooper_LeftFoot
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_LeftUpLeg/Trooper_LeftLeg/Trooper_LeftFoot/Trooper_LeftFootIndex
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_LeftUpLeg/Trooper_LeftLeg/Trooper_LeftFoot/Trooper_LeftFootIndex/Trooper_LeftFootIndex1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_RightUpLeg
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_RightUpLeg/Trooper_RightLeg
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_RightUpLeg/Trooper_RightLeg/Trooper_RightFoot
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_RightUpLeg/Trooper_RightLeg/Trooper_RightFoot/Trooper_RightFootIndex
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_RightUpLeg/Trooper_RightLeg/Trooper_RightFoot/Trooper_RightFootIndex/Trooper_RightFootIndex1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand/Slot_Left
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand/Trooper_LeftHandMiddle1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand/Trooper_LeftHandMiddle1/Trooper_LeftHandMiddle2
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand/Trooper_LeftHandThumb1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_LeftShoulder/Trooper_LeftArm/Trooper_LeftForeArm/Trooper_LeftHand/Trooper_LeftHandThumb1/Trooper_LeftHandThumb2
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_Neck
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_Neck/Trooper_Neck1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_Neck/Trooper_Neck1/Trooper_Head
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Slot_Rigtht
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Slot_Rigtht/Slot_Ammo
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Trooper_RightHandMiddle1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Trooper_RightHandMiddle1/Trooper_RightHandMiddle2
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Trooper_RightThumb1
+    m_Weight: 0
+  - m_Path: Trooper_Root/Trooper_Hips/Trooper_Spine1/Trooper_Spine2/Trooper_Spine3/Trooper_RightShoulder/Trooper_RightArm/Trooper_RightForeArm/Trooper_RightHand/Trooper_RightThumb1/Trooper_RightThumb2
+    m_Weight: 0

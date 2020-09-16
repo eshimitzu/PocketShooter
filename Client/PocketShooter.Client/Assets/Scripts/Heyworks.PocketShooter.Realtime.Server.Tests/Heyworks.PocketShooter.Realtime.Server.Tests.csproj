@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Server.Tests.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Server.Tests.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.0.0" />
+    <PackageReference Include="xunit" Version="$(xUnitVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(xUnitVersion)" />
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Common.Tests\Heyworks.PocketShooter.Realtime.Common.Tests.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Server\Heyworks.PocketShooter.Realtime.Server.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />
+  </ItemGroup>
+</Project>

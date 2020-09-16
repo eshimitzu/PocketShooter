@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee712ee896d4c8e98c362a55aa0d54b, type: 3}
+  m_Name: StealthSprintSkillSpec
+  m_EditorClassIdentifier: 
+  skillName: 21
+  icon: {fileID: 21300000, guid: 981aee6634d4548298381137cdfdd456, type: 3}
+  sprintSkillSpec: {fileID: 11400000, guid: cf34b657ff1d146059f968eeeccfd7fc, type: 2}
+  invisibilitySkillSpec: {fileID: 11400000, guid: 0cf3870ad5e6c42b7a0b0e1d347b56a2,
+    type: 2}

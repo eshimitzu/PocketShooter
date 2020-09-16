@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <!--Uncomment the directive below to copy NuGet references to build output.
+        May be useful to update Unity client SignalR dependencies-->
+    <!--<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>-->
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Meta.Client.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Meta.Client.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="$(MicrosoftAspNetCoreSignalRVersion)" />
+    <PackageReference Include="Polly" Version="$(PollyVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Common\Heyworks.PocketShooter.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Meta.Common\Heyworks.PocketShooter.Meta.Common.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Unity\Microsoft.Extensions.Logging.Unity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8721370265740964164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8721370265740964162}
+  - component: {fileID: 8721370265740964165}
+  m_Layer: 0
+  m_Name: EffectsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8721370265740964162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721370265740964164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8721370265740964165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8721370265740964164}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05c5654bdfa3d4cbdbc0f122211b99b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectCategoryInfos:
+  - categoryName: Skills
+    effectTypeInfos:
+    - effectType: 1
+      effectPrefab: {fileID: 722119371685612177, guid: 3894f5012bd8f4c6f9a6310d63cd87ca,
+        type: 3}
+    - effectType: 2
+      effectPrefab: {fileID: 100006, guid: 1376601642979d44f80c6a93e84531c8, type: 3}
+    - effectType: 3
+      effectPrefab: {fileID: 237165426817646887, guid: a65f1e061f2a1db4b808b564dc70efa9,
+        type: 3}
+    - effectType: 4
+      effectPrefab: {fileID: 971772848782491175, guid: 5f169160d267b1944b2c32390ca02005,
+        type: 3}
+    - effectType: 5
+      effectPrefab: {fileID: 971772848782491175, guid: 96c9fdbfe6473e345a4f25c58822db2d,
+        type: 3}
+    - effectType: 6
+      effectPrefab: {fileID: 5225385307208983799, guid: 53c8af856f38dfb42b5b365b1dea2ef3,
+        type: 3}
+    - effectType: 7
+      effectPrefab: {fileID: 1530896621092968453, guid: 415d9a6bec9f9e249bed92bdabc03e41,
+        type: 3}
+    - effectType: 8
+      effectPrefab: {fileID: 218579690897014442, guid: f580615b0108eef4791348dede5eae57,
+        type: 3}
+    - effectType: 9
+      effectPrefab: {fileID: 2431978689427047657, guid: b9f2b9b2bdc4c20409b9f0c20ae135b9,
+        type: 3}
+    - effectType: 10
+      effectPrefab: {fileID: 829076357891409497, guid: fc6ae051d48afc746ba85ec7bdd1e050,
+        type: 3}
+    - effectType: 11
+      effectPrefab: {fileID: 2999508702601002061, guid: f0e1d02539a92c8429d9088da70d7f3c,
+        type: 3}
+    - effectType: 12
+      effectPrefab: {fileID: 5021610337926854490, guid: 63d0e1c804a6d5740b5fc053c47f1dc6,
+        type: 3}
+    - effectType: 13
+      effectPrefab: {fileID: 5056275080694278479, guid: b50eadee7c69c224f8e30c8a076dcff0,
+        type: 3}
+    - effectType: 14
+      effectPrefab: {fileID: 5183090525942575251, guid: e7bd76713511e0b4c8d7541049fab1c3,
+        type: 3}
+    - effectType: 15
+      effectPrefab: {fileID: 4692784553739357041, guid: 9aa6450e3ec841a4590d398055e394e8,
+        type: 3}
+    - effectType: 16
+      effectPrefab: {fileID: 2571529546983249942, guid: b411e71ffa8b4ab4ea0c20ad40b87c43,
+        type: 3}
+    - effectType: 17
+      effectPrefab: {fileID: 5803006836004387835, guid: 8248e2f056f2a8b43b43d41449be7c31,
+        type: 3}
+    - effectType: 18
+      effectPrefab: {fileID: 5905693404511322284, guid: d05559a766d708845b8b6be8474c03e5,
+        type: 3}
+    - effectType: 19
+      effectPrefab: {fileID: 6846748020210720073, guid: 88fa002532db04a4facf5557ed66bac9,
+        type: 3}
+    - effectType: 21
+      effectPrefab: {fileID: 1049788328, guid: 33f6bd45eec09a44c9759a4787545184, type: 3}
+  - categoryName: Character
+    effectTypeInfos:
+    - effectType: 20
+      effectPrefab: {fileID: 5732752112049968341, guid: 2496c5125c75efe48ab796133928e93d,
+        type: 3}

@@ -1,0 +1,13 @@
+# copy these keys into Jenkins ~/.ssh/known_hosts or other machine which will do remote SSH
+
+# Storage
+github.com,192.30.253.113 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+
+# Testing
+94.130.51.232 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKWCeHwl/5xogF1IobE2vMsuUjsd/bkR5Da5eWpN562j7TlvY3z/VbknQ6NgozDqVvaxfWHo4LCUg1o6T81hryw=
+
+# Staging
+178.162.205.2 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBHEqbpLp6Z0zjKA/9DWWQFnMcqpuqlGAZ3IlhQb+ku0in0SShPfviHiFsXZ4LY4rfnayK3Nww8QnTfefOt3zPGw=
+
+
+

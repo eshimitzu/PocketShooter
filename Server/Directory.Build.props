@@ -1,0 +1,55 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Heyworks.PocketShooter</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <MicrosoftExtensionsVersion>2.2.0</MicrosoftExtensionsVersion>
+    <MicrosoftAspNetCoreVersion>2.2.0</MicrosoftAspNetCoreVersion>
+    <MicrosoftAspNetCoreSignalRVersion>1.1.0</MicrosoftAspNetCoreSignalRVersion>
+    <MicrosoftOrleansVersion>2.4.1</MicrosoftOrleansVersion>
+    <IdentityModelJwtVersion>5.4.0</IdentityModelJwtVersion>
+    <JsonNetVersion>12.0.1</JsonNetVersion>
+    <xUnitVersion>2.4.1</xUnitVersion>
+    <ElasticSearchExtensionsLoggingVersion>1.0.39</ElasticSearchExtensionsLoggingVersion>
+    <OrleansTelemetryConsumersElasticSearchVersion>2.0.20</OrleansTelemetryConsumersElasticSearchVersion>
+    <OrleansProvidersMongoDBVersion>2.7.0</OrleansProvidersMongoDBVersion>
+    <MongoDBDriverVersion>2.9.0</MongoDBDriverVersion>
+    <Unity3DVersion>2018.3.5.1</Unity3DVersion>
+    <PollyVersion>7.1.0</PollyVersion>
+    <SerilogVersion>2.8.0</SerilogVersion>
+    <SerilogAspNetCoreVersion>2.1.1</SerilogAspNetCoreVersion>
+    <SerilogExtensionsHostingVersion>2.0.0</SerilogExtensionsHostingVersion>
+    <SerilogExtensionsLoggingVersion>2.0.2</SerilogExtensionsLoggingVersion>
+    <SerilogConfigurationVersion>3.0.1</SerilogConfigurationVersion>
+    <SerilogSinksConsoleVersion>3.1.1</SerilogSinksConsoleVersion>
+    <SerilogSinksFileVersion>4.0.0</SerilogSinksFileVersion>
+    <SerilogEnrichersThread>3.0.0</SerilogEnrichersThread>
+    <NUnitVersion>3.11.0</NUnitVersion>
+    <NUnit3TestAdapter>3.13.0</NUnit3TestAdapter>
+    <MicrosoftNETTestSdk>16.0.0</MicrosoftNETTestSdk>
+    <SystemThreadingChannels>4.5.0</SystemThreadingChannels>
+    <UnofficialSystemExcept>1.1.1</UnofficialSystemExcept>
+    <SystemComponentModelAnnotationsVersion>4.5.0</SystemComponentModelAnnotationsVersion>
+    <NJsonSchemaVersion>9.14.1</NJsonSchemaVersion>
+    <GoogleApisAndroidPublisherVersion>1.40.2.1627</GoogleApisAndroidPublisherVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(SolutionDir)'!='*Undefined*'">
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.1-rc.94" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(SolutionDir)'!='*Undefined*'">
+    <AdditionalFiles Include="$(SolutionDir)..\CARuleSets\stylecop.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Unofficial.System.Except" Version="$(UnofficialSystemExcept)" />
+  </ItemGroup>
+</Project>

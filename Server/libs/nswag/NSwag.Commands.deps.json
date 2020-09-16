@@ -1,0 +1,352 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "NSwag.Commands/12.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.TestHost": "2.2.0",
+          "NConsole": "3.9.6519.30868",
+          "NJsonSchema": "9.14.1",
+          "NJsonSchema.CodeGeneration": "9.14.1",
+          "NJsonSchema.CodeGeneration.CSharp": "9.14.1",
+          "NJsonSchema.CodeGeneration.TypeScript": "9.14.1",
+          "NJsonSchema.Yaml": "9.14.1",
+          "NSwag.Annotations": "12.3.0",
+          "NSwag.AssemblyLoader": "12.3.0",
+          "NSwag.CodeGeneration": "12.3.0",
+          "NSwag.CodeGeneration.CSharp": "12.3.0",
+          "NSwag.CodeGeneration.TypeScript": "12.3.0",
+          "NSwag.Core": "12.3.0",
+          "NSwag.Core.Yaml": "12.3.0",
+          "NSwag.SwaggerGeneration": "12.3.0",
+          "NSwag.SwaggerGeneration.AspNetCore": "12.3.0",
+          "NSwag.SwaggerGeneration.WebApi": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.Commands.dll": {}
+        }
+      },
+      "DotLiquid/2.0.254": {
+        "runtime": {
+          "lib/netstandard1.3/DotLiquid.dll": {
+            "assemblyVersion": "2.0.254.0",
+            "fileVersion": "2.0.254.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard1.3/it/DotLiquid.resources.dll": {
+            "locale": "it"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.TestHost/2.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.TestHost.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
+      "NConsole/3.9.6519.30868": {
+        "runtime": {
+          "lib/netstandard1.0/NConsole.dll": {
+            "assemblyVersion": "3.9.6519.30868",
+            "fileVersion": "3.9.6519.30868"
+          }
+        }
+      },
+      "NJsonSchema/9.14.1": {
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.dll": {
+            "assemblyVersion": "9.14.1.0",
+            "fileVersion": "9.14.1.0"
+          }
+        }
+      },
+      "NJsonSchema.CodeGeneration/9.14.1": {
+        "dependencies": {
+          "DotLiquid": "2.0.254",
+          "NJsonSchema": "9.14.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.CodeGeneration.dll": {
+            "assemblyVersion": "9.14.1.0",
+            "fileVersion": "9.14.1.0"
+          }
+        }
+      },
+      "NJsonSchema.CodeGeneration.CSharp/9.14.1": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NJsonSchema.CodeGeneration": "9.14.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.CodeGeneration.CSharp.dll": {
+            "assemblyVersion": "9.14.1.0",
+            "fileVersion": "9.14.1.0"
+          }
+        }
+      },
+      "NJsonSchema.CodeGeneration.TypeScript/9.14.1": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NJsonSchema.CodeGeneration": "9.14.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.CodeGeneration.TypeScript.dll": {
+            "assemblyVersion": "9.14.1.0",
+            "fileVersion": "9.14.1.0"
+          }
+        }
+      },
+      "NJsonSchema.Yaml/9.14.1": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "YamlDotNet.Signed": "5.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NJsonSchema.Yaml.dll": {
+            "assemblyVersion": "9.14.1.0",
+            "fileVersion": "9.14.1.0"
+          }
+        }
+      },
+      "System.Net.Http/4.3.2": {},
+      "System.Runtime.Loader/4.0.0": {},
+      "YamlDotNet.Signed/5.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/YamlDotNet.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.1.0.0"
+          }
+        }
+      },
+      "NSwag.Annotations/12.3.0": {
+        "runtime": {
+          "NSwag.Annotations.dll": {}
+        }
+      },
+      "NSwag.AssemblyLoader/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "System.Net.Http": "4.3.2",
+          "System.Runtime.Loader": "4.0.0"
+        },
+        "runtime": {
+          "NSwag.AssemblyLoader.dll": {}
+        }
+      },
+      "NSwag.CodeGeneration/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NJsonSchema.CodeGeneration": "9.14.1",
+          "NSwag.Core": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.CodeGeneration.dll": {}
+        }
+      },
+      "NSwag.CodeGeneration.CSharp/12.3.0": {
+        "dependencies": {
+          "NJsonSchema.CodeGeneration.CSharp": "9.14.1",
+          "NSwag.CodeGeneration": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.CodeGeneration.CSharp.dll": {}
+        }
+      },
+      "NSwag.CodeGeneration.TypeScript/12.3.0": {
+        "dependencies": {
+          "NJsonSchema.CodeGeneration.TypeScript": "9.14.1",
+          "NSwag.CodeGeneration": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.CodeGeneration.TypeScript.dll": {}
+        }
+      },
+      "NSwag.Core/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1"
+        },
+        "runtime": {
+          "NSwag.Core.dll": {}
+        }
+      },
+      "NSwag.Core.Yaml/12.3.0": {
+        "dependencies": {
+          "NJsonSchema.Yaml": "9.14.1",
+          "NSwag.Core": "12.3.0",
+          "YamlDotNet.Signed": "5.1.0"
+        },
+        "runtime": {
+          "NSwag.Core.Yaml.dll": {}
+        }
+      },
+      "NSwag.SwaggerGeneration/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NSwag.Core": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.SwaggerGeneration.dll": {}
+        }
+      },
+      "NSwag.SwaggerGeneration.AspNetCore/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NSwag.SwaggerGeneration": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.SwaggerGeneration.AspNetCore.dll": {}
+        }
+      },
+      "NSwag.SwaggerGeneration.WebApi/12.3.0": {
+        "dependencies": {
+          "NJsonSchema": "9.14.1",
+          "NSwag.SwaggerGeneration": "12.3.0"
+        },
+        "runtime": {
+          "NSwag.SwaggerGeneration.WebApi.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NSwag.Commands/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotLiquid/2.0.254": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N7HABMDDcOYniRQT8E9DXshLWU1CFGih9Z3OsXq2lx5Z3vyWau8tzwr9rVw8eCf+17PpJI8jPXWmdMqntuSuMg==",
+      "path": "dotliquid/2.0.254",
+      "hashPath": "dotliquid.2.0.254.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.TestHost/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RTeNqM9objReH3pRKKAJoTVK/3Guvg3l3rwoR0nlFYNd8nnyv8NREXsmJlJY9eTvUtNn5gK6GroB6G1Hei6CvQ==",
+      "path": "microsoft.aspnetcore.testhost/2.2.0",
+      "hashPath": "microsoft.aspnetcore.testhost.2.2.0.nupkg.sha512"
+    },
+    "NConsole/3.9.6519.30868": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6R2db1cGteE0VxFzWlEIJk4ts/kqgtPR6lv7Dnd7kwbG05QK5SQHS63vQuPquJUMLZD5YNtX7fZUwCy0RKra4g==",
+      "path": "nconsole/3.9.6519.30868",
+      "hashPath": "nconsole.3.9.6519.30868.nupkg.sha512"
+    },
+    "NJsonSchema/9.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lpm+J+i/nOxlCp6HSZyy8Xmy5l7RRXZCEiG3mL16GC3ZmU5oWRAnbo/wiMzfC2PeXYLpDU4jpEVDE0WrgRGSAg==",
+      "path": "njsonschema/9.14.1",
+      "hashPath": "njsonschema.9.14.1.nupkg.sha512"
+    },
+    "NJsonSchema.CodeGeneration/9.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v4ri5zQL2PuHcmNeUY0vWp3W/W7HWopjtvUzQV1Pvi45cbgiW3bZAzCTuC+9cHO/ytFO/oVNQKGhy+uo63qf2A==",
+      "path": "njsonschema.codegeneration/9.14.1",
+      "hashPath": "njsonschema.codegeneration.9.14.1.nupkg.sha512"
+    },
+    "NJsonSchema.CodeGeneration.CSharp/9.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Wmrk0xrl1ASgnpzLglWjZVjOGAfILKVEzYmijh2Y1D30BWeJmNjaLHYKZGhMdXIIGeilH1C3AgfOANea3ZUBpQ==",
+      "path": "njsonschema.codegeneration.csharp/9.14.1",
+      "hashPath": "njsonschema.codegeneration.csharp.9.14.1.nupkg.sha512"
+    },
+    "NJsonSchema.CodeGeneration.TypeScript/9.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cbNM+k1YVvL6ecB8pGe0P3oD+B2rJKI2j1NuTKma34yvaL6ExXmBoUQ7ooDgne9DjbZvy3yiQQsTc6rvFQD6fA==",
+      "path": "njsonschema.codegeneration.typescript/9.14.1",
+      "hashPath": "njsonschema.codegeneration.typescript.9.14.1.nupkg.sha512"
+    },
+    "NJsonSchema.Yaml/9.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZMJvAXZPkpC9a/pnW3SzAdk+PoOUQnxjDooYlu8bZrCnu5WNZW3GluupEFefAmk/VglER7ej8S0BvYBu4bv4bQ==",
+      "path": "njsonschema.yaml/9.14.1",
+      "hashPath": "njsonschema.yaml.9.14.1.nupkg.sha512"
+    },
+    "System.Net.Http/4.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-y7hv0o0weI0j0mvEcBOdt1F3CAADiWlcw3e54m8TfYiRmBPDIsHElx8QUPDlY4x6yWXKPGN0Z2TuXCTPgkm5WQ==",
+      "path": "system.net.http/4.3.2",
+      "hashPath": "system.net.http.4.3.2.nupkg.sha512"
+    },
+    "System.Runtime.Loader/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4UN78GOVU/mbDFcXkEWtetJT/sJ0yic2gGk1HSlSpWI0TDf421xnrZTDZnwNBapk1GQeYN7U1lTj/aQB1by6ow==",
+      "path": "system.runtime.loader/4.0.0",
+      "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
+    },
+    "YamlDotNet.Signed/5.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3iZF8/sDp/AxnA3YZ3gR+8irfd2FiBsqdR9fywzcpeBdaqUDRncqejAv3+jIwwCoHJz3No6JT7u+NzTeVE+5VA==",
+      "path": "yamldotnet.signed/5.1.0",
+      "hashPath": "yamldotnet.signed.5.1.0.nupkg.sha512"
+    },
+    "NSwag.Annotations/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.AssemblyLoader/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.CodeGeneration/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.CodeGeneration.CSharp/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.CodeGeneration.TypeScript/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.Core/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.Core.Yaml/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.SwaggerGeneration/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.SwaggerGeneration.AspNetCore/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSwag.SwaggerGeneration.WebApi/12.3.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

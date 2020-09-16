@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="$(JsonNetVersion)" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="$(SystemComponentModelAnnotationsVersion)" />
+    <PackageReference Include="NJsonSchema" Version="$(NJsonSchemaVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Common\Heyworks.PocketShooter.Common.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.PocketShooter.Meta.Common.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Meta.Common.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+    <Compile Remove="obj\**" />
+    <None Remove="obj\**" />
+  </ItemGroup>
+</Project>

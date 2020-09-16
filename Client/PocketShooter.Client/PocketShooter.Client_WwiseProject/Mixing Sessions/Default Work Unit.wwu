@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4182D7C4-DDA1-4EF8-B024-9CA26ED221BF}" SchemaVersion="89">
+	<MixingSessions>
+		<WorkUnit Name="Default Work Unit" ID="{4182D7C4-DDA1-4EF8-B024-9CA26ED221BF}" PersistMode="Standalone">
+			<ChildrenList>
+				<MixingSession Name="New Mixing Session" ID="{16EC67D8-1969-4D98-8CC8-E42104B7D3AB}">
+					<ObjectList>
+						<ObjectRef Name="Environment" ID="{BD832ADB-FA0D-4894-B5C9-094C86429230}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+						<ObjectRef Name="Character" ID="{1CBBAFC8-7F0D-46D9-9DD4-2CC46069CA30}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+						<ObjectRef Name="Footsteps" ID="{0972EAE1-8AE0-46C9-81A4-28279276F651}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+						<ObjectRef Name="WeaponTier01" ID="{D2ADAE84-D6F9-4559-87FE-D35FC68E69C8}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+						<ObjectRef Name="WeaponTier02" ID="{A94D49C9-BFAA-466C-81B1-91301B7C2554}" WorkUnitID="{E708F850-54A4-4B26-9F53-E9F79663A3F1}"/>
+					</ObjectList>
+				</MixingSession>
+			</ChildrenList>
+		</WorkUnit>
+	</MixingSessions>
+</WwiseDocument>

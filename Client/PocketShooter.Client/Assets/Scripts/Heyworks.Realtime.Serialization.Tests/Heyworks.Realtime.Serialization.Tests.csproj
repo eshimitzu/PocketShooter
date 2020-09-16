@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Heyworks.Realtime.Serialization.Tests.asmdef" />
+    <None Remove="Heyworks.Realtime.Serialization.Tests.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ObjectLayoutInspector" Version="0.1.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdk)" />
+    <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
+    <PackageReference Include="NUnit3TestAdapter" Version="$(NUnit3TestAdapter)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.Realtime.Serialization\Heyworks.Realtime.Serialization.csproj" />
+  </ItemGroup>
+</Project>

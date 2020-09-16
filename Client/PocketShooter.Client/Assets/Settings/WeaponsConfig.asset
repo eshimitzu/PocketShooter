@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de01ec3bd12841d592daf99ab8f8b70, type: 3}
+  m_Name: WeaponsConfig
+  m_EditorClassIdentifier: 
+  weaponList:
+  - characterAnimatorController: {fileID: 9100000, guid: 100379c51a50d4b0798b9b6f3436dbc4,
+      type: 2}
+    name: 31
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 4a744de9cfac24a02a420fdb31fd9f8c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6296435126845205452, guid: cf006b1cc10814a16bc84d1b15fd6c0e,
+      type: 3}
+    weaponView: {fileID: 114612434552832150, guid: da1003bba05e94c5d9fafa82cb424d93,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: fc107761879ba2445aed51ac7c399272,
+      type: 3}
+    crosshairRelativeSize: 62
+    sniperScope: 0
+  - characterAnimatorController: {fileID: 22100000, guid: 4fca0194b38154e0a990ab66a96c31c5,
+      type: 2}
+    name: 1
+    weaponController: {fileID: 7785603051550816315, guid: 6221afa387c2643fa8d79b395d0b5dbe,
+      type: 3}
+    weaponRaycaster: {fileID: 1975645440503097230, guid: 066b0941406aa4da18f939a5be245585,
+      type: 3}
+    weaponFireVisualiser: {fileID: 2003819587126280771, guid: 337214977edb64bc399b9cf8b557928d,
+      type: 3}
+    weaponView: {fileID: 114961128176717466, guid: c55b919e81a0a4d0a9ae39d3971bf23f,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: 55f2d5eaf1146984f8e3b8644f96a1ef,
+      type: 3}
+    crosshairRelativeSize: 74
+    sniperScope: 0
+  - characterAnimatorController: {fileID: 22100000, guid: 7ca94077e90f843309ad77d36346be20,
+      type: 2}
+    name: 32
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 72d9da60c75314d70953a9f2e774434c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6296435126845205452, guid: cf006b1cc10814a16bc84d1b15fd6c0e,
+      type: 3}
+    weaponView: {fileID: 199299095285221554, guid: 9e1a88e7234144176b3425370cc6f733,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: fc107761879ba2445aed51ac7c399272,
+      type: 3}
+    crosshairRelativeSize: 74
+    sniperScope: 1
+  - characterAnimatorController: {fileID: 22100000, guid: 38e7c19ac496146c189d2338dd904592,
+      type: 2}
+    name: 33
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 4a744de9cfac24a02a420fdb31fd9f8c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6296435126845205452, guid: cf006b1cc10814a16bc84d1b15fd6c0e,
+      type: 3}
+    weaponView: {fileID: 545360735764597286, guid: 74162c5d98a514863a09a89c757f68c5,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: 1407d303e7a3f90449b77d0e8e67738c,
+      type: 3}
+    crosshairRelativeSize: 90
+    sniperScope: 0
+  - characterAnimatorController: {fileID: 22100000, guid: 38e7c19ac496146c189d2338dd904592,
+      type: 2}
+    name: 35
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 4a744de9cfac24a02a420fdb31fd9f8c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6296435126845205452, guid: cf006b1cc10814a16bc84d1b15fd6c0e,
+      type: 3}
+    weaponView: {fileID: 2716915282852963389, guid: 8f375bb81cdcb4deb843793aa4735200,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: 1407d303e7a3f90449b77d0e8e67738c,
+      type: 3}
+    crosshairRelativeSize: 90
+    sniperScope: 0
+  - characterAnimatorController: {fileID: 22100000, guid: 7ca94077e90f843309ad77d36346be20,
+      type: 2}
+    name: 36
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 72d9da60c75314d70953a9f2e774434c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6296435126845205452, guid: cf006b1cc10814a16bc84d1b15fd6c0e,
+      type: 3}
+    weaponView: {fileID: 3101853772112322781, guid: ef5c32d43007d4c5c92b27ecea034484,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: fc107761879ba2445aed51ac7c399272,
+      type: 3}
+    crosshairRelativeSize: 74
+    sniperScope: 1
+  - characterAnimatorController: {fileID: 22100000, guid: 56c00bd1a92164de9ae22151ec9e076c,
+      type: 2}
+    name: 2
+    weaponController: {fileID: 7785603051550816315, guid: 6221afa387c2643fa8d79b395d0b5dbe,
+      type: 3}
+    weaponRaycaster: {fileID: 1975645440503097230, guid: 066b0941406aa4da18f939a5be245585,
+      type: 3}
+    weaponFireVisualiser: {fileID: 2003819587126280771, guid: 337214977edb64bc399b9cf8b557928d,
+      type: 3}
+    weaponView: {fileID: 7716814413081044873, guid: 09fa23c78790586459d62784005f40e8,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: 55f2d5eaf1146984f8e3b8644f96a1ef,
+      type: 3}
+    crosshairRelativeSize: 74
+    sniperScope: 0
+  - characterAnimatorController: {fileID: 22100000, guid: 2c1fcfa7a162f404d9e3231f437c0720,
+      type: 2}
+    name: 34
+    weaponController: {fileID: 7925664095673520274, guid: d73d86e846a38470db81ee54f5efc81f,
+      type: 3}
+    weaponRaycaster: {fileID: 1528386776784937369, guid: 72d9da60c75314d70953a9f2e774434c,
+      type: 3}
+    weaponFireVisualiser: {fileID: 6045597414056967686, guid: 14fba8abdbb49403daec2deb27c27bb0,
+      type: 3}
+    weaponView: {fileID: 4073550436956094249, guid: 12290fe31aba54971ad1e95e6d15239b,
+      type: 3}
+    weaponCrosshairIcon: {fileID: 21300000, guid: 727ef04734b8a7b41ba27f7d3164ce57,
+      type: 3}
+    crosshairRelativeSize: 90
+    sniperScope: 0

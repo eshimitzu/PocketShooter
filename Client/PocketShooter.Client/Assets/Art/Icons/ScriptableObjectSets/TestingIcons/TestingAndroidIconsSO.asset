@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7a3fe8aa76043d4f815dc72b3e39f10, type: 3}
+  m_Name: TestingAndroidIconsSO
+  m_EditorClassIdentifier: 
+  AdaptiveIconForeground432x432: Assets/Art/Icons/Android/Adaptive icon/TESTING/PTS_Game
+    icon_[432x432]_01.png
+  AdaptiveIconBackground432x432: Assets/Art/Icons/Android/Adaptive icon/TESTING/PTS_Game
+    icon_[432x432]_02.png
+  AdaptiveIconForeground324x324: 
+  AdaptiveIconBackground324x324: 
+  AdaptiveIconForeground216x216: 
+  AdaptiveIconBackground216x216: 
+  AdaptiveIconForeground162x162: 
+  AdaptiveIconBackground162x162: 
+  AdaptiveIconForeground108x108: 
+  AdaptiveIconBackground108x108: 
+  AdaptiveIconForeground81x81: 
+  AdaptiveIconBackground81x81: 
+  RoundIcon192x192: Assets/Art/Icons/Android/Circle icon/TESTING/PTS_Game icon_Android_Testing_[192x192].png
+  RoundIcon144x144: 
+  RoundIcon96x96: 
+  RoundIcon72x72: 
+  RoundIcon48x48: 
+  RoundIcon36x36: 
+  LegacyIcon192x192: Assets/Art/Icons/Android/Legacy/TESTING/PTS_Game icon_Android_Testing_[192x192].png
+  LegacyIcon144x144: 
+  LegacyIcon96x96: 
+  LegacyIcon72x72: 
+  LegacyIcon48x48: 
+  LegacyIcon36x36: 

@@ -1,0 +1,8 @@
+﻿<Project>
+  <ItemGroup>
+    <Content Include="..\.gameconfigs\*.json" Link="%(Filename).json" >
+      <Link>.gameconfigs/%(Filename)%(Extension)</Link>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+</Project>

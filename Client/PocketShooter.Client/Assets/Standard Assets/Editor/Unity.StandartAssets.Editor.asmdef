@@ -1,0 +1,12 @@
+{
+    "name": "Unity.StandartAssets.Editor",
+    "references": [
+        "Unity.StandartAssets"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

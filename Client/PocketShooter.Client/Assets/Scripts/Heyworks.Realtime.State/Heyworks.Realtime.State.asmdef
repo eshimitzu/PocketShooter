@@ -1,0 +1,14 @@
+{
+    "name": "Heyworks.Realtime.State",
+    "references": [
+        "Microsoft.Extensions.Logging.Unity"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

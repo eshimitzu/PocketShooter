@@ -1,0 +1,14 @@
+{
+    "name": "Heyworks.PocketShooter.Client.Common",
+    "references": [
+        "UniRx.Async"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

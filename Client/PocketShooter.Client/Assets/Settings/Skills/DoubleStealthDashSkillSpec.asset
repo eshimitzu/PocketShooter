@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20714dbddf5d44a69e7e3ea13c240288, type: 3}
+  m_Name: DoubleStealthDashSkillSpec
+  m_EditorClassIdentifier: 
+  skillName: 18
+  icon: {fileID: 21300000, guid: 54d0e555bd3fa4a72a37197fb596b9fb, type: 3}
+  invisibilitySkillSpec: {fileID: 11400000, guid: 0cf3870ad5e6c42b7a0b0e1d347b56a2,
+    type: 2}
+  cameraVfxPrefab: {fileID: 1049788330, guid: 33f6bd45eec09a44c9759a4787545184, type: 3}

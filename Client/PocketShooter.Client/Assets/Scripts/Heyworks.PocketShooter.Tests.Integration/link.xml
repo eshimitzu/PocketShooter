@@ -1,0 +1,52 @@
+<linker>
+    <assembly fullname="Heyworks.PocketShooter.Tests.Integration.Client" preserve="all">
+        <!-- <namespace fullname="PocketShooter.Client.Tests.Integration" preserve="all"/>
+        <type fullname="PocketShooter.Client.Tests.Integration.GameHubTests" preserve="all"/>     -->
+    </assembly>
+    <assembly fullname="mscorlib">
+        <namespace fullname="System.Reflection" preserve="all"/>
+        <type fullname="System.Type" preserve="all"/>
+    </assembly>    
+    <assembly fullname="xunit.assert">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>       
+    <assembly fullname="xunit.execution.dotnet">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>
+    <assembly fullname="xunit.assert">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>
+    <assembly fullname="xunit.core">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>
+    <assembly fullname="xunit.runner.utility.netstandard15">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>
+    <assembly fullname="System.Runtime">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>    
+    <assembly fullname="System.Reflection">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>    
+    <assembly fullname="System.Runtime">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>    
+    <assembly fullname="System.Runtime.Extensions">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>    
+    <assembly fullname="System.Reflection.Extensions">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>                    
+    <assembly fullname="System.Threading">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>        
+    <assembly fullname="System.Xml.XDocument">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>     
+    <assembly fullname="System.Runtime.InteropServices.RuntimeInformation">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>     
+    <assembly fullname="System.Linq.Expressions">
+        <namespace fullname="*" preserve="all"/>        
+    </assembly>        
+</linker>

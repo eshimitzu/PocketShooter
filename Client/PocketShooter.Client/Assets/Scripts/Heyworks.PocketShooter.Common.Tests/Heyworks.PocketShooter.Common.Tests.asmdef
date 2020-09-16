@@ -1,0 +1,19 @@
+{
+    "name": "Heyworks.PocketShooter.Common.Tests",
+    "references": [
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.PocketShooter.Meta.Common"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

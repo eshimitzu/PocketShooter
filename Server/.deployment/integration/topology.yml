@@ -1,0 +1,33 @@
+database:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    nodes:
+      - name: database_1
+        publicIp : 23.105.40.220
+        privateIp: 127.0.0.1     
+        os: windows
+
+realtime:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    nodes:        
+      - name: realtime_1
+        publicIp : 23.105.40.220
+        privateIp: 127.0.0.1  
+        os: windows     
+    runtime:
+      copy:
+        - path: y.grinevich@heyworks.com.Photon-vX.trial.unlimited-ccu.license
+          into: photon/deploy/bin_Win64/
+
+meta:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    nodes:
+      - name: meta_1
+        publicIp : 23.105.40.220
+        privateIp: 127.0.0.1         
+        os: windows

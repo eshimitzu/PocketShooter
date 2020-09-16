@@ -1,0 +1,29 @@
+{
+    "name": "Heyworks.PocketShooter.Client",
+    "references": [
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.PocketShooter.Client.Common",
+        "Heyworks.PocketShooter.Realtime.Client",
+        "Heyworks.PocketShooter.Realtime.Client.Common",
+        "Heyworks.PocketShooter.Realtime.Common",
+        "Heyworks.PocketShooter.Meta.Client",
+        "Heyworks.PocketShooter.Meta.Common",
+        "Microsoft.Extensions.Logging.Unity",
+        "ThirdParties",
+        "UniRx",
+        "UniRx.Async",
+        "Unity.StandartAssets",
+        "Wwise",
+        "Zenject",
+        "Collections.Pooled",
+        "Unity.Postprocessing.Runtime"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

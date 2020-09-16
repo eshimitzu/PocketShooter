@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA9E31DD-8D9B-4E62-9469-8390D0A6E030}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{DA9E31DD-8D9B-4E62-9469-8390D0A6E030}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CharacterLocal" ID="{2E727F87-A190-4536-AE8D-BC7ECC39D6F7}">
+					<ChildrenList>
+						<State Name="None" ID="{BBB8C37E-5869-4EAE-A9AA-68B91C508F60}"/>
+						<State Name="CharacterDead" ID="{CE7DCF83-4CE5-45AD-B4AE-B09F80525AD3}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{BBB8C37E-5869-4EAE-A9AA-68B91C508F60}"/>
+							<EndState Name="CharacterDead" ID="{CE7DCF83-4CE5-45AD-B4AE-B09F80525AD3}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="CharacterDead" ID="{CE7DCF83-4CE5-45AD-B4AE-B09F80525AD3}"/>
+							<EndState Name="None" ID="{BBB8C37E-5869-4EAE-A9AA-68B91C508F60}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="EffectStun" ID="{59B0327D-BE50-42E5-A5B2-D0E944F1B989}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.5"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{C20E6834-B7C0-45EC-B8BA-250FD0CEF331}"/>
+						<State Name="EffectStun" ID="{8767BBC0-634D-40FB-A992-4A04381ABB34}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{C20E6834-B7C0-45EC-B8BA-250FD0CEF331}"/>
+							<EndState Name="EffectStun" ID="{8767BBC0-634D-40FB-A992-4A04381ABB34}"/>
+							<Time>0.25</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="EffectStun" ID="{8767BBC0-634D-40FB-A992-4A04381ABB34}"/>
+							<EndState Name="None" ID="{C20E6834-B7C0-45EC-B8BA-250FD0CEF331}"/>
+							<Time>0.25</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="MusicStates" ID="{6ED4FB06-5021-49CE-B447-CFB7BC341D44}">
+					<ChildrenList>
+						<State Name="None" ID="{55A158ED-36F8-4518-833C-25798143FC3F}"/>
+						<State Name="CharacterDead" ID="{EDB43FDF-4297-40E5-BA0A-E999A6713056}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{55A158ED-36F8-4518-833C-25798143FC3F}"/>
+							<EndState Name="CharacterDead" ID="{EDB43FDF-4297-40E5-BA0A-E999A6713056}"/>
+							<Time>1.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="CharacterDead" ID="{EDB43FDF-4297-40E5-BA0A-E999A6713056}"/>
+							<EndState Name="None" ID="{55A158ED-36F8-4518-833C-25798143FC3F}"/>
+							<Time>2</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="EffectDash" ID="{9E26D346-2C16-47D1-A524-23B2FFB8166B}">
+					<ChildrenList>
+						<State Name="None" ID="{1AA8198F-A223-430B-A928-2D94D6E6AE3F}"/>
+						<State Name="Dash" ID="{CB59C257-4A79-4126-A49C-08F8CC2352D2}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="None" ID="{1AA8198F-A223-430B-A928-2D94D6E6AE3F}"/>
+							<EndState Name="Dash" ID="{CB59C257-4A79-4126-A49C-08F8CC2352D2}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Dash" ID="{CB59C257-4A79-4126-A49C-08F8CC2352D2}"/>
+							<EndState Name="None" ID="{1AA8198F-A223-430B-A928-2D94D6E6AE3F}"/>
+							<Time>0.5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

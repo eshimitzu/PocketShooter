@@ -1,0 +1,645 @@
+fileFormatVersion: 2
+guid: 21a7da478425d454ea380c9054a89660
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Slot_Ammo
+    100004: Slot_Left
+    100006: Slot_Right
+    100008: Trooper_Head
+    100010: Trooper_Hips
+    100012: Trooper_LeftArm
+    100014: Trooper_LeftFoot
+    100016: Trooper_LeftFootIndex
+    100018: Trooper_LeftFootIndex1
+    100020: Trooper_LeftForeArm
+    100022: Trooper_LeftHand
+    100024: Trooper_LeftHandMiddle1
+    100026: Trooper_LeftHandMiddle2
+    100028: Trooper_LeftHandThumb1
+    100030: Trooper_LeftHandThumb2
+    100032: Trooper_LeftLeg
+    100034: Trooper_LeftShoulder
+    100036: Trooper_LeftUpLeg
+    100038: Trooper_Neck
+    100040: Trooper_Neck1
+    100042: Trooper_RightArm
+    100044: Trooper_RightFoot
+    100046: Trooper_RightFootIndex
+    100048: Trooper_RightFootIndex1
+    100050: Trooper_RightForeArm
+    100052: Trooper_RightHand
+    100054: Trooper_RightHandMiddle1
+    100056: Trooper_RightHandMiddle2
+    100058: Trooper_RightLeg
+    100060: Trooper_RightShoulder
+    100062: Trooper_RightThumb1
+    100064: Trooper_RightThumb2
+    100066: Trooper_RightUpLeg
+    100068: Trooper_Root
+    100070: Trooper_Spine1
+    100072: Trooper_Spine2
+    100074: Trooper_Spine3
+    400000: //RootNode
+    400002: Slot_Ammo
+    400004: Slot_Left
+    400006: Slot_Right
+    400008: Trooper_Head
+    400010: Trooper_Hips
+    400012: Trooper_LeftArm
+    400014: Trooper_LeftFoot
+    400016: Trooper_LeftFootIndex
+    400018: Trooper_LeftFootIndex1
+    400020: Trooper_LeftForeArm
+    400022: Trooper_LeftHand
+    400024: Trooper_LeftHandMiddle1
+    400026: Trooper_LeftHandMiddle2
+    400028: Trooper_LeftHandThumb1
+    400030: Trooper_LeftHandThumb2
+    400032: Trooper_LeftLeg
+    400034: Trooper_LeftShoulder
+    400036: Trooper_LeftUpLeg
+    400038: Trooper_Neck
+    400040: Trooper_Neck1
+    400042: Trooper_RightArm
+    400044: Trooper_RightFoot
+    400046: Trooper_RightFootIndex
+    400048: Trooper_RightFootIndex1
+    400050: Trooper_RightForeArm
+    400052: Trooper_RightHand
+    400054: Trooper_RightHandMiddle1
+    400056: Trooper_RightHandMiddle2
+    400058: Trooper_RightLeg
+    400060: Trooper_RightShoulder
+    400062: Trooper_RightThumb1
+    400064: Trooper_RightThumb2
+    400066: Trooper_RightUpLeg
+    400068: Trooper_Root
+    400070: Trooper_Spine1
+    400072: Trooper_Spine2
+    400074: Trooper_Spine3
+    7400000: AimingWalk_R
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: "Copied Avatar Rig Configuration mis-match. Bone length in
+      copied configuration does not match position in animation file:\n\t'Trooper_Spine1'
+      : position error = 5.424336 mm\n\t'Trooper_Spine2' : position error = 4.803575
+      mm\n\t'Trooper_Spine3' : position error = 9.964501 mm\n\t'Trooper_Neck' : position
+      error = 16.550051 mm\nCopied Avatar Rig Configuration mis-match. Inbetween bone
+      rotation in copied configuration does not match rotation in animation file:\n\t'Trooper_Neck'
+      : rotation error = 19.069778 deg\n"
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'Trooper_Spine2' has translation animation that
+      will be discarded.\n\t'Trooper_Spine3' has translation animation that will be
+      discarded.\n\t'Trooper_Neck' has translation animation that will be discarded.\n\t'Trooper_Neck'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: AimingWalk_R
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: Trooper_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_Neck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: -40, z: -80}
+        max: {x: 0, y: 40, z: 80}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 1
+    - boneName: Trooper_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftFootIndex
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightFootIndex
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_Spine3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Trooper_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Trooper 1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper_Root
+      parentName: 
+      position: {x: 0, y: -0.028952433, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper_Hips
+      parentName: 
+      position: {x: 0.00000026058044, y: 0.33605537, z: 0.054624803}
+      rotation: {x: 0.000068080044, y: 0.00037654385, z: 0.0039915247, w: 0.99999195}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Trooper_RightUpLeg
+      parentName: 
+      position: {x: 0.09983226, y: -0.0000000401876, z: -0.0000000055561946}
+      rotation: {x: 0.49960318, y: 0.50407284, z: 0.51886094, w: 0.47654018}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1.0000001}
+    - name: Trooper_RightLeg
+      parentName: 
+      position: {x: -0.12974124, y: 0.013851713, z: -0.0000006041926}
+      rotation: {x: -0.000000059604638, y: 0.000000029802319, z: 0.012385188, w: 0.99992335}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: Trooper_RightFoot
+      parentName: 
+      position: {x: -0.12974125, y: -0.01385333, z: -0.00000044415978}
+      rotation: {x: 0.06409951, y: 0.062194377, z: -0.50725394, w: 0.85715604}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: Trooper_RightFootIndex
+      parentName: 
+      position: {x: -0.07009893, y: -0.00000020933498, z: -0.00000041077354}
+      rotation: {x: 0.0069079697, y: 0.026639342, z: -0.25091848, w: 0.967617}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Trooper_RightFootIndex1
+      parentName: 
+      position: {x: -0.14566122, y: -0.00000024918, z: 0.0000010218386}
+      rotation: {x: 0.0000031631048, y: -0.000000045255522, z: 0.0000003187777, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper_Spine1
+      parentName: 
+      position: {x: -0.00037903193, y: 0.09014664, z: -0.008493356}
+      rotation: {x: 0.4686925, y: -0.5421837, z: -0.4513465, w: 0.5316489}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Trooper_Spine2
+      parentName: 
+      position: {x: -0.09055117, y: -0.0000052991845, z: 0.00048493853}
+      rotation: {x: -0.014460623, y: 0.0018866956, z: -0.053008735, w: 0.99848765}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999976}
+    - name: Trooper_Spine3
+      parentName: 
+      position: {x: -0.090543695, y: -0.000002418981, z: 0.0012066176}
+      rotation: {x: 0.0061369836, y: -0.003619194, z: -0.050476387, w: 0.9986999}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000002}
+    - name: Trooper_RightShoulder
+      parentName: 
+      position: {x: -0.026439149, y: -0.000000014124819, z: -0.08193854}
+      rotation: {x: -0.03062132, y: 0.7288094, z: 0.045724414, w: -0.6825017}
+      scale: {x: 0.9999996, y: 0.9999998, z: 0.99999964}
+    - name: Trooper_RightArm
+      parentName: 
+      position: {x: -0.13991226, y: 0.0000006426343, z: 0.00000038644345}
+      rotation: {x: -0.0027907195, y: 0.021607758, z: 0.040939856, w: 0.9989241}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: Trooper_RightForeArm
+      parentName: 
+      position: {x: -0.120509826, y: -0.0000002813712, z: 0.0000007371108}
+      rotation: {x: -0.0025943809, y: -0.001265253, z: -0.014598468, w: 0.99988925}
+      scale: {x: 0.9999997, y: 1.0000004, z: 1.0000001}
+    - name: Trooper_RightHand
+      parentName: 
+      position: {x: -0.13901444, y: -0.0000000061589445, z: -0.00000002639696}
+      rotation: {x: -0.00022655725, y: 0.062050737, z: 0.08111952, w: 0.994771}
+      scale: {x: 1.0000004, y: 1, z: 1.0000002}
+    - name: Slot_Rigtht
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Slot_Ammo
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper_RightThumb1
+      parentName: 
+      position: {x: -0.031446043, y: 0.03557886, z: 0.0052437508}
+      rotation: {x: -0.5800976, y: 0.18087275, z: -0.27580965, w: 0.74478245}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1}
+    - name: Trooper_RightThumb2
+      parentName: 
+      position: {x: -0.05171345, y: 0.0000002366588, z: 0.0000003955508}
+      rotation: {x: 0.0000057294965, y: 0.000000059604645, z: 0.0000017276034, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Trooper_RightHandMiddle1
+      parentName: 
+      position: {x: -0.08671668, y: 0.00000058020913, z: 0.00000074991823}
+      rotation: {x: -0.0021232956, y: -0.07995633, z: -0.00963833, w: 0.9967496}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: Trooper_RightHandMiddle2
+      parentName: 
+      position: {x: -0.049846556, y: -0.0000001602563, z: -0.00000026371362}
+      rotation: {x: 0.52212787, y: 0.54175955, z: -0.48053232, w: 0.45051962}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.9999999}
+    - name: Trooper_LeftShoulder
+      parentName: 
+      position: {x: -0.026439184, y: -0.000000008721421, z: 0.08193857}
+      rotation: {x: -0.03834789, y: 0.69915545, z: -0.07932576, w: 0.7095199}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: Trooper_LeftArm
+      parentName: 
+      position: {x: -0.13991229, y: 0.0000003463851, z: -0.0000002065827}
+      rotation: {x: -0.082464755, y: 0.00882676, z: 0.056721553, w: 0.9949393}
+      scale: {x: 1.0000005, y: 1.0000002, z: 0.9999999}
+    - name: Trooper_LeftForeArm
+      parentName: 
+      position: {x: -0.1209969, y: -0.0000015241429, z: 0.000007053015}
+      rotation: {x: 0.0027438186, y: -0.0009836219, z: -0.016445553, w: 0.9998605}
+      scale: {x: 0.99999964, y: 1.0000006, z: 1.0000001}
+    - name: Trooper_LeftHand
+      parentName: 
+      position: {x: -0.13951705, y: 0.000000011748781, z: -0.000000039049354}
+      rotation: {x: -0.0039491607, y: -0.015233323, z: 0.1126201, w: 0.9935135}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+    - name: Slot_Left
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.001, y: 0.001, z: 0.001}
+    - name: Trooper_LeftHandThumb1
+      parentName: 
+      position: {x: -0.03144648, y: 0.035912253, z: -0.0019084836}
+      rotation: {x: -0.7810543, y: 0.3464432, z: -0.105153054, w: 0.50879675}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: Trooper_LeftHandThumb2
+      parentName: 
+      position: {x: -0.051713195, y: -0.00000004018828, z: -0.000000038423842}
+      rotation: {x: -0.000000052154057, y: 0, z: -0.0000029876824, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: Trooper_LeftHandMiddle1
+      parentName: 
+      position: {x: -0.08671664, y: -0.00000033654155, z: -0.0000006708025}
+      rotation: {x: 0.00041177915, y: 0.060107566, z: -0.006837925, w: 0.99816847}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: Trooper_LeftHandMiddle2
+      parentName: 
+      position: {x: -0.04984642, y: 0.00000018437908, z: -0.00000029925116}
+      rotation: {x: -4.656613e-10, y: 0.05249796, z: -0.000000026077032, w: 0.9986211}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: Trooper_Neck
+      parentName: 
+      position: {x: -0.059154037, y: -0.000000042569233, z: -4.984586e-11}
+      rotation: {x: 0, y: 0.000000059604638, z: -0.006693273, w: 0.9999776}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.9999997}
+    - name: Trooper_Neck1
+      parentName: 
+      position: {x: -0.06863092, y: 0.0000004685552, z: -0.0000000023511149}
+      rotation: {x: 0.00882715, y: -0.00068309903, z: 0.027079284, w: 0.99959415}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: Trooper_Head
+      parentName: 
+      position: {x: -0.20915605, y: -0.00000079425786, z: -2.8538702e-10}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: Trooper_LeftUpLeg
+      parentName: 
+      position: {x: -0.09983227, y: 0.000000041452868, z: -0.0000000039040198}
+      rotation: {x: 0.52853066, y: 0.47203824, z: 0.48451895, w: 0.51291}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: Trooper_LeftLeg
+      parentName: 
+      position: {x: -0.12974127, y: 0.013853288, z: 0.00000043232208}
+      rotation: {x: -0.000000074505806, y: -0.000000029802322, z: -0.014262944, w: 0.9998983}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: Trooper_LeftFoot
+      parentName: 
+      position: {x: -0.12974125, y: -0.013851608, z: 0.00000041883308}
+      rotation: {x: -0.13138741, y: -0.04264991, z: -0.43318298, w: 0.89065754}
+      scale: {x: 1.0000001, y: 0.99999976, z: 1}
+    - name: Trooper_LeftFootIndex
+      parentName: 
+      position: {x: -0.07009891, y: 0.0000003123713, z: -0.0000004504037}
+      rotation: {x: -0.0013210775, y: -0.0047826283, z: -0.26625952, w: 0.96388865}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: Trooper_LeftFootIndex1
+      parentName: 
+      position: {x: -0.1456613, y: -0.0000006203422, z: 0.00000043788063}
+      rotation: {x: 1.3747684e-16, y: -2.6020852e-17, z: 2.7755576e-17, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    armTwist: 0.498
+    foreArmTwist: 0.5
+    upperLegTwist: 0.496
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 802ca6c78ddb6ea46bbbb429299907cc,
+    type: 3}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

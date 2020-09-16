@@ -1,0 +1,83 @@
+@startuml
+
+interface IDataHandler<T> {
+    HandleData(NetworkData) : T
+}
+
+interface IConnection {
+    QueueData(NetworkData)
+    HasData() : bool
+    GetData() : NetworkData
+    Send()
+    Receive()
+}
+
+class PhotonConnection
+IConnection <|-- PhotonConnection
+
+interface INetworkService {
+    QueueCommand(SimulationCommandData)
+    QueueCommand(IServiceCommandData)
+    Send()
+    Receive()
+}
+class NetworkService {
+}
+INetworkService <|-- NetworkService
+NetworkService o-- IConnection
+NetworkService "1" *-- "*" IDataHandler
+
+interface IDataSerializer<T> #cyan{
+    Serialize(T) : byte[]
+    Deserialize(byte[]) " T
+}
+
+interface IGameCommand #cyan{
+    Execute(Game) : bool
+}
+IGameCommand --> Game
+
+interface ISimulation {
+    Update()
+    QueueCommand(IGameCommand)
+    Start(tick)
+}
+class NetworkSimulation
+ISimulation <|-- NetworkSimulation
+NetworkSimulation o-- INetworkService
+NetworkSimulation --> IGameStateProvider 
+
+class GameplayRunBehavior #lightgrey
+GameplayRunBehavior o-- ISimulation : Update()
+
+interface IGameStateProvider {
+    GetState(uint)
+    SetState(GameState)
+}
+class GameStateProvider
+IGameStateProvider <|-- GameStateProvider
+class SequenceBuffer<T> #cyan
+GameStateProvider *-- SequenceBuffer
+class GameState #cyan
+SequenceBuffer "1" *-- "*" GameState 
+
+
+interface IDataSerializer #cyan
+NetworkService "1" *-- "*" IDataSerializer
+
+class Controllers\Views #lightgrey
+class Game #cyan
+NetworkSimulation o-- Game
+Controllers\Views --> ISimulation : AddCommand()
+Controllers\Views --> Game
+
+interface IPlayer #cyan
+Game "1" *-- "*" IPlayer
+
+class LocalPlayer #cyan
+IPlayer <|-- LocalPlayer 
+class RemotePlayer #cyan
+IPlayer <|-- RemotePlayer 
+
+
+@enduml

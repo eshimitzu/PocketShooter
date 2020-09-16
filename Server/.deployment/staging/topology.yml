@@ -1,0 +1,41 @@
+database:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    nodes:
+      - name: database_1
+        publicIp : 178.162.205.2
+        privateIp: 127.0.0.1     
+        os: windows
+
+realtime:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    sidecar:
+      client:
+        - port: 8487
+          password: jsh7QepzI21        
+    nodes:        
+      - name: realtime_1
+        publicIp : 178.162.205.2
+        privateIp: 127.0.0.1  
+        os: windows           
+    runtime:
+      copy:
+        - path: a.dezhurko@heyworks.com.Photon-vX.free.100-ccu.license
+          into: photon/deploy/bin_Win64/
+
+meta:
+    users:
+      - name: Administrator
+        keys: authorized_keys
+    nodes:
+      - name: meta_1
+        publicIp : 178.162.205.2
+        privateIp: 127.0.0.1         
+        os: windows
+        sidecar:
+          server:
+            - port: 8487
+              password: jsh7QepzI21

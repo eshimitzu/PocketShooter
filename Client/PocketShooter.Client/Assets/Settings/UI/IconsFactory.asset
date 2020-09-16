@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82aea5d9cbef4fee8f2e4e070e2936a, type: 3}
+  m_Name: IconsFactory
+  m_EditorClassIdentifier: 
+  placeholderIcons:
+  - RosterType: 1
+    Sprite: {fileID: 21300000, guid: 54696c40d9bf1401eb6c4a68fe8f90e8, type: 3}
+  - RosterType: 2
+    Sprite: {fileID: 21300000, guid: 7c29dd5b66a7f8c4bb1dd59cd86c3738, type: 3}
+  - RosterType: 3
+    Sprite: {fileID: 21300000, guid: 84da9904a260f1644be7d87f0a37f67a, type: 3}
+  - RosterType: 4
+    Sprite: {fileID: 21300000, guid: ba1989ad06d210f4aa3e6c6ce8f9da54, type: 3}
+  trooperIcons:
+  - TrooperClass: 1
+    Sprite: {fileID: 21300000, guid: e8fd60d4080df4cf78fcf417d57c24c1, type: 3}
+  - TrooperClass: 2
+    Sprite: {fileID: 21300000, guid: 0f27b222411e74899b954a2002aa7adf, type: 3}
+  - TrooperClass: 3
+    Sprite: {fileID: 21300000, guid: 33218d1b7da224a83a4c092b4951ba29, type: 3}
+  - TrooperClass: 4
+    Sprite: {fileID: 21300000, guid: 162c3f6d4d20f45d3966453b053314cb, type: 3}
+  - TrooperClass: 5
+    Sprite: {fileID: 21300000, guid: 139b70da641fa4800a9ac422771ba379, type: 3}
+  - TrooperClass: 6
+    Sprite: {fileID: 21300000, guid: 42668e41c48bb4b42bab732fcb973a96, type: 3}
+  - TrooperClass: 7
+    Sprite: {fileID: 21300000, guid: c723c38dfd2f146c7b072773a1f16b5e, type: 3}
+  - TrooperClass: 8
+    Sprite: {fileID: 21300000, guid: 278a16ec51459497098899030f7e4395, type: 3}
+  - TrooperClass: 9
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 10
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 11
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 12
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 13
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 14
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 15
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 16
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 17
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  - TrooperClass: 18
+    Sprite: {fileID: 21300000, guid: b7730bf6de1f64c52b3286e3f6230a5d, type: 3}
+  weaponIcons:
+  - WeaponName: 1
+    Sprite: {fileID: 21300000, guid: d706d557e6dd4419b87df8826a00cd06, type: 3}
+  - WeaponName: 2
+    Sprite: {fileID: 21300000, guid: 5f626e523a5814fb5b1a4bf753315c3d, type: 3}
+  - WeaponName: 31
+    Sprite: {fileID: 21300000, guid: ea5c3a556435c4bf097407d65f72566d, type: 3}
+  - WeaponName: 32
+    Sprite: {fileID: 21300000, guid: d7b2852d6746e4e8b995d33015135dfd, type: 3}
+  - WeaponName: 33
+    Sprite: {fileID: 21300000, guid: b89ca7bb536ad4f24ad80e234889afd7, type: 3}
+  - WeaponName: 34
+    Sprite: {fileID: 21300000, guid: a84cd68fa9ad1447a819f5523e9a5655, type: 3}
+  - WeaponName: 35
+    Sprite: {fileID: 21300000, guid: d789feb143c0b4bb7bb706343d6f3ebf, type: 3}
+  - WeaponName: 36
+    Sprite: {fileID: 21300000, guid: f1c7936ff6e06435f9258abfc40dee7f, type: 3}
+  weaponSmallIcons:
+  - WeaponName: 1
+    Sprite: {fileID: 21300000, guid: f15a9b807599b4311a705adf62b5c021, type: 3}
+  - WeaponName: 2
+    Sprite: {fileID: 21300000, guid: 6443492ce0241446994e7d059e3c1269, type: 3}
+  - WeaponName: 31
+    Sprite: {fileID: 21300000, guid: 9edebe1319b274e1ab235acc023dbe03, type: 3}
+  - WeaponName: 32
+    Sprite: {fileID: 21300000, guid: cdc4f7ae0cb3a4f1f930d1b9ab65075e, type: 3}
+  - WeaponName: 33
+    Sprite: {fileID: 21300000, guid: aa944fcbbd31d47fcb55f885e680b073, type: 3}
+  - WeaponName: 34
+    Sprite: {fileID: 21300000, guid: 227689029174a4f28b3ccbffd9cc1905, type: 3}
+  - WeaponName: 35
+    Sprite: {fileID: 21300000, guid: bc335347b3bca471aa9ce9d70a519373, type: 3}
+  - WeaponName: 36
+    Sprite: {fileID: 21300000, guid: 24d27cc1559a04dc38941f0e44ec7b59, type: 3}
+  helmetIcons:
+  - HelmetName: 1
+    Sprite: {fileID: 21300000, guid: 25d4b42c2f33f45d08275ba6c7d95394, type: 3}
+  - HelmetName: 51
+    Sprite: {fileID: 21300000, guid: cd1d0b73c761c494fb97ee8477b5cad4, type: 3}
+  - HelmetName: 101
+    Sprite: {fileID: 21300000, guid: 4f17628ed98fe4973b8d26b1f8649022, type: 3}
+  - HelmetName: 151
+    Sprite: {fileID: 21300000, guid: 5206380178fb343248672efc97fca0c3, type: 3}
+  - HelmetName: 201
+    Sprite: {fileID: 21300000, guid: d968c6da17f8946078e4acfcad4b1bc3, type: 3}
+  helmetSmallIcons:
+  - HelmetName: 1
+    Sprite: {fileID: 21300000, guid: 3b1779d240cf8468296f9ef8ac3e0e44, type: 3}
+  - HelmetName: 51
+    Sprite: {fileID: 21300000, guid: 4b5d1ecc533ea40328178d7059f7858a, type: 3}
+  - HelmetName: 101
+    Sprite: {fileID: 21300000, guid: db52a0a53e4e349bdb7dfdbddb6b35d3, type: 3}
+  - HelmetName: 151
+    Sprite: {fileID: 21300000, guid: 833350c6ce3274b4ea504015689c16c7, type: 3}
+  - HelmetName: 201
+    Sprite: {fileID: 21300000, guid: ce2900a064ebb4fd4b937fb3d7511e24, type: 3}
+  armorIcons:
+  - ArmorName: 1
+    Sprite: {fileID: 21300000, guid: b5709b1b82840469f8e72a01d14f58f8, type: 3}
+  - ArmorName: 51
+    Sprite: {fileID: 21300000, guid: 3aa4d069f37564322b2657d5cb8a4cea, type: 3}
+  - ArmorName: 101
+    Sprite: {fileID: 21300000, guid: b9242844dc3c34909a97846895054392, type: 3}
+  - ArmorName: 151
+    Sprite: {fileID: 21300000, guid: 4bf0029a8cf9d42ef92051202487cea1, type: 3}
+  - ArmorName: 201
+    Sprite: {fileID: 21300000, guid: 6de22ea983d944f54bd1ffe648db52e2, type: 3}
+  armorSmallIcons:
+  - ArmorName: 1
+    Sprite: {fileID: 21300000, guid: 89574fe9f34c54031ba031e1530881d2, type: 3}
+  - ArmorName: 51
+    Sprite: {fileID: 21300000, guid: 07dcbf1c66b554378b2c54768244ffaa, type: 3}
+  - ArmorName: 101
+    Sprite: {fileID: 21300000, guid: 42398a3c6f94548df8bf46680f66fac0, type: 3}
+  - ArmorName: 151
+    Sprite: {fileID: 21300000, guid: 64b5164e1fffc4e5288e5ae88df7c901, type: 3}
+  - ArmorName: 201
+    Sprite: {fileID: 21300000, guid: f89096ba6b16c4794b1b41b61b2df13f, type: 3}
+  weaponWhiteIcons:
+  - WeaponName: 1
+    Sprite: {fileID: 21300000, guid: ab0146b3441ae42d386062ac90ee6187, type: 3}
+  - WeaponName: 2
+    Sprite: {fileID: 21300000, guid: 858c7fcc8e1994aa1bbeaf6732db1113, type: 3}
+  - WeaponName: 31
+    Sprite: {fileID: 21300000, guid: b46a33c76126a43f59fd94fb8632a352, type: 3}
+  - WeaponName: 32
+    Sprite: {fileID: 21300000, guid: 2657f9338764f4b97adfaa4e5617c55e, type: 3}
+  - WeaponName: 33
+    Sprite: {fileID: 21300000, guid: bec3e51869d324765ae521d63c45412d, type: 3}
+  - WeaponName: 34
+    Sprite: {fileID: 21300000, guid: 856704ea1fab4420eb30912084158eae, type: 3}
+  - WeaponName: 35
+    Sprite: {fileID: 21300000, guid: 506379e1b88cf498e93a5d3c9d29c374, type: 3}
+  - WeaponName: 36
+    Sprite: {fileID: 21300000, guid: 01bea1d72220f4c19940e4961a447d88, type: 3}
+  helmetWhiteIcons:
+  - HelmetName: 1
+    Sprite: {fileID: 21300000, guid: f2ce8f4fbb1724855904564df1191cbf, type: 3}
+  - HelmetName: 51
+    Sprite: {fileID: 21300000, guid: 578c61564bc7e4ccc9563aeab96c80b5, type: 3}
+  - HelmetName: 101
+    Sprite: {fileID: 21300000, guid: a91df25b15944403c897d1f372864671, type: 3}
+  - HelmetName: 151
+    Sprite: {fileID: 21300000, guid: a96e729b31c12446aa9cb873c48ca76e, type: 3}
+  - HelmetName: 201
+    Sprite: {fileID: 21300000, guid: 74470096625f744639850c05c564ba51, type: 3}
+  armorWhiteIcons:
+  - ArmorName: 1
+    Sprite: {fileID: 21300000, guid: 645a2f8c8e1304704bd5def7aaae87f4, type: 3}
+  - ArmorName: 51
+    Sprite: {fileID: 21300000, guid: 1b903e670f2fe4fb0bbcc356a5991ba9, type: 3}
+  - ArmorName: 101
+    Sprite: {fileID: 21300000, guid: 716b111889c48419e8fc969acfc9f117, type: 3}
+  - ArmorName: 151
+    Sprite: {fileID: 21300000, guid: b68253bc859634fa7a48fbf40a760e76, type: 3}
+  - ArmorName: 201
+    Sprite: {fileID: 21300000, guid: 4d1799450ba7a42f8b2e3c3850759f80, type: 3}
+  offensiveIcons:
+  - OffensiveName: 1
+    Sprite: {fileID: 21300000, guid: 28985962da50e4b1793f3233a15dff73, type: 3}
+  supportIcons:
+  - SupportName: 1
+    Sprite: {fileID: 21300000, guid: b6933076c99ff42b096e8943e90befb6, type: 3}
+  goldIcon: {fileID: 21300000, guid: c108b19483d9d184aae9941e33bf7182, type: 3}
+  cashIcon: {fileID: 21300000, guid: 8f3b4200c025d93468a48ec2fcb97aa9, type: 3}

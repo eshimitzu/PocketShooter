@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: OrbitCamera Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 114364214359279152}
+--- !u!114 &114364214359279152
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e14ae79c481ab403fadeb0aece6a0125, type: 3}
+  m_Name: Blur
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  Mode:
+    overrideState: 0
+    value: 0
+  Downsample:
+    overrideState: 0
+    value: 1
+  BlurIterations:
+    overrideState: 0
+    value: 1
+  BlurSize:
+    overrideState: 0
+    value: 3
+  shader:
+    overrideState: 1
+    value: {fileID: 4800000, guid: b44d12eb99d9747028c5a25ac990fe7a, type: 3}

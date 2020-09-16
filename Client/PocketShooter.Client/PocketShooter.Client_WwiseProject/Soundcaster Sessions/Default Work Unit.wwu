@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34DAEC53-A39B-474C-B546-A0F24B107737}" SchemaVersion="89">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{34DAEC53-A39B-474C-B546-A0F24B107737}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="MexicoSoundcasterSession" ID="{8827C220-47AA-435E-BB3A-C61D5527C53B}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayFootstepsCommando" ID="{16BE7C3B-7A34-49CD-945D-4E32837ABBF3}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayFootstepsRocketeer" ID="{221A3F49-C66D-480A-A976-E9C7090EB8CB}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ZoneProgressEnemy" ID="{D2CDEFD2-426D-4BA5-8448-B329E3C8426D}" WorkUnitID="{4F6D512D-3B4B-41A8-B474-D4E5A4C84821}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="PlayWeaponMinigun" ID="{7FAF152D-5FDE-4958-9208-97110E7C2A94}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayWarmUpMinigun" ID="{0F1F69C1-7705-427D-BDF0-89D83849D690}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponMinigun" ID="{6DDA6BD8-6FB5-4AEE-9927-1AE931C21326}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWarmUpStopMinigun" ID="{26CFAD69-3015-43A7-8AC3-991775598D5F}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Lobby" ID="{B8A54BB1-0DA7-4F60-9FDB-6EA7B8D00611}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayLobbyMusic" ID="{0CD9E4A2-B0D5-4EC1-929D-F11B774DD34F}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ResumeLobbyMusic" ID="{928E04E0-07F4-48FA-AEA8-CB108038392B}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayButtonClick" ID="{4B840849-0F9F-4A44-B0E6-E61ACD7E1DC1}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressEnemy" ID="{F53F9C0E-B61C-418C-9DA2-F84969CB3D5E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SprintActive" ID="{6CB362DF-DF6F-4B6A-80DD-ED0511C0A02D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Skills" ID="{C12F31F9-DAC4-49BE-A913-00DD0A425870}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayGrenadeExplosion" ID="{47004BCD-A2B6-4E53-B468-FA4C86F928E4}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayZoneProgressFriend" ID="{4FFA3E90-AD51-4AC7-AD33-07C8EF0967ED}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopZoneProgressFriend" ID="{5757CB65-6A5D-4F06-894D-D465DC3C935C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayImmortalitySphere" ID="{205F3306-889C-48A2-9FE5-F28E42E2B357}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayImmortalityImpact" ID="{4EBFF62D-A81D-4B21-BE8C-73C58B378874}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopImmortalitySphere" ID="{6F2C6C37-B61B-4BB2-9C64-E95E313643FA}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayZoneProgressEnemy" ID="{A135F083-42FB-4DE8-8D87-48C6119A7203}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopZoneProgressEnemy" ID="{E2A96C09-56A4-4B22-BB9A-E4C029E6E401}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayTrap" ID="{242493CB-C872-4A03-868D-584921F0FFE1}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayInstantReload" ID="{A23B263B-6C0A-4E13-A188-CE46AD188D71}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayHealing" ID="{C96B803C-320B-4117-9ECB-67AB7FF48A4D}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayRegeneration" ID="{2F8DA150-08E9-49EE-AF0B-F00C7586C7CE}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayLifesteal" ID="{8E30FBFB-F1E5-4430-8C55-1498D27713BF}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayLifestealMinus" ID="{4A51E40A-1793-454B-9A13-665AAA150DD9}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayLifestealPlus" ID="{7D65CA7C-AAF6-4718-98F6-FEC96072158F}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopLifesteal" ID="{BA5801C4-09BD-4C90-9BFD-53F6D188C4FD}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlaySprint" ID="{E438BC21-279A-400F-963B-5A4D26E72093}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayInvisibility" ID="{CC6B8431-9CA1-47CC-91BD-51995D74CD63}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StopSprint" ID="{C36A993C-0F61-40D1-B2E9-BB7BC3497C17}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayLucky" ID="{BC6969C5-6B47-492A-B21E-05C026AD323C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Suffer" ID="{0C1284B8-7116-4C7B-B8FF-EFBF7B0FDA8D}" WorkUnitID="{4F6D512D-3B4B-41A8-B474-D4E5A4C84821}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressEnemy" ID="{F53F9C0E-B61C-418C-9DA2-F84969CB3D5E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SprintActive" ID="{6CB362DF-DF6F-4B6A-80DD-ED0511C0A02D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{BBB8C37E-5869-4EAE-A9AA-68B91C508F60}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="Weapon" ID="{24F9FAC6-5D0F-4BFF-B4A3-CF1E9E86F995}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayWeaponM16" ID="{F44A400F-6BC3-42AE-B237-65052A63EB46}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponSvd" ID="{D44D8199-EFD7-4D83-BA97-71FA7C077F0D}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponShotgunSpas" ID="{F1BD33DD-9E52-4F0F-9224-D60609E2D5D1}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayInvisibility" ID="{CC6B8431-9CA1-47CC-91BD-51995D74CD63}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponMinigun" ID="{6DDA6BD8-6FB5-4AEE-9927-1AE931C21326}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponBarret" ID="{C66C0B9B-322A-4321-9FDB-201D4E111DC0}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponShotgunRemington" ID="{CD4F3412-CA88-4DF2-B33F-92D14D6C186F}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressEnemy" ID="{F53F9C0E-B61C-418C-9DA2-F84969CB3D5E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SprintActive" ID="{6CB362DF-DF6F-4B6A-80DD-ED0511C0A02D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="EnvironmentSoundcaster Session" ID="{CF57FFF4-B104-43F9-9702-E316211967E8}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayMexNightBorder01" ID="{1B722525-FEF9-4264-AECD-C18A3B71BD75}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayMexNightBorder02" ID="{5B2940ED-5BEA-4D08-A03B-52BB9F584D3C}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayMexNightSpeaker" ID="{0DF10CB9-54C2-46FA-95E7-53098FDB3978}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayInvisibility" ID="{CC6B8431-9CA1-47CC-91BD-51995D74CD63}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayFootstepsRambo" ID="{6078AAAD-9D30-4EDE-B455-E63659387016}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayDash" ID="{8C4C7FF3-CC06-4AC5-8050-4B4E90112C50}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PlayWeaponM16" ID="{F44A400F-6BC3-42AE-B237-65052A63EB46}" WorkUnitID="{35C23529-523C-42D0-AD43-42CF72EAAD7A}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressEnemy" ID="{F53F9C0E-B61C-418C-9DA2-F84969CB3D5E}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SprintActive" ID="{6CB362DF-DF6F-4B6A-80DD-ED0511C0A02D}"/>
+							<Value>0</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{C20E6834-B7C0-45EC-B8BA-250FD0CEF331}"/>
+						<CurrentStateRef Name="None" ID="{1AA8198F-A223-430B-A928-2D94D6E6AE3F}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Indoor" ID="{3894E383-709B-48CC-BB86-EBCE7822ED43}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

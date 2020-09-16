@@ -1,0 +1,65 @@
+{
+    // Use IntelliSense to find out which attributes exist for C# debugging
+    // Use hover for the description of the existing attributes
+    // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": ".NET Framework Attach (Photon)",
+            "type": "clr",
+            "request": "attach",
+            "processName": "PhotonSocketServer.exe",
+        },
+        {
+            "name": ".NET Framework Launch (Photon)",
+            "type": "clr",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/.runtime/photon/deploy/PocketShooter/bin/",
+            "program": "${workspaceFolder}/.runtime/photon/deploy/bin_Win64/PhotonSocketServer.exe",
+            "args":"/debug PocketShooter /config Photon.PocketShooter.config",    
+             
+        },
+        {
+            "name": ".NET Core Launch (Front)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Heyworks.PocketShooter.Meta.Server/bin/Debug/netcoreapp2.2/Heyworks.PocketShooter.Meta.Server.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Heyworks.PocketShooter.Meta.Server",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch (Integration Tests)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/Heyworks.PocketShooter.Tests.Integration.Runner/bin/Debug/netcoreapp2.2/Heyworks.PocketShooter.Tests.Integration.Runner.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Heyworks.PocketShooter.Tests.Integration.Runner",
+            "stopAtEntry": false,
+            "console": "internalConsole"
+        },
+        {
+            "name": ".NET Core Launch (Back)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/Heyworks.PocketShooter.Meta.Server.Back.Console/bin/Debug/netcoreapp2.2/Heyworks.PocketShooter.Meta.Server.Back.Console.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Heyworks.PocketShooter.Meta.Server.Back.Console",
+            // For more information about the 'console' field, see https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md#console-terminal-window
+            "console": "internalConsole",
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        },
+    ]
+}

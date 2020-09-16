@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Common\Heyworks.PocketShooter.Realtime.Common.csproj" />
+    <ProjectReference Include="..\Heyworks.PocketShooter.Realtime.Client\Heyworks.PocketShooter.Realtime.Client.csproj" />
+    <ProjectReference Include="..\Microsoft.Extensions.Logging.Unity\Microsoft.Extensions.Logging.Unity.csproj" />
+    <ProjectReference Include="..\Heyworks.Realtime.State\Heyworks.Realtime.State.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Heyworks.PocketShooter.Realtime.Client.Common.asmdef" />
+    <None Remove="Heyworks.PocketShooter.Realtime.Client.Common.csproj.DotSettings" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\..\..\..\..\Client\PocketShooter.Client\Assets\ThirdParties\PhotonAssets\Plugins\Photon3Unity3D.dll</HintPath>
+    </Reference>    
+    
+  </ItemGroup>
+</Project>

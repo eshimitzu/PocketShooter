@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Heyworks.PocketShooter.Tests.Integration.ConsoleRunner.asmdef" />
+    <None Remove="**/*.meta" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Heyworks.PocketShooter.Tests.Integration\Heyworks.PocketShooter.Tests.Integration.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="$(NUnitVersion)" />
+    <PackageReference Include="System.CommandLine.DragonFruit" Version="0.3.0-alpha.19317.1"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UniRx">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.dll</HintPath>
+    </Reference>
+    <Reference Include="UniRx.Async">
+      <HintPath>..\..\..\..\..\Server\libs\UniRx\lib\UniRx.Async.dll</HintPath>
+    </Reference>
+   <Reference Include="Photon3Unity3D">
+      <HintPath>..\..\..\..\..\Client\PocketShooter.Client\Assets\ThirdParties\PhotonAssets\Plugins\Photon3Unity3D.dll</HintPath>
+    </Reference>    
+    
+  </ItemGroup>
+</Project>

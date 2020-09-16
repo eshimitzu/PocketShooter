@@ -1,0 +1,1808 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "definitions": {
+    "ServerGameConfig": {
+      "allOf": [
+        {
+          "$ref": "#/definitions/GameConfig"
+        },
+        {
+          "type": "object",
+          "required": [
+            "RealtimeConfig",
+            "BattleRewardFactorsConfig",
+            "MatchMaking",
+            "BotsTrainsConfig",
+            "BattlePositionsRewardConfig"
+          ],
+          "properties": {
+            "RealtimeConfig": {
+              "$ref": "#/definitions/RealtimeConfig"
+            },
+            "BattleRewardFactorsConfig": {
+              "$ref": "#/definitions/BattleRewardFactorsConfig"
+            },
+            "MatchMaking": {
+              "$ref": "#/definitions/MatchMakingConfiguration"
+            },
+            "BotsTrainsConfig": {
+              "type": "array",
+              "description": "Allows to tune bots power within some limits according player level for training",
+              "items": {
+                "$ref": "#/definitions/BotsTrainConfig"
+              }
+            },
+            "MapSelectors": {
+              "type": [
+                "array",
+                "null"
+              ],
+              "items": {
+                "$ref": "#/definitions/MapsSelectorConfig"
+              }
+            },
+            "BattlePositionsRewardConfig": {
+              "type": "array",
+              "maxItems": 32767,
+              "minItems": 1,
+              "items": {
+                "$ref": "#/definitions/BattlePositionRewardConfig"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "RealtimeConfig": {
+      "type": "object",
+      "required": [
+        "DominationModeConfig",
+        "Maps",
+        "TrooperLevelsConfig",
+        "TrooperGradesConfig",
+        "WeaponLevelsConfig",
+        "WeaponGradesConfig",
+        "ArmorLevelsConfig",
+        "ArmorGradesConfig",
+        "HelmetLevelsConfig",
+        "HelmetGradesConfig",
+        "SkillGradesConfig"
+      ],
+      "properties": {
+        "DominationModeConfig": {
+          "$ref": "#/definitions/DominationModeConfig"
+        },
+        "Maps": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/DominationMapConfig"
+          }
+        },
+        "TrooperLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/TrooperLevelConfig"
+          }
+        },
+        "TrooperGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/TrooperGradeConfig"
+          }
+        },
+        "WeaponLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/WeaponLevelConfig"
+          }
+        },
+        "WeaponGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/WeaponGradeConfig"
+          }
+        },
+        "ArmorLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ArmorLevelConfig"
+          }
+        },
+        "ArmorGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ArmorGradeConfig"
+          }
+        },
+        "HelmetLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/HelmetLevelConfig"
+          }
+        },
+        "HelmetGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/HelmetGradeConfig"
+          }
+        },
+        "SkillGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/SkillGradeConfig"
+          }
+        }
+      }
+    },
+    "DominationModeConfig": {
+      "type": "object",
+      "description": "Configuration of domination game mode",
+      "required": [
+        "MVPConfig",
+        "GameArmorConfig"
+      ],
+      "properties": {
+        "MaxPlayers": {
+          "type": "integer",
+          "description": "Gets the maximum players in game",
+          "format": "int32",
+          "default": 10,
+          "maximum": 255.0,
+          "minimum": 1.0
+        },
+        "RespawnTimeMs": {
+          "type": "integer",
+          "description": "Gets time to respawn in milliseconds",
+          "format": "int32",
+          "default": 9000
+        },
+        "TimeplayersToCapture": {
+          "type": "integer",
+          "description": "Gets the amount of \"timeplayers\" to capture the point (timeplayers = playersCount * seconds, real formula is a bit different)",
+          "format": "int32",
+          "default": 4
+        },
+        "CheckIntervalMs": {
+          "type": "integer",
+          "description": "The amount of time to wait before next zones state check in ms. This will affect game speed. To increase check frequency only, combine this with capture speed and points gain.",
+          "format": "int32",
+          "default": 1000
+        },
+        "WinScore": {
+          "type": "integer",
+          "description": "Gets or sets the points to win.",
+          "format": "int32",
+          "default": 1000
+        },
+        "GameDurationMs": {
+          "type": "integer",
+          "format": "int32",
+          "default": 300000
+        },
+        "MVPConfig": {
+          "$ref": "#/definitions/MVPConfig"
+        },
+        "GameArmorConfig": {
+          "$ref": "#/definitions/GameArmorConfig"
+        }
+      }
+    },
+    "MVPConfig": {
+      "type": "object",
+      "properties": {
+        "KillsFactor": {
+          "type": "number",
+          "format": "double",
+          "default": 10.0
+        },
+        "DeathsFactor": {
+          "type": "number",
+          "format": "double",
+          "default": 1.0
+        }
+      }
+    },
+    "GameArmorConfig": {
+      "type": "object",
+      "properties": {
+        "Impact": {
+          "type": "number",
+          "format": "double",
+          "default": 1.0
+        },
+        "DamageFactor": {
+          "type": "number",
+          "format": "double",
+          "default": 1.0
+        }
+      }
+    },
+    "DominationMapConfig": {
+      "type": "object",
+      "required": [
+        "MapName",
+        "ZonesConfig",
+        "TeamsConfig"
+      ],
+      "properties": {
+        "MapName": {
+          "description": "Map these configuration is applied",
+          "minLength": 1,
+          "oneOf": [
+            {
+              "$ref": "#/definitions/MapNames"
+            }
+          ]
+        },
+        "ZonesConfig": {
+          "type": "array",
+          "maxItems": 7,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/DominationZoneConfig"
+          }
+        },
+        "TeamsConfig": {
+          "type": "array",
+          "maxItems": 2,
+          "minItems": 2,
+          "items": {
+            "$ref": "#/definitions/TeamConfig"
+          }
+        }
+      }
+    },
+    "MapNames": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Mexico",
+        "Italy",
+        "Peru",
+        "Custom"
+      ],
+      "enum": [
+        "Mexico",
+        "Italy",
+        "Peru",
+        "Custom"
+      ]
+    },
+    "DominationZoneConfig": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": "integer",
+          "format": "byte"
+        },
+        "X": {
+          "type": "number",
+          "format": "double"
+        },
+        "Y": {
+          "type": "number",
+          "format": "double"
+        },
+        "Z": {
+          "type": "number",
+          "format": "double"
+        },
+        "Radius": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "TeamConfig": {
+      "type": "object",
+      "required": [
+        "SpawnPoints"
+      ],
+      "properties": {
+        "TeamNo": {
+          "$ref": "#/definitions/TeamNo"
+        },
+        "SpawnPoints": {
+          "type": "array",
+          "maxItems": 7,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/SpawnPointConfig"
+          }
+        }
+      }
+    },
+    "TeamNo": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "None",
+        "First",
+        "Second"
+      ],
+      "enum": [
+        "None",
+        "First",
+        "Second"
+      ]
+    },
+    "SpawnPointConfig": {
+      "type": "object",
+      "properties": {
+        "X": {
+          "type": "number",
+          "format": "double"
+        },
+        "Y": {
+          "type": "number",
+          "format": "double"
+        },
+        "Z": {
+          "type": "number",
+          "format": "double"
+        },
+        "Yaw": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "TrooperLevelConfig": {
+      "type": "object",
+      "properties": {
+        "Class": {
+          "$ref": "#/definitions/TrooperClass"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TrooperStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "TrooperClass": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Rambo",
+        "Sniper",
+        "Scout",
+        "Spy",
+        "Rock",
+        "Neo",
+        "Norris",
+        "Statham",
+        "Stallone",
+        "Terminator",
+        "Junkrat",
+        "Spidy",
+        "Irokez",
+        "Stryker",
+        "WillSmith",
+        "McClane",
+        "MadMax"
+      ],
+      "enum": [
+        "Rambo",
+        "Sniper",
+        "Scout",
+        "Spy",
+        "Rock",
+        "Neo",
+        "Norris",
+        "Statham",
+        "Stallone",
+        "Terminator",
+        "Junkrat",
+        "Spidy",
+        "Irokez",
+        "Stryker",
+        "WillSmith",
+        "McClane",
+        "MadMax"
+      ]
+    },
+    "TrooperStatsConfig": {
+      "type": "object",
+      "properties": {
+        "MaxHealth": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxArmor": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Speed": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "TrooperGradeConfig": {
+      "type": "object",
+      "properties": {
+        "Class": {
+          "$ref": "#/definitions/TrooperClass"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/TrooperStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "Grade": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ],
+      "enum": [
+        "Common",
+        "Uncommon",
+        "Rare",
+        "Epic",
+        "Legendary"
+      ]
+    },
+    "WeaponLevelConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/WeaponName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/WeaponStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "WeaponName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Knife",
+        "Katana",
+        "M16A4",
+        "SVD",
+        "SawedOff",
+        "Minigun",
+        "Remington",
+        "Barret",
+        "Bazooka"
+      ],
+      "enum": [
+        "Knife",
+        "Katana",
+        "M16A4",
+        "SVD",
+        "SawedOff",
+        "Minigun",
+        "Remington",
+        "Barret",
+        "Bazooka"
+      ]
+    },
+    "WeaponStatsConfig": {
+      "type": "object",
+      "properties": {
+        "AttackIntervalMs": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ClipSize": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "MaxRange": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ReloadTimeMs": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Dispersion": {
+          "type": "number",
+          "format": "double"
+        },
+        "CriticalMultiplier": {
+          "type": "number",
+          "format": "double"
+        },
+        "Damage": {
+          "type": "number",
+          "format": "double"
+        },
+        "FractionDispersion": {
+          "type": "number",
+          "format": "double"
+        },
+        "Fraction": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "AutoAim": {
+          "type": "boolean"
+        }
+      }
+    },
+    "WeaponGradeConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/WeaponName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/WeaponStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "ArmorLevelConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/ArmorName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ArmorStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "ArmorName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Armor1",
+        "Armor2",
+        "Armor3",
+        "Armor4",
+        "Armor5"
+      ],
+      "enum": [
+        "Armor1",
+        "Armor2",
+        "Armor3",
+        "Armor4",
+        "Armor5"
+      ]
+    },
+    "ArmorStatsConfig": {
+      "type": "object",
+      "properties": {
+        "MaxArmor": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "ArmorGradeConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/ArmorName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ArmorStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "HelmetLevelConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/HelmetName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/HelmetStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "HelmetName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Helmet1",
+        "Helmet2",
+        "Helmet3",
+        "Helmet4",
+        "Helmet5"
+      ],
+      "enum": [
+        "Helmet1",
+        "Helmet2",
+        "Helmet3",
+        "Helmet4",
+        "Helmet5"
+      ]
+    },
+    "HelmetStatsConfig": {
+      "type": "object",
+      "properties": {
+        "MaxHealth": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "HelmetGradeConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/HelmetName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/HelmetStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "SkillGradeConfig": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/SkillName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/SkillStatsConfig"
+            }
+          ]
+        }
+      }
+    },
+    "SkillName": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Grenade",
+        "StunningHit",
+        "RocketJump",
+        "RootingHit",
+        "Lifesteal",
+        "Invisibility",
+        "Immortality",
+        "ShockWave",
+        "ShockWaveJump",
+        "ExtraDamage",
+        "LifeDrain",
+        "Sprint",
+        "InstantReload",
+        "Rage",
+        "RegenerationOnKill",
+        "StealthDash",
+        "Lucky",
+        "DoubleStealthDash",
+        "Dive",
+        "MedKit",
+        "StealthSprint",
+        "Heal",
+        "ControlFreak"
+      ],
+      "enum": [
+        "Grenade",
+        "StunningHit",
+        "RocketJump",
+        "RootingHit",
+        "Lifesteal",
+        "Invisibility",
+        "Immortality",
+        "ShockWave",
+        "ShockWaveJump",
+        "ExtraDamage",
+        "LifeDrain",
+        "Sprint",
+        "InstantReload",
+        "Rage",
+        "RegenerationOnKill",
+        "StealthDash",
+        "Lucky",
+        "DoubleStealthDash",
+        "Dive",
+        "MedKit",
+        "StealthSprint",
+        "Heal",
+        "ControlFreak"
+      ]
+    },
+    "SkillStatsConfig": {
+      "type": "object",
+      "properties": {
+        "CooldownTimeMs": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ActiveTimeMs": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "BattleRewardFactorsConfig": {
+      "type": "object",
+      "properties": {
+        "CashPlayerLevelFactor": {
+          "type": "number",
+          "format": "double"
+        },
+        "CashTeamPositionFactor": {
+          "type": "number",
+          "format": "double"
+        },
+        "ExpPlayerLevelFactor": {
+          "type": "number",
+          "format": "double"
+        },
+        "ExpTeamPositionFactor": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "MatchMakingConfiguration": {
+      "type": "object",
+      "required": [
+        "InitialLevelSpread",
+        "ForcedStartMs",
+        "LearningMeterBeforePvP"
+      ],
+      "properties": {
+        "InitialLevelSpread": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 32767.0,
+          "minimum": 0.0
+        },
+        "ForcedStartMs": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 65535.0,
+          "minimum": 0.0
+        },
+        "LearningMeterBeforePvP": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 32767.0,
+          "minimum": 0.0
+        }
+      }
+    },
+    "BotsTrainConfig": {
+      "type": "object",
+      "properties": {
+        "Level": {
+          "type": "integer",
+          "description": "Level apply to. If non of level matches - than not limits are applied.",
+          "format": "int32",
+          "maximum": 65535.0,
+          "minimum": 0.0
+        },
+        "DamageFactorPercent": {
+          "type": "number",
+          "description": "How weaker attack will be. 1 is default",
+          "format": "double",
+          "maximum": 1.0,
+          "minimum": 0.0
+        },
+        "ProtectionFactorPercent": {
+          "type": "number",
+          "description": "How less damage should take than normal. 1 is default.",
+          "format": "double",
+          "maximum": 1.0,
+          "minimum": 0.0
+        },
+        "MaximalGrade": {
+          "description": "Maximal grade allowed",
+          "oneOf": [
+            {
+              "$ref": "#/definitions/Grade"
+            }
+          ]
+        }
+      }
+    },
+    "MapsSelectorConfig": {
+      "type": "object",
+      "description": "Allow to put player onto specific maps during match making",
+      "required": [
+        "Name"
+      ],
+      "properties": {
+        "Name": {
+          "minLength": 1,
+          "oneOf": [
+            {
+              "$ref": "#/definitions/MapNames"
+            }
+          ]
+        },
+        "StartLevel": {
+          "type": "integer",
+          "description": "Level to allow play from inclusive. If empty than from lowers level.",
+          "format": "int32",
+          "default": 1,
+          "maximum": 65535.0,
+          "minimum": 0.0
+        },
+        "EndLevel": {
+          "type": "integer",
+          "description": "Level to allow play to inclusive. If empty than to highest level.",
+          "format": "int32",
+          "default": 65535,
+          "maximum": 65535.0,
+          "minimum": 1.0
+        }
+      }
+    },
+    "BattlePositionRewardConfig": {
+      "type": "object",
+      "properties": {
+        "TeamPosition": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "CashRewardWin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "CashRewardLose": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ExpRewardWin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "ExpRewardLose": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LearningMeterRewardWin": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "LearningMeterRewardLose": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "GameConfig": {
+      "type": "object",
+      "required": [
+        "BasicPricesConfig",
+        "PlayerLevelsConfig",
+        "InAppPurchasesConfig",
+        "ContentPacksConfig",
+        "RosterProductsConfig",
+        "ShopProductsConfig",
+        "GradesConfig",
+        "TrooperClassesConfig",
+        "TrooperLevelsConfig",
+        "TrooperGradesConfig",
+        "WeaponLevelsConfig",
+        "WeaponGradesConfig",
+        "HelmetLevelsConfig",
+        "HelmetGradesConfig",
+        "ArmorLevelsConfig",
+        "ArmorGradesConfig",
+        "OfferPopupConfig"
+      ],
+      "properties": {
+        "Id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Version": {
+          "type": "string",
+          "description": "Configuration version. Must be update on each modification. First 2 numbers for game releases, 3rd for game fixes and incompatible changes, 4th for A/B testing and tuning",
+          "pattern": "^(\\d+)(\\.\\d+)?(\\.\\d+)?(\\.\\d+)?$"
+        },
+        "BasicPricesConfig": {
+          "$ref": "#/definitions/BasicPricesConfig"
+        },
+        "PlayerLevelsConfig": {
+          "type": "array",
+          "description": "Controls how much experience needed to jump from previous level to next",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/PlayerLevelConfig"
+          }
+        },
+        "InAppPurchasesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/InAppPurchase"
+          }
+        },
+        "ContentPacksConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ContentPackConfig"
+          }
+        },
+        "RosterProductsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/RosterProductConfig"
+          }
+        },
+        "ShopProductsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ShopProductConfig"
+          }
+        },
+        "GradesConfig": {
+          "type": "array",
+          "maxItems": 5,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/GradeConfig"
+          }
+        },
+        "TrooperClassesConfig": {
+          "type": "array",
+          "maxItems": 255,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/TrooperClassConfig"
+          }
+        },
+        "TrooperLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/TrooperLevelConfig2"
+          }
+        },
+        "TrooperGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/TrooperGradeConfig2"
+          }
+        },
+        "WeaponLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/WeaponLevelConfig2"
+          }
+        },
+        "WeaponGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/WeaponGradeConfig2"
+          }
+        },
+        "HelmetLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/HelmetLevelConfig2"
+          }
+        },
+        "HelmetGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/HelmetGradeConfig2"
+          }
+        },
+        "ArmorLevelsConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ArmorLevelConfig2"
+          }
+        },
+        "ArmorGradesConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ArmorGradeConfig2"
+          }
+        },
+        "OfferPopupConfig": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/OfferPopupConfig"
+          }
+        }
+      }
+    },
+    "BasicPricesConfig": {
+      "type": "object",
+      "properties": {
+        "OneMinuteInGold": {
+          "type": "number",
+          "format": "double"
+        },
+        "FreeTimeLimit": {
+          "type": "string",
+          "format": "time-span"
+        }
+      }
+    },
+    "PlayerLevelConfig": {
+      "type": "object",
+      "required": [
+        "Reward",
+        "RepeatingRewardInterval",
+        "RepeatingReward"
+      ],
+      "properties": {
+        "Level": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 32767.0,
+          "minimum": 1.0
+        },
+        "ExperienceInLevel": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 0.0
+        },
+        "CashBattleRewardBase": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 0.0
+        },
+        "GoldBattleRewardBase": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 0.0
+        },
+        "ExpBattleRewardBase": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 0.0
+        },
+        "Reward": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/IContentIdentity"
+          }
+        },
+        "RepeatingRewardInterval": {
+          "type": "string",
+          "format": "time-span",
+          "minLength": 1
+        },
+        "RepeatingReward": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/IContentIdentity"
+          }
+        }
+      }
+    },
+    "IContentIdentity": {
+      "type": "object",
+      "x-abstract": true
+    },
+    "InAppPurchase": {
+      "type": "object",
+      "properties": {
+        "Id": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Type": {
+          "$ref": "#/definitions/InAppPurchaseType"
+        },
+        "PriceUSD": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "InAppPurchaseType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Consumable",
+        "NonConsumable"
+      ],
+      "enum": [
+        "Consumable",
+        "NonConsumable"
+      ]
+    },
+    "ContentPackConfig": {
+      "type": "object",
+      "required": [
+        "Id",
+        "Content"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Content": {
+          "type": "array",
+          "maxItems": 32767,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/IContentIdentity"
+          }
+        }
+      }
+    },
+    "RosterProductConfig": {
+      "type": "object",
+      "required": [
+        "Id",
+        "Price",
+        "ContentPackId"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Price": {
+          "$ref": "#/definitions/Price"
+        },
+        "ContentPackId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "PlayerLevelRequired": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 1.0
+        }
+      }
+    },
+    "Price": {
+      "type": "object",
+      "properties": {
+        "Type": {
+          "$ref": "#/definitions/PriceType"
+        },
+        "CashAmount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "GoldAmount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "PurchaseId": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "IsZero": {
+          "type": "boolean"
+        },
+        "TicketsAmount": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "PriceType": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Gold",
+        "Cash",
+        "AdTicket",
+        "RealCurrency"
+      ],
+      "enum": [
+        "Gold",
+        "Cash",
+        "AdTicket",
+        "RealCurrency"
+      ]
+    },
+    "ShopProductConfig": {
+      "type": "object",
+      "required": [
+        "Id",
+        "Price",
+        "ContentPackId",
+        "Category"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Price": {
+          "$ref": "#/definitions/Price"
+        },
+        "ContentPackId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "Category": {
+          "type": "array",
+          "maxItems": 100,
+          "minItems": 1,
+          "items": {
+            "$ref": "#/definitions/ShopCategory"
+          }
+        },
+        "MinPlayerLevel": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 1.0
+        },
+        "MaxPlayerLevel": {
+          "type": "integer",
+          "format": "int32",
+          "maximum": 2147483647.0,
+          "minimum": 1.0
+        }
+      }
+    },
+    "ShopCategory": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Offers",
+        "Hard",
+        "Soft",
+        "Consumables"
+      ],
+      "enum": [
+        "Offers",
+        "Hard",
+        "Soft",
+        "Consumables"
+      ]
+    },
+    "GradeConfig": {
+      "type": "object",
+      "properties": {
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "MaxLevel": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "TrooperClassConfig": {
+      "type": "object",
+      "properties": {
+        "Class": {
+          "$ref": "#/definitions/TrooperClass"
+        },
+        "Skills": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "maxItems": 5,
+          "minItems": 5,
+          "items": {
+            "$ref": "#/definitions/SkillName"
+          }
+        }
+      }
+    },
+    "TrooperLevelConfig2": {
+      "type": "object",
+      "properties": {
+        "Class": {
+          "$ref": "#/definitions/TrooperClass"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularDuration": {
+          "type": "string",
+          "format": "time-span"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "ItemStats": {
+      "type": "object",
+      "properties": {
+        "Power": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Attack": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Health": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Armor": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Movement": {
+          "type": "number",
+          "format": "double"
+        },
+        "Distance": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Capacity": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "Reload": {
+          "type": "number",
+          "format": "double"
+        }
+      }
+    },
+    "TrooperGradeConfig2": {
+      "type": "object",
+      "properties": {
+        "Class": {
+          "$ref": "#/definitions/TrooperClass"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "WeaponLevelConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/WeaponName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularDuration": {
+          "type": "string",
+          "format": "time-span"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "WeaponGradeConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/WeaponName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "HelmetLevelConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/HelmetName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularDuration": {
+          "type": "string",
+          "format": "time-span"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "HelmetGradeConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/HelmetName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "ArmorLevelConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/ArmorName"
+        },
+        "Level": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "RegularDuration": {
+          "type": "string",
+          "format": "time-span"
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "ArmorGradeConfig2": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "$ref": "#/definitions/ArmorName"
+        },
+        "Grade": {
+          "$ref": "#/definitions/Grade"
+        },
+        "InstantPrice": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/Price"
+            }
+          ]
+        },
+        "Stats": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/definitions/ItemStats"
+            }
+          ]
+        }
+      }
+    },
+    "OfferPopupConfig": {
+      "type": "object",
+      "required": [
+        "OfferProductId",
+        "AppearanceChance",
+        "Discount"
+      ],
+      "properties": {
+        "OfferProductId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "AppearanceChance": {
+          "type": "number",
+          "format": "double"
+        },
+        "Discount": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "$ref": "#/definitions/ServerGameConfig"
+    }
+  ]
+}

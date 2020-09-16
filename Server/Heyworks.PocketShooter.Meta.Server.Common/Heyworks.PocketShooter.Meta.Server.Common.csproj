@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>    
+
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <CodeAnalysisRuleSet>$(SolutionDir)..\CARuleSets\Heyworks.None.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Orleans.Core" Version="$(MicrosoftOrleansVersion)" />
+    <PackageReference Include="Microsoft.Orleans.OrleansCodeGenerator.Build" Version="$(MicrosoftOrleansVersion)" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="$(SystemComponentModelAnnotationsVersion)" />
+    <PackageReference Include="NJsonSchema" Version="$(NJsonSchemaVersion)" />
+    <PackageReference Include="NSwag.MSBuild" Version="12.3.0" />    
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Client\PocketShooter.Client\Assets\Scripts\Heyworks.PocketShooter.Meta.Common\Heyworks.PocketShooter.Meta.Common.csproj" />
+  </ItemGroup>
+
+  <Target Name="NSwag" AfterTargets="Build">
+      <Exec Command="dotnet exec $(ProjectDir)../libs/nswag/dotnet-nswag.dll types2jsonschema /assembly:$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).dll  /classnames:$(RootNamespace).Meta.Configuration.Data.ServerGameConfig /output:$(ProjectDir)../.gameconfigs/pocketshooter.schema.json /AllowAdditionalProperties:true /DefaultEnumHandling:String" />
+  </Target>
+
+</Project>

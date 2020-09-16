@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e42784099bc648649b954a7c77585430, type: 3}
+  m_Name: TestingIOSIconsSO
+  m_EditorClassIdentifier: 
+  ApplicationiPhoneIcon180x180: Assets/Art/Icons/IOS/iPhone/TESTING/PTS_Game icon_Testing_[180x180].png
+  ApplicationiPhoneIcon120x120: Assets/Art/Icons/IOS/iPhone/TESTING/PTS_Game icon_Testing_[120x120].png
+  ApplicationiPadIcon167x167: Assets/Art/Icons/IOS/iPad/TESTING/PTS_Game icon_Testing_[167x167].png
+  ApplicationiPadIcon152x152: Assets/Art/Icons/IOS/iPad/TESTING/PTS_Game icon_Testing_[152x152].png
+  ApplicationiPadIcon76x76: Assets/Art/Icons/IOS/iPad/TESTING/PTS_Game icon_Testing_[76x76].png
+  SpotlightiPhoneIcon120x120: 
+  SpotlightiPhoneIcon80x80: 
+  SpotlightiPadIcon80x80: 
+  SpotlightiPadIcon40x40: 
+  SettingsiPhoneIcon87x87: 
+  SettingsiPhoneIcon58x58: 
+  SettingsiPhoneIcon29x29: 
+  SettingsiPadIcon58x58: 
+  SettingsiPadIcon29x29: 
+  NotificationsiPhoneIcon60x60: 
+  NotificationsiPhoneIcon40x40: 
+  NotificationsiPadIcon40x40: 
+  NotificationsiPadIcon20x20: 
+  AppStoreIcon1024x1024: Assets/Art/Icons/IOS/AppStore/TESTING/PTS_Game icon_Testing_[1024x1024].png

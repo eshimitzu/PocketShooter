@@ -1,0 +1,236 @@
+Event	ID	Name			Wwise Object Path	Notes
+	21563610	PlayReloadShotgun			\Default Work Unit\CharachterEvents\Weapons\PlayReloadShotgun	
+	35691788	PlayRockFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayRockFocus	
+	182173234	PlayDiveExplosion			\Default Work Unit\CharachterEvents\Skills\PlayDiveExplosion	
+	328285970	PlaySuffer			\Default Work Unit\CharachterEvents\Voiceovers\PlaySuffer	
+	377947503	PlayImmortalitySphere			\Default Work Unit\CharachterEvents\Skills\PlayImmortalitySphere	
+	389124200	PlayReloadM16			\Default Work Unit\CharachterEvents\Weapons\PlayReloadM16	
+	440143028	PlayReloadRocket			\Default Work Unit\CharachterEvents\Weapons\PlayReloadRocket	
+	520122814	PlayTrooperImpact			\Default Work Unit\CharachterEvents\Weapons\PlayTrooperImpact	
+	570964110	PlayFootstepsScout			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsScout	
+	626967428	PlayWeaponMinigun			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponMinigun	
+	642563282	PlayInvisibility			\Default Work Unit\CharachterEvents\Skills\PlayInvisibility	
+	652493511	PlayStathamFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayStathamFocus	
+	677081109	PlayDive			\Default Work Unit\CharachterEvents\Skills\PlayDive	
+	821551381	PlayGrenadeThrow			\Default Work Unit\CharachterEvents\Skills\PlayGrenadeThrow	
+	824809494	PlaySniperFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlaySniperFocus	
+	873250360	PlayFootstepsStatham			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsStatham	
+	888888696	PlayRocketExplosion			\Default Work Unit\CharachterEvents\Weapons\PlayRocketExplosion	
+	891302319	PlayWeaponBarret			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponBarret	
+	921201313	PlayLucky			\Default Work Unit\CharachterEvents\Skills\PlayLucky	
+	925121273	PlayScoutFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayScoutFocus	
+	1007243845	PlayNeoFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayNeoFocus	
+	1027081642	PlayRegeneration			\Default Work Unit\CharachterEvents\Skills\PlayRegeneration	
+	1030691167	PlayDash			\Default Work Unit\CharachterEvents\Skills\PlayDash	
+	1148768871	PlayWeaponKatanaWhip			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatanaWhip	
+	1171507898	PlayWeaponShotgunRemington			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunRemington	
+	1307850985	StopImmortalitySphere			\Default Work Unit\CharachterEvents\Skills\StopImmortalitySphere	
+	1313462519	PlayHealing			\Default Work Unit\CharachterEvents\Skills\PlayHealing	
+	1373079386	PlayWeaponKnife			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnife	
+	1415805818	PlayFootstepsSpy			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSpy	
+	1517601480	StopLifesteal			\Default Work Unit\CharachterEvents\Skills\StopLifesteal	
+	1614160601	PlayWeaponKatana			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatana	
+	1674377184	PlayWarmUpMinigun			\Default Work Unit\CharachterEvents\Weapons\PlayWarmUpMinigun	
+	1717476791	PlayJump			\Default Work Unit\CharachterEvents\Skills\PlayJump	
+	1729824178	PlayLifestealMinus			\Default Work Unit\CharachterEvents\Skills\PlayLifestealMinus	
+	1798292410	PlayFootstepsNeo			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNeo	
+	1956159050	PlayLifestealPlus			\Default Work Unit\CharachterEvents\Skills\PlayLifestealPlus	
+	1998507580	PlayRage			\Default Work Unit\CharachterEvents\Skills\PlayRage	
+	2032244284	PlayGrenadePin			\Default Work Unit\CharachterEvents\Skills\PlayGrenadePin	
+	2417476225	PlayFootstepsSniper			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSniper	
+	2447162584	PlayRocketShoot			\Default Work Unit\CharachterEvents\Weapons\PlayRocketShoot	
+	2476989423	PlaySprint			\Default Work Unit\CharachterEvents\Skills\PlaySprint	
+	2605355262	PlayJumpEnd			\Default Work Unit\CharachterEvents\Skills\PlayJumpEnd	
+	2610787897	PlayFootstepsRambo			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRambo	
+	2647086485	PlayDiveRocket			\Default Work Unit\CharachterEvents\Skills\PlayDiveRocket	
+	2652080524	PlayWeaponSvd			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponSvd	
+	2673989888	PlayShockwave			\Default Work Unit\CharachterEvents\Skills\PlayShockwave	
+	2828262823	StateEffectStun			\Default Work Unit\CharachterEvents\Skills\StateEffectStun	
+	2840201783	PlayDeath			\Default Work Unit\CharachterEvents\Voiceovers\PlayDeath	
+	2880499329	PlaySpyFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlaySpyFocus	
+	2951439723	PlayShockwaveHorn			\Default Work Unit\CharachterEvents\Skills\PlayShockwaveHorn	
+	2971556329	PlayGrenadeStunCollision			\Default Work Unit\CharachterEvents\Skills\PlayGrenadeStunCollision	
+	3015014434	PlayWeaponShotgunSpas			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunSpas	
+	3057966133	PlayGrenadeCollision			\Default Work Unit\CharachterEvents\Skills\PlayGrenadeCollision	
+	3203537172	PlayDiveAim			\Default Work Unit\CharachterEvents\Skills\PlayDiveAim	
+	3276813625	PlayFootstepsNorris			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNorris	
+	3320537866	PlayNorrisFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayNorrisFocus	
+	3327443438	PlayFootstepsCommando			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsCommando	
+	3389360877	PlayReloadSvd			\Default Work Unit\CharachterEvents\Weapons\PlayReloadSvd	
+	3393109598	PlayImmortalityImpact			\Default Work Unit\CharachterEvents\Skills\PlayImmortalityImpact	
+	3395014464	PlayGrenadeExplosion			\Default Work Unit\CharachterEvents\Skills\PlayGrenadeExplosion	
+	3429197936	PlayStunEffect			\Default Work Unit\CharachterEvents\Skills\PlayStunEffect	
+	3585203664	PlayWeaponKnifeWhip			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnifeWhip	
+	3711495321	StopSprint			\Default Work Unit\CharachterEvents\Skills\StopSprint	
+	3722533827	StateCharacterDead			\Default Work Unit\CharachterEvents\StateCharacterDead	
+	3751915472	PlayWarmUpStopMinigun			\Default Work Unit\CharachterEvents\Weapons\PlayWarmUpStopMinigun	
+	3772532305	PlayWeaponM16			\Default Work Unit\CharachterEvents\Weapons\PlayWeaponM16	
+	3864859669	PlayWallImpact			\Default Work Unit\CharachterEvents\Weapons\PlayWallImpact	
+	3883208773	PlayInstantReload			\Default Work Unit\CharachterEvents\Skills\PlayInstantReload	
+	3960134683	PlayFootstepsRock			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRock	
+	4022900357	PlayReloadMinigun			\Default Work Unit\CharachterEvents\Weapons\PlayReloadMinigun	
+	4052284670	PlayLifesteal			\Default Work Unit\CharachterEvents\Skills\PlayLifesteal	
+	4153127022	PlayTrap			\Default Work Unit\CharachterEvents\Skills\PlayTrap	
+	4201560764	PlayRamboFocus			\Default Work Unit\CharachterEvents\Voiceovers\PlayRamboFocus	
+	4245983556	PlayFootstepsRocketeer			\Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRocketeer	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1659627727	SprintActive			\Default Work Unit\SkillParameters\SprintActive	
+	1760649476	WarmupConsumableWeapon			\Default Work Unit\WeaponParameters\WarmupConsumableWeapon	
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	93270546	Modulator Time (Custom)				
+	152893625	Modulator Time (Custom)				
+	167355581	Modulator Time (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	296694961	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsRocketeer\FootstepsRocketeerAddition\Pause\Wwise Silence	
+	298297732	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSpy\FootstepsSpyAddition\Pause\Wwise Silence	
+	347069170	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\FoleyCommando\Pause\Wwise Silence	
+	692375536	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSniper\FootstepsSniperAddition\Pause\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21801019	WeaponKatanaWhip_2	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponKatanaWhip_2_B2354A63_004609EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKatanaWhip\WeaponKatanaWhip_2		55476
+	25665503	Trap	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Trap_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Trap		23448
+	27330049	ReloadRocket	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ReloadRocket_5651D0BE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\Reloads\ReloadRocket		46360
+	29256653	Suffer06	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer06_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer06		6388
+	29273590	EffectStun	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\EffectStun_1CD3FC5F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\EffectStun		40888
+	35911826	Suffer01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer01		6964
+	36574813	Lucky	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Design, Whoosh, Metallic 1 SND11967 1_71C3E949.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Lucky		20256
+	43428189	WeaponBarret03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponBarret03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponBarret\WeaponBarret03		63972
+	47360111	RamboFs04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\RamboFs04_CE23F0D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsRambo\RamboFs\RamboFs04		7680
+	52185697	WeaponShotgunRemington02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunRemington02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunRemington\WeaponShotgunRemington02		25884
+	57033575	ImmortalitySphereOn	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ImmortalitySphereOn_FE09A4B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\ImmortalitySphereOn		49752
+	59100695	InstantReload	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\InstantReload_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\InstantReload		40560
+	62123051	WeaponM1601	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponM1601_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponM16\WeaponM1601		34596
+	75778750	Suffer03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer03		7936
+	82876590	RamboFs03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\RamboFs03_DA8098DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsRambo\RamboFs\RamboFs03		7680
+	83127967	FsCommando07	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FsCommando07_2ABBD0F8.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommando\FsCommando07		6832
+	83710797	RamboFs02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\RamboFs02_9C54B248.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsRambo\RamboFs\RamboFs02		7680
+	85382981	WeaponShotgunSpas03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunSpas03_4DF4AC3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunSpas\WeaponShotgunSpas03		16644
+	90150293	ImmortalityImpact03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ImmortalityImpact03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\ImortalityImpact\ImmortalityImpact03		6084
+	92861816	Death6	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death6_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death6		17872
+	104494497	Sprint	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Sprint02_5D098EFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\Sprint		48988
+	104837638	WeaponBarret02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponBarret02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponBarret\WeaponBarret02		59592
+	121558942	Suffer10	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer10_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer10		4372
+	135635603	Suffer11	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer11_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer11		5380
+	135723844	FoleyCommando03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FoleyCommando03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\FoleyCommando\FoleyCommando03		6112
+	144327441	LauncherSingleRocket	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\LauncherSingleRocket_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\RocketShoot\RocketShoot\LauncherSingleRocket		21340
+	147349247	NeoDejaVu	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NeoDejaVu_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\NeoFocus\NeoDejaVu		24156
+	152088484	WeaponKatana	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponKatana_3F35904D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKatana		9136
+	178994087	DiveRocket	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\DiveRocket_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Dive\DiveRocket		12660
+	184366295	Whip_Short_DYN2_RR2	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Whip_Short_DYN2_RR2_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKnifeWhip\Whip_Short_DYN2_RR2		18088
+	194537141	LauncherM202	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\LauncherM202_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\RocketShoot\RocketShoot\LauncherM202		35704
+	197709163	ScoutFs03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ScoutFs03_973CDEC6.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsScout\ScoutFs\ScoutFs03		7804
+	208143398	Suffer12	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer12_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer12		5848
+	210398223	Regeneration	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Healing_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\Regeneration		34824
+	219119742	WeaponBarret04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponBarret04_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponBarret\WeaponBarret04		60660
+	222709588	Knife	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Knife_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKnife\Knife		5316
+	228382889	ScoutFs04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ScoutFs04_19EF5B2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsScout\ScoutFs\ScoutFs04		7488
+	229981047	RocketExplosion	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\explosion_16AD8D0B.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\RocketShoot\RocketExplosion		33936
+	238379353	BulletImpactBody	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Windshield_Hit_01_FAFBC53F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletTrooperImpact\BulletImpactBody		6900
+	242498465	Whip_Short_DYN2_RR4	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Whip_Short_DYN2_RR4_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKnifeWhip\Whip_Short_DYN2_RR4		15640
+	261588463	RamboFs01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\RamboFs01_98367DE5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsRambo\RamboFs\RamboFs01		7680
+	270346793	DiveExplosion	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\DiveExplosion_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Dive\DiveExplosion		44472
+	279681926	scout_copy	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\scout_copy_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\ScoutFocus\scout_copy		14208
+	279710590	Death5	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death5_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death5		16324
+	280732065	ClothCommando08	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ClothCommando08_BB005D50.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\ClothCommando\ClothCommando08		7768
+	281002167	trooper_kill_em_all	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\trooper_kill_em_all_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\RamboFocus\trooper_kill_em_all		20436
+	296001355	WeaponSvd01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponSvd01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponSvd\WeaponSvd01		25596
+	296184789	SpyFs04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SpyFs04_39A49216.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSpy\SpyFs\SpyFs04		7644
+	299859960	BulletWallImpact02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\BulletWallImpact02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletWallImpact\BulletWallImpact02		12852
+	307978837	FootstepsCommandoLow	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FootstepsCommandoLow_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoLow		9460
+	335257554	Lifesteal	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Lifesteal_FE09A4B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Lifesteal		74604
+	338793523	spy_will_do	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\spy_will_do_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\SpyFocus\spy_will_do		13920
+	343762296	DiveAim	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\DiveAim_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Dive\DiveAim		13128
+	349689896	SpyFs03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SpyFs03_F6ED099D.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSpy\SpyFs\SpyFs03		7644
+	359809607	GrenadeCollision02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeCollision02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeCollision\GrenadeCollision01\GrenadeCollision02		16992
+	367985423	WeaponShotgunSpas02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunSpas02_BC37670A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunSpas\WeaponShotgunSpas02		16272
+	379154003	WeaponM1604	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponM1604_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponM16\WeaponM1604		34884
+	386203276	ReloadMinigun	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\MinigunReload_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\Reloads\ReloadMinigun		112852
+	398498733	WeaponShotgunRemington03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunRemington03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunRemington\WeaponShotgunRemington03		20160
+	400555669	NorrisBang	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NorrisBang_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\NorrisFocus\NorrisBang		33120
+	413831909	GrenadeCollision03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeCollision03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeCollision\GrenadeCollision01\GrenadeCollision03		12708
+	438277189	BulletWallImpact01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\BulletWallImpact01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletWallImpact\BulletWallImpact01		8640
+	442325913	sniper_picaboo	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\sniper_picaboo_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\SniperFocus\sniper_picaboo		15324
+	447661959	Jump	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Footsteps, Asphalt, Sneaker, Medium SND0989 3_59068CFA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Jump\Jump		6256
+	450947778	GrenadeStunCollision02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeStunCollision02_88202555.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeStunCollision\GrenadeStunCollision02		15552
+	464787711	NeoKungFu	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NeoKungFu_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\NeoFocus\NeoKungFu		24660
+	465051163	SpyFs02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SpyFs02_382EFB2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSpy\SpyFs\SpyFs02		7680
+	484765171	Shockwave	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Shockwave_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Shockwave		26328
+	487997870	WeaponM1603	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponM1603_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponM16\WeaponM1603		36432
+	488845179	SprintStart	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SprintStart_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\SprintStart		25080
+	502435711	Dash	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Design, Whoosh, Low, Thunder 1 SND12023_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\Dash		66480
+	505489977	FsCommando03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FsCommando03_B5FFE4CF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommando\FsCommando03		5752
+	518495252	WeaponMinigun03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponMinigun03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigun\WeaponMinigun03		29268
+	531059462	ImmortalityImpact01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ImmortalityImpact01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\ImortalityImpact\ImmortalityImpact01		10260
+	536243856	GrenadeStunCollision01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeStunCollision01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeStunCollision\GrenadeStunCollision01		21852
+	544688403	FsCommando08	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FsCommando08_975AB418.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommando\FsCommando08		8452
+	550107063	ScoutFs01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ScoutFs01_12DD1A74.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsScout\ScoutFs\ScoutFs01		7696
+	554358893	Suffer08	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer08_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer08		10348
+	555832269	SniperFs01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SniperFs01_0B055390.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSniper\SniperFs\SniperFs01		7516
+	559599286	SprintStop	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SprintStop_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\SprintStop		15708
+	560518470	LifestealMinus	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\LifestealEmemy_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\LifestealMinus		39420
+	565874661	StathamFatChance	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\StathamFatChance_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\StathamFocus\StathamFatChance		33120
+	567409900	WeaponShotgunRemington01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunRemington01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunRemington\WeaponShotgunRemington01		24048
+	572353186	SpyFs01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SpyFs01_2A5F6DDD.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSpy\SpyFs\SpyFs01		7680
+	573634064	ReloadM16	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ReloadM16_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\Reloads\ReloadM16		67896
+	581048698	Death4	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death4_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death4		16576
+	616112800	Suffer07	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer07_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer07		8368
+	617826988	ShockwaveHorn	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ShockwaveHorn_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\ShockwaveHorn		30120
+	622963306	BulletImpactIce	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\BulletImpactIce_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletTrooperImpact\BulletImpactIce		13752
+	638996517	WeaponKatanaWhip	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponKatanaWhip_B2354A63_004609EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKatanaWhip\WeaponKatanaWhip		50436
+	641307925	WeaponBarret01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponBarret01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponBarret\WeaponBarret01		58428
+	648413186	ScoutFs02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ScoutFs02_9DCBD471.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsScout\ScoutFs\ScoutFs02		7680
+	651053087	JumpEnd	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Footsteps, Asphalt, Sneaker, Medium SND0989 4_878E2160.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Jump\JumpEnd		7048
+	651833903	WeaponMinigun02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponMinigun02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigun\WeaponMinigun02		34776
+	663771886	Rage	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Rage_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Rage		49056
+	669021361	WeaponKatanaWhip_1	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponKatanaWhip_1_B2354A63_004609EB.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKatanaWhip\WeaponKatanaWhip_1		56268
+	674537842	BilletImpactFlyby01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Flyby_02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletTrooperImpact\BilletImpactFlyby01		5428
+	684293905	GrenadePin	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadePin_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadePin		35424
+	719747670	Suffer09	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer09_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer09		2896
+	720982452	SniperFs04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SniperFs04_2014BC8E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSniper\SniperFs\SniperFs04		7644
+	724105491	ClothCommando06	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ClothCommando06_64AEA454.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\ClothCommando\ClothCommando06		6652
+	728153363	WeaponShotgunSpas01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponShotgunSpas01_716B28C1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponShotgunSpas\WeaponShotgunSpas01		18216
+	744236395	WeaponM1602	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponM1602_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponM16\WeaponM1602		34956
+	750585038	spy_five_by_five	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\spy_five_by_five_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\SpyFocus\spy_five_by_five		21552
+	761066873	BulletImpactStone	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\tarmac_04_8CD7AD17.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\BulletWallImpact\BulletImpactStone		3232
+	774750914	Suffer02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer02		6316
+	778747842	FoleyCommando06	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FoleyCommando06_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\FoleyCommando\FoleyCommando06		5536
+	778915457	WarmUpClick	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponMinigun02_A3E98876_674158A7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigunWarmUp\WarmUp\WarmUpClick		2916
+	780883211	WeaponSvd03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponSvd03_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponSvd\WeaponSvd03		26244
+	804359881	Death3	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death3_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death3		15820
+	811448585	ToothFairyDoesntMatter	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ToothFairyDoesntMatter_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\RockFocus\ToothFairyDoesntMatter		48744
+	829104249	FsCommando06	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FsCommando06_0C87AD23.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommando\FsCommando06		7876
+	835485921	StathamTikiTi	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\StathamTikiTi_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\StathamFocus\StathamTikiTi		33120
+	853507456	ImmortalityImpact02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ImmortalityImpact02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\ImortalityImpact\ImmortalityImpact02		7956
+	857859271	GrenadeCollision04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeCollision04_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeCollision\GrenadeCollision02\GrenadeCollision04		25488
+	864848772	scout_sir_yes_sir	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\scout_sir_yes_sir_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\ScoutFocus\scout_sir_yes_sir		26736
+	867738315	GrenadeThrow	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Whip_Long_DYN2_RR4_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeThrow		28744
+	875597298	WeaponMinigun04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponMinigun04_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigun\WeaponMinigun04		33408
+	891787428	Death2	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death2_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death2		13264
+	892923160	WarmUpSpin	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WarmUp_FE09A4B1.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigunWarmUp\WarmUp\WarmUpSpin		9552
+	894775793	SniperFs02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SniperFs02_AE19B342.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSniper\SniperFs\SniperFs02		7680
+	903811352	sniper_this_is_my_rifle	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\sniper_this_is_my_rifle_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\SniperFocus\sniper_this_is_my_rifle		29688
+	903941155	Invisibility	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Invisibility_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Invisibility		25840
+	915449404	Healing	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Healing02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\2d\Healing		42972
+	930161263	ReloadShotgun	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ReloadShotgun_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\Reloads\ReloadShotgun		89848
+	947786799	Whip_Short_DYN2_RR3	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Whip_Short_DYN2_RR3_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponKnifeWhip\Whip_Short_DYN2_RR3		16648
+	954464211	Suffer05	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer05_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer05		5704
+	956270199	FoleyCommando04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FoleyCommando04_48847FBA.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\FoleyCommando\FoleyCommando04		7084
+	977896999	WeaponSvd02	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponSvd02_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponSvd\WeaponSvd02		26748
+	978148205	trooper_to_the_battle	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\trooper_to_the_battle_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\RamboFocus\trooper_to_the_battle		23028
+	981394895	LifeStealOn	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\LifeStealOn_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\LifeStealOn		37464
+	985243582	NorrisWillKill	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\NorrisWillKill_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\NorrisFocus\NorrisWillKill		33120
+	1000444586	ClothCommando04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ClothCommando04_E1DC000F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\ClothCommando\ClothCommando04		7660
+	1002579607	ClothCommando07	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ClothCommando07_0B21F078.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\ClothCommando\ClothCommando07		4204
+	1010502144	DiveButton	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\DiveButton_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Dive\DiveButton		5016
+	1010656985	GrenadeExplosion	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeDefault_AE1ABCD9_4038B643.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeExplosion		32896
+	1015568181	SniperFs03	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\SniperFs03_D76BAB67.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsSniper\SniperFs\SniperFs03		7644
+	1022175535	FoleyCommando05	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\FoleyCommando05_629EE1BC.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Footsteps\FootstepsCommando\FootstepsCommandoAddition\FoleyCommando\FoleyCommando05		5320
+	1022370741	WeaponMinigun01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\WeaponMinigun01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Weapon\WeaponMinigun\WeaponMinigun01		31356
+	1060480543	GrenadeCollision09	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\GrenadeCollision09_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\Skills\3d\Grenade\GrenadeCollision\GrenadeCollision02\GrenadeCollision09		13068
+	1063266035	Suffer04	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Suffers\Suffer04_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Suffer\Suffer04		5920
+	1066083824	Death01	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\Death\Death01_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\Death\Death01		16288
+	1068343675	ToothFairyJabroni	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\Windows\SFX\ToothFairyJabroni_B2354A63.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Character\VoiceOvers\RockFocus\ToothFairyJabroni		42912
+

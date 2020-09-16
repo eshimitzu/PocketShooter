@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74e8b44a20a3745628e05bfcc6d07502, type: 3}
+  m_Name: InvisibilitySkillSpec
+  m_EditorClassIdentifier: 
+  skillName: 6
+  icon: {fileID: 21300000, guid: 39eb92c645ffb4dcbae17d0d73953977, type: 3}
+  invisibilityMaterial: {fileID: 2100000, guid: f392ecc479e191245ae13d180949a308,
+    type: 2}
+  aimAssistLayer: 16
+  invisibleLayer: 13

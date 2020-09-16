@@ -1,0 +1,2060 @@
+fileFormatVersion: 2
+guid: 8a4ad56e3ad335d47bc225c103cd2f87
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Border
+    100002: Border 1
+    100004: Border 10
+    100006: Border 11
+    100008: Border 12
+    100010: Border 13
+    100012: Border 14
+    100014: Border 15
+    100016: Border 16
+    100018: Border 17
+    100020: Border 18
+    100022: Border 19
+    100024: Border 2
+    100026: Border 20
+    100028: Border 21
+    100030: Border 22
+    100032: Border 23
+    100034: Border 24
+    100036: Border 25
+    100038: Border 26
+    100040: Border 27
+    100042: Border 28
+    100044: Border 29
+    100046: Border 3
+    100048: Border 30
+    100050: Border 31
+    100052: Border 32
+    100054: Border 33
+    100056: Border 34
+    100058: Border 35
+    100060: Border 36
+    100062: Border 4
+    100064: Border 5
+    100066: Border 6
+    100068: Border 7
+    100070: Border 8
+    100072: Border 9
+    100074: Details
+    100076: Details 1
+    100078: Details 10
+    100080: Details 11
+    100082: Details 12
+    100084: Details 13
+    100086: Details 14
+    100088: Details 15
+    100090: Details 16
+    100092: Details 17
+    100094: Details 18
+    100096: Details 19
+    100098: Details 2
+    100100: Details 20
+    100102: Details 21
+    100104: Details 22
+    100106: Details 23
+    100108: Details 24
+    100110: Details 25
+    100112: Details 26
+    100114: Details 27
+    100116: Details 28
+    100118: Details 29
+    100120: Details 3
+    100122: Details 30
+    100124: Details 31
+    100126: Details 32
+    100128: Details 33
+    100130: Details 34
+    100132: Details 35
+    100134: Details 36
+    100136: Details 37
+    100138: Details 38
+    100140: Details 39
+    100142: Details 4
+    100144: Details 40
+    100146: Details 41
+    100148: Details 42
+    100150: Details 43
+    100152: Details 44
+    100154: Details 45
+    100156: Details 46
+    100158: Details 47
+    100160: Details 48
+    100162: Details 49
+    100164: Details 5
+    100166: Details 50
+    100168: Details 51
+    100170: Details 52
+    100172: Details 53
+    100174: Details 54
+    100176: Details 55
+    100178: Details 56
+    100180: Details 57
+    100182: Details 58
+    100184: Details 59
+    100186: Details 6
+    100188: Details 60
+    100190: Details 61
+    100192: Details 62
+    100194: Details 63
+    100196: Details 64
+    100198: Details 65
+    100200: Details 66
+    100202: Details 67
+    100204: Details 68
+    100206: Details 69
+    100208: Details 7
+    100210: Details 70
+    100212: Details 71
+    100214: Details 8
+    100216: Details 9
+    100218: Details001
+    100220: Details002
+    100222: Details003
+    100224: Details004
+    100226: Details005
+    100228: Details006
+    100230: Details007
+    100232: Details008
+    100234: Details009
+    100236: Details010
+    100238: Details011
+    100240: Details012
+    100242: Details013
+    100244: Details014
+    100246: Details015
+    100248: Details017
+    100250: //RootNode
+    100252: MexicoTerrain
+    100254: Object005
+    100256: Object006
+    100258: Room
+    100260: Room 1
+    100262: Rooms
+    100264: Rooms001
+    100266: Wall
+    100268: Wall 1
+    100270: Wall 10
+    100272: Wall 11
+    100274: Wall 12
+    100276: Wall 13
+    100278: Wall 14
+    100280: Wall 15
+    100282: Wall 16
+    100284: Wall 17
+    100286: Wall 18
+    100288: Wall 19
+    100290: Wall 2
+    100292: Wall 20
+    100294: Wall 21
+    100296: Wall 22
+    100298: Wall 23
+    100300: Wall 24
+    100302: Wall 25
+    100304: Wall 26
+    100306: Wall 27
+    100308: Wall 28
+    100310: Wall 29
+    100312: Wall 3
+    100314: Wall 30
+    100316: Wall 31
+    100318: Wall 32
+    100320: Wall 33
+    100322: Wall 34
+    100324: Wall 35
+    100326: Wall 36
+    100328: Wall 37
+    100330: Wall 38
+    100332: Wall 39
+    100334: Wall 4
+    100336: Wall 40
+    100338: Wall 41
+    100340: Wall 42
+    100342: Wall 43
+    100344: Wall 44
+    100346: Wall 45
+    100348: Wall 46
+    100350: Wall 47
+    100352: Wall 48
+    100354: Wall 5
+    100356: Wall 6
+    100358: Wall 7
+    100360: Wall 8
+    100362: Wall 9
+    100364: Wall001
+    100366: Walls
+    100368: Walls 1
+    100370: Walls 2
+    100372: Walls 3
+    100374: Walls001
+    100376: Window
+    100378: Windows
+    100380: WindowsNight
+    100382: WindowsNight001
+    100384: WindowsNight002
+    100386: WindowsNight003
+    100388: WindowsNight004
+    100390: WindowsNight005
+    100392: WindowsNight006
+    100394: WindowsNight008
+    100396: WindowsNight009
+    100398: WindowsNight010
+    100400: WindowsNight011
+    100402: WindowsNight012
+    100404: WindowsNight013
+    100406: WindowsNight014
+    100408: WindowsNight015
+    100410: WindowsNight016
+    100412: WindowsNight017
+    100414: WindowsNight018
+    100416: WindowsNight019
+    100418: WindowsNight020
+    100420: WindowsNight021
+    100422: WindowsNight022
+    100424: WindowsNight023
+    100426: WindowsNight024
+    100428: WindowsNight025
+    100430: WindowsNight026
+    100432: WindowsNight027
+    100434: WindowsNight028
+    100436: WindowsNight029
+    100438: WindowsNight030
+    100440: WindowsNight032
+    100442: "\x7FDetails"
+    100444: Details018
+    100446: Details019
+    100448: Details 72
+    100450: Details020
+    100452: Rooms 1
+    100454: Wall 49
+    100456: Wall 50
+    100458: Wall 51
+    100460: Wall 52
+    100462: WindiwsNight
+    100464: Box001
+    100466: Box002
+    100468: Box003
+    100470: Box004
+    100472: Box005
+    100474: Box006
+    100476: Walls00188
+    100478: Details007223
+    100480: Object001
+    100482: Border888
+    100484: Border8888
+    100486: Details999
+    100488: Object002
+    100490: LightGarland
+    100492: PillarLamp_Big
+    100494: Garland_Balcone
+    100496: Cylinder001
+    100498: RedColumn
+    100500: OrangeHouse_Arcs
+    100502: MainHouse_Borders
+    100504: MainHouse_Walls
+    100506: MainHouse_Windows
+    100508: Object003
+    100510: FlagsPapelPicado
+    100512: FlagsPapelPicado_1
+    100514: FlagsPapelPicado_2
+    100516: FlagsPapelPicado_3
+    100518: FlagsPapelPicado_4
+    100520: Stones_outland_Mexico
+    100522: Trees_outland_02
+    100524: Trees_outland_Mexico
+    100526: Fountain
+    100528: WallRed
+    100530: WallRed_02
+    100532: Border_01
+    100534: Border_02
+    100536: Border_03
+    100538: Border_04
+    100540: Border_05
+    100542: Border_06
+    100544: Border_07
+    100546: Border_08
+    100548: Border_09
+    100550: Border_10
+    100552: Border_11
+    100554: Border_12
+    100556: Border_13
+    100558: Border_14
+    100560: Border_15
+    100562: Border_16
+    100564: Border_17
+    100566: Border_18
+    100568: Border_19
+    100570: Border_20
+    100572: Border_21
+    100574: Border_22
+    100576: Border_23
+    100578: Border_24
+    100580: Border_25
+    100582: Details_01
+    100584: Details_02
+    100586: Details_03
+    100588: Details_04
+    100590: Details_05
+    100592: Details_06
+    100594: Details_07
+    100596: Details_08
+    100598: Details_09
+    100600: Details_10
+    100602: Details_11
+    100604: Details_12
+    100606: Details_13
+    100608: Details_14
+    100610: Details_15
+    100612: Details_16
+    100614: Details_17
+    100616: Details_18
+    100618: Details_19
+    100620: Details_20
+    100622: Details_21
+    100624: Details_22
+    100626: Details_23
+    100628: Details_24
+    100630: Details_25
+    100632: Details_26
+    100634: Details_27
+    100636: Details_28
+    100638: Details_29
+    100640: Details_30
+    100642: Details_31
+    100644: Details_32
+    100646: Details_33
+    100648: Details_34
+    100650: Details_35
+    100652: Details_36
+    100654: Details_37
+    100656: Details_38
+    100658: Details_39
+    100660: Details_40
+    100662: Details_41
+    100664: Details_42
+    100666: Details_43
+    100668: Details_44
+    100670: Details_45
+    100672: Details_46
+    100674: Details_47
+    100676: Details_48
+    100678: Details_49
+    100680: Details_50
+    100682: Details_51
+    100684: Details_52
+    100686: Details_53
+    100688: Details_54
+    100690: MainHouse_Elements
+    100692: OrangeWall
+    100694: Rooms_01
+    100696: Rooms_02
+    100698: Wall_01
+    100700: Wall_02
+    100702: Wall_03
+    100704: Wall_04
+    100706: Wall_05
+    100708: Wall_06
+    100710: Wall_07
+    100712: Wall_08
+    100714: Wall_09
+    100716: Wall_10
+    100718: Wall_11
+    100720: Wall_12
+    100722: Wall_13
+    100724: Wall_14
+    100726: Wall_15
+    100728: Wall_16
+    100730: Wall_17
+    100732: Wall_18
+    100734: Wall_19
+    100736: Wall_20
+    100738: Wall_21
+    100740: Wall_22
+    100742: Wall_23
+    100744: Wall_24
+    100746: Wall_25
+    100748: Wall_26
+    100750: Wall_27
+    100752: Wall_28
+    100754: Wall_29
+    100756: Wall_30
+    100758: Wall_31
+    100760: Wall_32
+    100762: Wall_33
+    100764: Wall_34
+    100766: Wall_35
+    100768: Wall_36
+    100770: Wall_37
+    100772: Wall_38
+    100774: Wall_39
+    100776: Wall_40
+    100778: Wall_41
+    100780: Walls_001
+    100782: Walls_002
+    100784: Walls_003
+    400000: Border
+    400002: Border 1
+    400004: Border 10
+    400006: Border 11
+    400008: Border 12
+    400010: Border 13
+    400012: Border 14
+    400014: Border 15
+    400016: Border 16
+    400018: Border 17
+    400020: Border 18
+    400022: Border 19
+    400024: Border 2
+    400026: Border 20
+    400028: Border 21
+    400030: Border 22
+    400032: Border 23
+    400034: Border 24
+    400036: Border 25
+    400038: Border 26
+    400040: Border 27
+    400042: Border 28
+    400044: Border 29
+    400046: Border 3
+    400048: Border 30
+    400050: Border 31
+    400052: Border 32
+    400054: Border 33
+    400056: Border 34
+    400058: Border 35
+    400060: Border 36
+    400062: Border 4
+    400064: Border 5
+    400066: Border 6
+    400068: Border 7
+    400070: Border 8
+    400072: Border 9
+    400074: Details
+    400076: Details 1
+    400078: Details 10
+    400080: Details 11
+    400082: Details 12
+    400084: Details 13
+    400086: Details 14
+    400088: Details 15
+    400090: Details 16
+    400092: Details 17
+    400094: Details 18
+    400096: Details 19
+    400098: Details 2
+    400100: Details 20
+    400102: Details 21
+    400104: Details 22
+    400106: Details 23
+    400108: Details 24
+    400110: Details 25
+    400112: Details 26
+    400114: Details 27
+    400116: Details 28
+    400118: Details 29
+    400120: Details 3
+    400122: Details 30
+    400124: Details 31
+    400126: Details 32
+    400128: Details 33
+    400130: Details 34
+    400132: Details 35
+    400134: Details 36
+    400136: Details 37
+    400138: Details 38
+    400140: Details 39
+    400142: Details 4
+    400144: Details 40
+    400146: Details 41
+    400148: Details 42
+    400150: Details 43
+    400152: Details 44
+    400154: Details 45
+    400156: Details 46
+    400158: Details 47
+    400160: Details 48
+    400162: Details 49
+    400164: Details 5
+    400166: Details 50
+    400168: Details 51
+    400170: Details 52
+    400172: Details 53
+    400174: Details 54
+    400176: Details 55
+    400178: Details 56
+    400180: Details 57
+    400182: Details 58
+    400184: Details 59
+    400186: Details 6
+    400188: Details 60
+    400190: Details 61
+    400192: Details 62
+    400194: Details 63
+    400196: Details 64
+    400198: Details 65
+    400200: Details 66
+    400202: Details 67
+    400204: Details 68
+    400206: Details 69
+    400208: Details 7
+    400210: Details 70
+    400212: Details 71
+    400214: Details 8
+    400216: Details 9
+    400218: Details001
+    400220: Details002
+    400222: Details003
+    400224: Details004
+    400226: Details005
+    400228: Details006
+    400230: Details007
+    400232: Details008
+    400234: Details009
+    400236: Details010
+    400238: Details011
+    400240: Details012
+    400242: Details013
+    400244: Details014
+    400246: Details015
+    400248: Details017
+    400250: //RootNode
+    400252: MexicoTerrain
+    400254: Object005
+    400256: Object006
+    400258: Room
+    400260: Room 1
+    400262: Rooms
+    400264: Rooms001
+    400266: Wall
+    400268: Wall 1
+    400270: Wall 10
+    400272: Wall 11
+    400274: Wall 12
+    400276: Wall 13
+    400278: Wall 14
+    400280: Wall 15
+    400282: Wall 16
+    400284: Wall 17
+    400286: Wall 18
+    400288: Wall 19
+    400290: Wall 2
+    400292: Wall 20
+    400294: Wall 21
+    400296: Wall 22
+    400298: Wall 23
+    400300: Wall 24
+    400302: Wall 25
+    400304: Wall 26
+    400306: Wall 27
+    400308: Wall 28
+    400310: Wall 29
+    400312: Wall 3
+    400314: Wall 30
+    400316: Wall 31
+    400318: Wall 32
+    400320: Wall 33
+    400322: Wall 34
+    400324: Wall 35
+    400326: Wall 36
+    400328: Wall 37
+    400330: Wall 38
+    400332: Wall 39
+    400334: Wall 4
+    400336: Wall 40
+    400338: Wall 41
+    400340: Wall 42
+    400342: Wall 43
+    400344: Wall 44
+    400346: Wall 45
+    400348: Wall 46
+    400350: Wall 47
+    400352: Wall 48
+    400354: Wall 5
+    400356: Wall 6
+    400358: Wall 7
+    400360: Wall 8
+    400362: Wall 9
+    400364: Wall001
+    400366: Walls
+    400368: Walls 1
+    400370: Walls 2
+    400372: Walls 3
+    400374: Walls001
+    400376: Window
+    400378: Windows
+    400380: WindowsNight
+    400382: WindowsNight001
+    400384: WindowsNight002
+    400386: WindowsNight003
+    400388: WindowsNight004
+    400390: WindowsNight005
+    400392: WindowsNight006
+    400394: WindowsNight008
+    400396: WindowsNight009
+    400398: WindowsNight010
+    400400: WindowsNight011
+    400402: WindowsNight012
+    400404: WindowsNight013
+    400406: WindowsNight014
+    400408: WindowsNight015
+    400410: WindowsNight016
+    400412: WindowsNight017
+    400414: WindowsNight018
+    400416: WindowsNight019
+    400418: WindowsNight020
+    400420: WindowsNight021
+    400422: WindowsNight022
+    400424: WindowsNight023
+    400426: WindowsNight024
+    400428: WindowsNight025
+    400430: WindowsNight026
+    400432: WindowsNight027
+    400434: WindowsNight028
+    400436: WindowsNight029
+    400438: WindowsNight030
+    400440: WindowsNight032
+    400442: "\x7FDetails"
+    400444: Details018
+    400446: Details019
+    400448: Details 72
+    400450: Details020
+    400452: Rooms 1
+    400454: Wall 49
+    400456: Wall 50
+    400458: Wall 51
+    400460: Wall 52
+    400462: WindiwsNight
+    400464: Box001
+    400466: Box002
+    400468: Box003
+    400470: Box004
+    400472: Box005
+    400474: Box006
+    400476: Walls00188
+    400478: Details007223
+    400480: Object001
+    400482: Border888
+    400484: Border8888
+    400486: Details999
+    400488: Object002
+    400490: LightGarland
+    400492: PillarLamp_Big
+    400494: Garland_Balcone
+    400496: Cylinder001
+    400498: RedColumn
+    400500: OrangeHouse_Arcs
+    400502: MainHouse_Borders
+    400504: MainHouse_Walls
+    400506: MainHouse_Windows
+    400508: Object003
+    400510: FlagsPapelPicado
+    400512: FlagsPapelPicado_1
+    400514: FlagsPapelPicado_2
+    400516: FlagsPapelPicado_3
+    400518: FlagsPapelPicado_4
+    400520: Stones_outland_Mexico
+    400522: Trees_outland_02
+    400524: Trees_outland_Mexico
+    400526: Fountain
+    400528: WallRed
+    400530: WallRed_02
+    400532: Border_01
+    400534: Border_02
+    400536: Border_03
+    400538: Border_04
+    400540: Border_05
+    400542: Border_06
+    400544: Border_07
+    400546: Border_08
+    400548: Border_09
+    400550: Border_10
+    400552: Border_11
+    400554: Border_12
+    400556: Border_13
+    400558: Border_14
+    400560: Border_15
+    400562: Border_16
+    400564: Border_17
+    400566: Border_18
+    400568: Border_19
+    400570: Border_20
+    400572: Border_21
+    400574: Border_22
+    400576: Border_23
+    400578: Border_24
+    400580: Border_25
+    400582: Details_01
+    400584: Details_02
+    400586: Details_03
+    400588: Details_04
+    400590: Details_05
+    400592: Details_06
+    400594: Details_07
+    400596: Details_08
+    400598: Details_09
+    400600: Details_10
+    400602: Details_11
+    400604: Details_12
+    400606: Details_13
+    400608: Details_14
+    400610: Details_15
+    400612: Details_16
+    400614: Details_17
+    400616: Details_18
+    400618: Details_19
+    400620: Details_20
+    400622: Details_21
+    400624: Details_22
+    400626: Details_23
+    400628: Details_24
+    400630: Details_25
+    400632: Details_26
+    400634: Details_27
+    400636: Details_28
+    400638: Details_29
+    400640: Details_30
+    400642: Details_31
+    400644: Details_32
+    400646: Details_33
+    400648: Details_34
+    400650: Details_35
+    400652: Details_36
+    400654: Details_37
+    400656: Details_38
+    400658: Details_39
+    400660: Details_40
+    400662: Details_41
+    400664: Details_42
+    400666: Details_43
+    400668: Details_44
+    400670: Details_45
+    400672: Details_46
+    400674: Details_47
+    400676: Details_48
+    400678: Details_49
+    400680: Details_50
+    400682: Details_51
+    400684: Details_52
+    400686: Details_53
+    400688: Details_54
+    400690: MainHouse_Elements
+    400692: OrangeWall
+    400694: Rooms_01
+    400696: Rooms_02
+    400698: Wall_01
+    400700: Wall_02
+    400702: Wall_03
+    400704: Wall_04
+    400706: Wall_05
+    400708: Wall_06
+    400710: Wall_07
+    400712: Wall_08
+    400714: Wall_09
+    400716: Wall_10
+    400718: Wall_11
+    400720: Wall_12
+    400722: Wall_13
+    400724: Wall_14
+    400726: Wall_15
+    400728: Wall_16
+    400730: Wall_17
+    400732: Wall_18
+    400734: Wall_19
+    400736: Wall_20
+    400738: Wall_21
+    400740: Wall_22
+    400742: Wall_23
+    400744: Wall_24
+    400746: Wall_25
+    400748: Wall_26
+    400750: Wall_27
+    400752: Wall_28
+    400754: Wall_29
+    400756: Wall_30
+    400758: Wall_31
+    400760: Wall_32
+    400762: Wall_33
+    400764: Wall_34
+    400766: Wall_35
+    400768: Wall_36
+    400770: Wall_37
+    400772: Wall_38
+    400774: Wall_39
+    400776: Wall_40
+    400778: Wall_41
+    400780: Walls_001
+    400782: Walls_002
+    400784: Walls_003
+    2100000: Mexico_Road
+    2100002: StoneWall
+    2100004: House_FloorTile_1
+    2100006: WalkSide_Border
+    2100008: WalkSide
+    2100010: CornerHouse_Details
+    2100012: Border
+    2100014: MultiMat_1
+    2100016: Floor
+    2100018: Wall
+    2100020: 21 - Default
+    2100022: House02_Details
+    2100024: WindowNight
+    2300000: Border
+    2300002: Border 1
+    2300004: Border 10
+    2300006: Border 11
+    2300008: Border 12
+    2300010: Border 13
+    2300012: Border 14
+    2300014: Border 15
+    2300016: Border 16
+    2300018: Border 17
+    2300020: Border 18
+    2300022: Border 19
+    2300024: Border 2
+    2300026: Border 20
+    2300028: Border 21
+    2300030: Border 22
+    2300032: Border 23
+    2300034: Border 24
+    2300036: Border 25
+    2300038: Border 26
+    2300040: Border 27
+    2300042: Border 28
+    2300044: Border 29
+    2300046: Border 3
+    2300048: Border 30
+    2300050: Border 31
+    2300052: Border 32
+    2300054: Border 33
+    2300056: Border 34
+    2300058: Border 35
+    2300060: Border 36
+    2300062: Border 4
+    2300064: Border 5
+    2300066: Border 6
+    2300068: Border 7
+    2300070: Border 8
+    2300072: Border 9
+    2300074: Details
+    2300076: Details 1
+    2300078: Details 10
+    2300080: Details 11
+    2300082: Details 12
+    2300084: Details 13
+    2300086: Details 14
+    2300088: Details 15
+    2300090: Details 16
+    2300092: Details 17
+    2300094: Details 18
+    2300096: Details 19
+    2300098: Details 2
+    2300100: Details 20
+    2300102: Details 21
+    2300104: Details 22
+    2300106: Details 23
+    2300108: Details 24
+    2300110: Details 25
+    2300112: Details 26
+    2300114: Details 27
+    2300116: Details 28
+    2300118: Details 29
+    2300120: Details 3
+    2300122: Details 30
+    2300124: Details 31
+    2300126: Details 32
+    2300128: Details 33
+    2300130: Details 34
+    2300132: Details 35
+    2300134: Details 36
+    2300136: Details 37
+    2300138: Details 38
+    2300140: Details 39
+    2300142: Details 4
+    2300144: Details 40
+    2300146: Details 41
+    2300148: Details 42
+    2300150: Details 43
+    2300152: Details 44
+    2300154: Details 45
+    2300156: Details 46
+    2300158: Details 47
+    2300160: Details 48
+    2300162: Details 49
+    2300164: Details 5
+    2300166: Details 50
+    2300168: Details 51
+    2300170: Details 52
+    2300172: Details 53
+    2300174: Details 54
+    2300176: Details 55
+    2300178: Details 56
+    2300180: Details 57
+    2300182: Details 58
+    2300184: Details 59
+    2300186: Details 6
+    2300188: Details 60
+    2300190: Details 61
+    2300192: Details 62
+    2300194: Details 63
+    2300196: Details 64
+    2300198: Details 65
+    2300200: Details 66
+    2300202: Details 67
+    2300204: Details 68
+    2300206: Details 69
+    2300208: Details 7
+    2300210: Details 70
+    2300212: Details 8
+    2300214: Details 9
+    2300216: Details001
+    2300218: Details002
+    2300220: Details003
+    2300222: Details004
+    2300224: Details005
+    2300226: Details006
+    2300228: Details007
+    2300230: Details008
+    2300232: Details009
+    2300234: Details010
+    2300236: Details011
+    2300238: Details012
+    2300240: Details013
+    2300242: Details014
+    2300244: Details015
+    2300246: Details017
+    2300248: MexicoTerrain
+    2300250: Object006
+    2300252: Room
+    2300254: Rooms
+    2300256: Rooms001
+    2300258: Wall
+    2300260: Wall 1
+    2300262: Wall 10
+    2300264: Wall 11
+    2300266: Wall 12
+    2300268: Wall 13
+    2300270: Wall 14
+    2300272: Wall 15
+    2300274: Wall 16
+    2300276: Wall 17
+    2300278: Wall 18
+    2300280: Wall 19
+    2300282: Wall 2
+    2300284: Wall 20
+    2300286: Wall 21
+    2300288: Wall 22
+    2300290: Wall 23
+    2300292: Wall 24
+    2300294: Wall 25
+    2300296: Wall 26
+    2300298: Wall 27
+    2300300: Wall 28
+    2300302: Wall 29
+    2300304: Wall 3
+    2300306: Wall 30
+    2300308: Wall 31
+    2300310: Wall 32
+    2300312: Wall 33
+    2300314: Wall 34
+    2300316: Wall 35
+    2300318: Wall 36
+    2300320: Wall 37
+    2300322: Wall 38
+    2300324: Wall 39
+    2300326: Wall 4
+    2300328: Wall 40
+    2300330: Wall 41
+    2300332: Wall 42
+    2300334: Wall 43
+    2300336: Wall 44
+    2300338: Wall 45
+    2300340: Wall 46
+    2300342: Wall 47
+    2300344: Wall 48
+    2300346: Wall 5
+    2300348: Wall 6
+    2300350: Wall 7
+    2300352: Wall 8
+    2300354: Wall 9
+    2300356: Wall001
+    2300358: Walls
+    2300360: Walls 1
+    2300362: Walls 2
+    2300364: Walls 3
+    2300366: Walls001
+    2300368: Window
+    2300370: Windows
+    2300372: WindowsNight
+    2300374: WindowsNight001
+    2300376: WindowsNight002
+    2300378: WindowsNight003
+    2300380: WindowsNight004
+    2300382: WindowsNight005
+    2300384: WindowsNight006
+    2300386: WindowsNight008
+    2300388: WindowsNight009
+    2300390: WindowsNight010
+    2300392: WindowsNight011
+    2300394: WindowsNight012
+    2300396: WindowsNight013
+    2300398: WindowsNight014
+    2300400: WindowsNight015
+    2300402: WindowsNight016
+    2300404: WindowsNight017
+    2300406: WindowsNight018
+    2300408: WindowsNight019
+    2300410: WindowsNight020
+    2300412: WindowsNight021
+    2300414: WindowsNight022
+    2300416: WindowsNight023
+    2300418: WindowsNight024
+    2300420: WindowsNight025
+    2300422: WindowsNight026
+    2300424: WindowsNight027
+    2300426: WindowsNight028
+    2300428: WindowsNight029
+    2300430: WindowsNight030
+    2300432: WindowsNight032
+    2300434: "\x7FDetails"
+    2300436: Details 71
+    2300438: Details018
+    2300440: Room 1
+    2300442: Details019
+    2300444: Details 72
+    2300446: Details020
+    2300448: Rooms 1
+    2300450: Wall 49
+    2300452: Wall 50
+    2300454: Wall 51
+    2300456: Wall 52
+    2300458: WindiwsNight
+    2300460: Box001
+    2300462: Box002
+    2300464: Box003
+    2300466: Box004
+    2300468: //RootNode
+    2300470: Box005
+    2300472: Box006
+    2300474: Walls00188
+    2300476: Details007223
+    2300478: Object001
+    2300480: Border888
+    2300482: Border8888
+    2300484: Details999
+    2300486: Object002
+    2300488: LightGarland
+    2300490: PillarLamp_Big
+    2300492: Garland_Balcone
+    2300494: Cylinder001
+    2300496: RedColumn
+    2300498: OrangeHouse_Arcs
+    2300500: MainHouse_Borders
+    2300502: MainHouse_Walls
+    2300504: MainHouse_Windows
+    2300506: Object003
+    2300508: FlagsPapelPicado
+    2300510: FlagsPapelPicado_1
+    2300512: FlagsPapelPicado_2
+    2300514: FlagsPapelPicado_3
+    2300516: FlagsPapelPicado_4
+    2300518: Stones_outland_Mexico
+    2300520: Trees_outland_Mexico
+    2300522: Fountain
+    2300524: WallRed
+    2300526: WallRed_02
+    2300528: Border_01
+    2300530: Border_02
+    2300532: Border_03
+    2300534: Border_04
+    2300536: Border_05
+    2300538: Border_06
+    2300540: Border_07
+    2300542: Border_08
+    2300544: Border_09
+    2300546: Border_10
+    2300548: Border_11
+    2300550: Border_12
+    2300552: Border_13
+    2300554: Border_14
+    2300556: Border_15
+    2300558: Border_16
+    2300560: Border_17
+    2300562: Border_18
+    2300564: Border_19
+    2300566: Border_20
+    2300568: Border_21
+    2300570: Border_22
+    2300572: Border_23
+    2300574: Border_24
+    2300576: Border_25
+    2300578: Details_01
+    2300580: Details_02
+    2300582: Details_03
+    2300584: Details_04
+    2300586: Details_05
+    2300588: Details_06
+    2300590: Details_07
+    2300592: Details_08
+    2300594: Details_09
+    2300596: Details_10
+    2300598: Details_11
+    2300600: Details_12
+    2300602: Details_13
+    2300604: Details_14
+    2300606: Details_15
+    2300608: Details_16
+    2300610: Details_17
+    2300612: Details_18
+    2300614: Details_19
+    2300616: Details_20
+    2300618: Details_21
+    2300620: Details_22
+    2300622: Details_23
+    2300624: Details_24
+    2300626: Details_25
+    2300628: Details_26
+    2300630: Details_27
+    2300632: Details_28
+    2300634: Details_29
+    2300636: Details_30
+    2300638: Details_31
+    2300640: Details_32
+    2300642: Details_33
+    2300644: Details_34
+    2300646: Details_35
+    2300648: Details_36
+    2300650: Details_37
+    2300652: Details_38
+    2300654: Details_39
+    2300656: Details_40
+    2300658: Details_41
+    2300660: Details_42
+    2300662: Details_43
+    2300664: Details_44
+    2300666: Details_45
+    2300668: Details_46
+    2300670: Details_47
+    2300672: Details_48
+    2300674: Details_49
+    2300676: Details_50
+    2300678: Details_51
+    2300680: Details_52
+    2300682: Details_53
+    2300684: Details_54
+    2300686: MainHouse_Elements
+    2300688: OrangeWall
+    2300690: Rooms_01
+    2300692: Rooms_02
+    2300694: Wall_01
+    2300696: Wall_02
+    2300698: Wall_03
+    2300700: Wall_04
+    2300702: Wall_05
+    2300704: Wall_06
+    2300706: Wall_07
+    2300708: Wall_08
+    2300710: Wall_09
+    2300712: Wall_10
+    2300714: Wall_11
+    2300716: Wall_12
+    2300718: Wall_13
+    2300720: Wall_14
+    2300722: Wall_15
+    2300724: Wall_16
+    2300726: Wall_17
+    2300728: Wall_18
+    2300730: Wall_19
+    2300732: Wall_20
+    2300734: Wall_21
+    2300736: Wall_22
+    2300738: Wall_23
+    2300740: Wall_24
+    2300742: Wall_25
+    2300744: Wall_26
+    2300746: Wall_27
+    2300748: Wall_28
+    2300750: Wall_29
+    2300752: Wall_30
+    2300754: Wall_31
+    2300756: Wall_32
+    2300758: Wall_33
+    2300760: Wall_34
+    2300762: Wall_35
+    2300764: Wall_36
+    2300766: Wall_37
+    2300768: Wall_38
+    2300770: Wall_39
+    2300772: Wall_40
+    2300774: Wall_41
+    2300776: Walls_001
+    2300778: Walls_002
+    2300780: Walls_003
+    3300000: Border
+    3300002: Border 1
+    3300004: Border 10
+    3300006: Border 11
+    3300008: Border 12
+    3300010: Border 13
+    3300012: Border 14
+    3300014: Border 15
+    3300016: Border 16
+    3300018: Border 17
+    3300020: Border 18
+    3300022: Border 19
+    3300024: Border 2
+    3300026: Border 20
+    3300028: Border 21
+    3300030: Border 22
+    3300032: Border 23
+    3300034: Border 24
+    3300036: Border 25
+    3300038: Border 26
+    3300040: Border 27
+    3300042: Border 28
+    3300044: Border 29
+    3300046: Border 3
+    3300048: Border 30
+    3300050: Border 31
+    3300052: Border 32
+    3300054: Border 33
+    3300056: Border 34
+    3300058: Border 35
+    3300060: Border 36
+    3300062: Border 4
+    3300064: Border 5
+    3300066: Border 6
+    3300068: Border 7
+    3300070: Border 8
+    3300072: Border 9
+    3300074: Details
+    3300076: Details 1
+    3300078: Details 10
+    3300080: Details 11
+    3300082: Details 12
+    3300084: Details 13
+    3300086: Details 14
+    3300088: Details 15
+    3300090: Details 16
+    3300092: Details 17
+    3300094: Details 18
+    3300096: Details 19
+    3300098: Details 2
+    3300100: Details 20
+    3300102: Details 21
+    3300104: Details 22
+    3300106: Details 23
+    3300108: Details 24
+    3300110: Details 25
+    3300112: Details 26
+    3300114: Details 27
+    3300116: Details 28
+    3300118: Details 29
+    3300120: Details 3
+    3300122: Details 30
+    3300124: Details 31
+    3300126: Details 32
+    3300128: Details 33
+    3300130: Details 34
+    3300132: Details 35
+    3300134: Details 36
+    3300136: Details 37
+    3300138: Details 38
+    3300140: Details 39
+    3300142: Details 4
+    3300144: Details 40
+    3300146: Details 41
+    3300148: Details 42
+    3300150: Details 43
+    3300152: Details 44
+    3300154: Details 45
+    3300156: Details 46
+    3300158: Details 47
+    3300160: Details 48
+    3300162: Details 49
+    3300164: Details 5
+    3300166: Details 50
+    3300168: Details 51
+    3300170: Details 52
+    3300172: Details 53
+    3300174: Details 54
+    3300176: Details 55
+    3300178: Details 56
+    3300180: Details 57
+    3300182: Details 58
+    3300184: Details 59
+    3300186: Details 6
+    3300188: Details 60
+    3300190: Details 61
+    3300192: Details 62
+    3300194: Details 63
+    3300196: Details 64
+    3300198: Details 65
+    3300200: Details 66
+    3300202: Details 67
+    3300204: Details 68
+    3300206: Details 69
+    3300208: Details 7
+    3300210: Details 70
+    3300212: Details 8
+    3300214: Details 9
+    3300216: Details001
+    3300218: Details002
+    3300220: Details003
+    3300222: Details004
+    3300224: Details005
+    3300226: Details006
+    3300228: Details007
+    3300230: Details008
+    3300232: Details009
+    3300234: Details010
+    3300236: Details011
+    3300238: Details012
+    3300240: Details013
+    3300242: Details014
+    3300244: Details015
+    3300246: Details017
+    3300248: MexicoTerrain
+    3300250: Object006
+    3300252: Room
+    3300254: Rooms
+    3300256: Rooms001
+    3300258: Wall
+    3300260: Wall 1
+    3300262: Wall 10
+    3300264: Wall 11
+    3300266: Wall 12
+    3300268: Wall 13
+    3300270: Wall 14
+    3300272: Wall 15
+    3300274: Wall 16
+    3300276: Wall 17
+    3300278: Wall 18
+    3300280: Wall 19
+    3300282: Wall 2
+    3300284: Wall 20
+    3300286: Wall 21
+    3300288: Wall 22
+    3300290: Wall 23
+    3300292: Wall 24
+    3300294: Wall 25
+    3300296: Wall 26
+    3300298: Wall 27
+    3300300: Wall 28
+    3300302: Wall 29
+    3300304: Wall 3
+    3300306: Wall 30
+    3300308: Wall 31
+    3300310: Wall 32
+    3300312: Wall 33
+    3300314: Wall 34
+    3300316: Wall 35
+    3300318: Wall 36
+    3300320: Wall 37
+    3300322: Wall 38
+    3300324: Wall 39
+    3300326: Wall 4
+    3300328: Wall 40
+    3300330: Wall 41
+    3300332: Wall 42
+    3300334: Wall 43
+    3300336: Wall 44
+    3300338: Wall 45
+    3300340: Wall 46
+    3300342: Wall 47
+    3300344: Wall 48
+    3300346: Wall 5
+    3300348: Wall 6
+    3300350: Wall 7
+    3300352: Wall 8
+    3300354: Wall 9
+    3300356: Wall001
+    3300358: Walls
+    3300360: Walls 1
+    3300362: Walls 2
+    3300364: Walls 3
+    3300366: Walls001
+    3300368: Window
+    3300370: Windows
+    3300372: WindowsNight
+    3300374: WindowsNight001
+    3300376: WindowsNight002
+    3300378: WindowsNight003
+    3300380: WindowsNight004
+    3300382: WindowsNight005
+    3300384: WindowsNight006
+    3300386: WindowsNight008
+    3300388: WindowsNight009
+    3300390: WindowsNight010
+    3300392: WindowsNight011
+    3300394: WindowsNight012
+    3300396: WindowsNight013
+    3300398: WindowsNight014
+    3300400: WindowsNight015
+    3300402: WindowsNight016
+    3300404: WindowsNight017
+    3300406: WindowsNight018
+    3300408: WindowsNight019
+    3300410: WindowsNight020
+    3300412: WindowsNight021
+    3300414: WindowsNight022
+    3300416: WindowsNight023
+    3300418: WindowsNight024
+    3300420: WindowsNight025
+    3300422: WindowsNight026
+    3300424: WindowsNight027
+    3300426: WindowsNight028
+    3300428: WindowsNight029
+    3300430: WindowsNight030
+    3300432: WindowsNight032
+    3300434: "\x7FDetails"
+    3300436: Details 71
+    3300438: Details018
+    3300440: Room 1
+    3300442: Details019
+    3300444: Details 72
+    3300446: Details020
+    3300448: Rooms 1
+    3300450: Wall 49
+    3300452: Wall 50
+    3300454: Wall 51
+    3300456: Wall 52
+    3300458: WindiwsNight
+    3300460: Box001
+    3300462: Box002
+    3300464: Box003
+    3300466: Box004
+    3300468: //RootNode
+    3300470: Box005
+    3300472: Box006
+    3300474: Walls00188
+    3300476: Details007223
+    3300478: Object001
+    3300480: Border888
+    3300482: Border8888
+    3300484: Details999
+    3300486: Object002
+    3300488: LightGarland
+    3300490: PillarLamp_Big
+    3300492: Garland_Balcone
+    3300494: Cylinder001
+    3300496: RedColumn
+    3300498: OrangeHouse_Arcs
+    3300500: MainHouse_Borders
+    3300502: MainHouse_Walls
+    3300504: MainHouse_Windows
+    3300506: Object003
+    3300508: FlagsPapelPicado
+    3300510: FlagsPapelPicado_1
+    3300512: FlagsPapelPicado_2
+    3300514: FlagsPapelPicado_3
+    3300516: FlagsPapelPicado_4
+    3300518: Stones_outland_Mexico
+    3300520: Trees_outland_Mexico
+    3300522: Fountain
+    3300524: WallRed
+    3300526: WallRed_02
+    3300528: Border_01
+    3300530: Border_02
+    3300532: Border_03
+    3300534: Border_04
+    3300536: Border_05
+    3300538: Border_06
+    3300540: Border_07
+    3300542: Border_08
+    3300544: Border_09
+    3300546: Border_10
+    3300548: Border_11
+    3300550: Border_12
+    3300552: Border_13
+    3300554: Border_14
+    3300556: Border_15
+    3300558: Border_16
+    3300560: Border_17
+    3300562: Border_18
+    3300564: Border_19
+    3300566: Border_20
+    3300568: Border_21
+    3300570: Border_22
+    3300572: Border_23
+    3300574: Border_24
+    3300576: Border_25
+    3300578: Details_01
+    3300580: Details_02
+    3300582: Details_03
+    3300584: Details_04
+    3300586: Details_05
+    3300588: Details_06
+    3300590: Details_07
+    3300592: Details_08
+    3300594: Details_09
+    3300596: Details_10
+    3300598: Details_11
+    3300600: Details_12
+    3300602: Details_13
+    3300604: Details_14
+    3300606: Details_15
+    3300608: Details_16
+    3300610: Details_17
+    3300612: Details_18
+    3300614: Details_19
+    3300616: Details_20
+    3300618: Details_21
+    3300620: Details_22
+    3300622: Details_23
+    3300624: Details_24
+    3300626: Details_25
+    3300628: Details_26
+    3300630: Details_27
+    3300632: Details_28
+    3300634: Details_29
+    3300636: Details_30
+    3300638: Details_31
+    3300640: Details_32
+    3300642: Details_33
+    3300644: Details_34
+    3300646: Details_35
+    3300648: Details_36
+    3300650: Details_37
+    3300652: Details_38
+    3300654: Details_39
+    3300656: Details_40
+    3300658: Details_41
+    3300660: Details_42
+    3300662: Details_43
+    3300664: Details_44
+    3300666: Details_45
+    3300668: Details_46
+    3300670: Details_47
+    3300672: Details_48
+    3300674: Details_49
+    3300676: Details_50
+    3300678: Details_51
+    3300680: Details_52
+    3300682: Details_53
+    3300684: Details_54
+    3300686: MainHouse_Elements
+    3300688: OrangeWall
+    3300690: Rooms_01
+    3300692: Rooms_02
+    3300694: Wall_01
+    3300696: Wall_02
+    3300698: Wall_03
+    3300700: Wall_04
+    3300702: Wall_05
+    3300704: Wall_06
+    3300706: Wall_07
+    3300708: Wall_08
+    3300710: Wall_09
+    3300712: Wall_10
+    3300714: Wall_11
+    3300716: Wall_12
+    3300718: Wall_13
+    3300720: Wall_14
+    3300722: Wall_15
+    3300724: Wall_16
+    3300726: Wall_17
+    3300728: Wall_18
+    3300730: Wall_19
+    3300732: Wall_20
+    3300734: Wall_21
+    3300736: Wall_22
+    3300738: Wall_23
+    3300740: Wall_24
+    3300742: Wall_25
+    3300744: Wall_26
+    3300746: Wall_27
+    3300748: Wall_28
+    3300750: Wall_29
+    3300752: Wall_30
+    3300754: Wall_31
+    3300756: Wall_32
+    3300758: Wall_33
+    3300760: Wall_34
+    3300762: Wall_35
+    3300764: Wall_36
+    3300766: Wall_37
+    3300768: Wall_38
+    3300770: Wall_39
+    3300772: Wall_40
+    3300774: Wall_41
+    3300776: Walls_001
+    3300778: Walls_002
+    3300780: Walls_003
+    4300000: MexicoTerrain
+    4300002: Details
+    4300004: Room
+    4300006: Details
+    4300008: Details
+    4300010: Details
+    4300012: Details
+    4300014: Details
+    4300016: Details
+    4300018: Details
+    4300020: Details
+    4300022: Details
+    4300024: Details
+    4300026: Details
+    4300028: Details
+    4300030: Details
+    4300032: Details
+    4300034: Details
+    4300036: Details
+    4300038: Details
+    4300040: Details
+    4300042: Details
+    4300044: Details
+    4300046: Details
+    4300048: Details
+    4300050: Details
+    4300052: Details
+    4300054: Details
+    4300056: Details
+    4300058: Details
+    4300060: Details
+    4300062: Details
+    4300064: Details
+    4300066: Details
+    4300068: Details
+    4300070: Details
+    4300072: Details
+    4300074: Details
+    4300076: Details
+    4300078: Details
+    4300080: Details
+    4300082: Details
+    4300084: Details
+    4300086: Details
+    4300088: Details
+    4300090: Details
+    4300092: Details
+    4300094: Details
+    4300096: Details
+    4300098: Details
+    4300100: Details
+    4300102: Details
+    4300104: Wall
+    4300106: Border
+    4300108: Wall
+    4300110: Border
+    4300112: Wall
+    4300114: Border
+    4300116: Wall
+    4300118: Wall
+    4300120: Details
+    4300122: Wall
+    4300124: Border
+    4300126: Wall
+    4300128: Border
+    4300130: Wall
+    4300132: Border
+    4300134: Wall
+    4300136: Border
+    4300138: Wall
+    4300140: Wall
+    4300142: Border
+    4300144: Wall
+    4300146: Border
+    4300148: Wall
+    4300150: Wall
+    4300152: Border
+    4300154: Wall
+    4300156: Wall
+    4300158: Border
+    4300160: Wall
+    4300162: Wall
+    4300164: Wall
+    4300166: Border
+    4300168: Border
+    4300170: Wall
+    4300172: Wall
+    4300174: Border
+    4300176: Wall
+    4300178: Border
+    4300180: Wall
+    4300182: Border
+    4300184: Wall
+    4300186: Border
+    4300188: Wall
+    4300190: Border
+    4300192: Wall
+    4300194: Wall
+    4300196: Wall
+    4300198: Wall
+    4300200: Border
+    4300202: Wall
+    4300204: Border
+    4300206: Wall
+    4300208: Border
+    4300210: Wall
+    4300212: Wall
+    4300214: Border
+    4300216: Border
+    4300218: Wall
+    4300220: Wall
+    4300222: Wall
+    4300224: Details
+    4300226: Border
+    4300228: Details
+    4300230: Wall
+    4300232: Border
+    4300234: Wall
+    4300236: Border
+    4300238: Wall
+    4300240: Border
+    4300242: Wall
+    4300244: Border
+    4300246: Wall
+    4300248: Border
+    4300250: Border
+    4300252: Wall
+    4300254: Wall
+    4300256: Border
+    4300258: Details
+    4300260: Details
+    4300262: Wall
+    4300264: Border
+    4300266: Wall
+    4300268: Border
+    4300270: Wall
+    4300272: Border
+    4300274: Wall
+    4300276: Border
+    4300278: Wall
+    4300280: Border
+    4300282: Wall
+    4300284: Details
+    4300286: Details
+    4300288: Border
+    4300290: Details
+    4300292: Details
+    4300294: Details
+    4300296: Walls
+    4300298: Walls
+    4300300: Walls
+    4300302: Walls
+    4300304: Details
+    4300306: Details
+    4300308: Details
+    4300310: Details
+    4300312: Details
+    4300314: Details
+    4300316: Details
+    4300318: Details
+    4300320: Rooms
+    4300322: Rooms001
+    4300324: "\x7FDetails"
+    4300326: Walls001
+    4300328: Details
+    4300330: Details001
+    4300332: Details002
+    4300334: Details003
+    4300336: Details004
+    4300338: Details005
+    4300340: Wall001
+    4300342: Details006
+    4300344: Details007
+    4300346: Details008
+    4300348: Details009
+    4300350: Window
+    4300352: Windows
+    4300354: Details010
+    4300356: Details011
+    4300358: Details012
+    4300360: Details013
+    4300362: Details014
+    4300364: Details015
+    4300366: Details
+    4300368: Details017
+    4300370: WindowsNight
+    4300372: WindowsNight001
+    4300374: WindowsNight002
+    4300376: WindowsNight003
+    4300378: WindowsNight004
+    4300380: WindowsNight005
+    4300382: WindowsNight006
+    4300384: Object006
+    4300386: WindowsNight008
+    4300388: WindowsNight009
+    4300390: WindowsNight010
+    4300392: WindowsNight011
+    4300394: WindowsNight012
+    4300396: WindowsNight013
+    4300398: WindowsNight014
+    4300400: WindowsNight015
+    4300402: WindowsNight016
+    4300404: WindowsNight017
+    4300406: WindowsNight018
+    4300408: WindowsNight019
+    4300410: WindowsNight020
+    4300412: WindowsNight021
+    4300414: WindowsNight022
+    4300416: WindowsNight023
+    4300418: WindowsNight024
+    4300420: WindowsNight025
+    4300422: WindowsNight026
+    4300424: WindowsNight027
+    4300426: WindowsNight028
+    4300428: WindowsNight029
+    4300430: WindowsNight030
+    4300432: WindowsNight032
+    4300434: Details
+    4300436: Details018
+    4300438: Details019
+    4300440: Rooms
+    4300442: Wall
+    4300444: Wall
+    4300446: WindiwsNight
+    4300448: Details
+    4300450: Details020
+    4300452: Wall
+    4300454: Wall
+    4300456: Box001
+    4300458: Box002
+    4300460: Box003
+    4300462: Box004
+    4300464: Box005
+    4300466: Box006
+    4300468: Walls00188
+    4300470: Details007223
+    4300472: Object001
+    4300474: Border8888
+    4300476: Border888
+    4300478: Details999
+    4300480: Object002
+    4300482: LightGarland
+    4300484: PillarLamp_Big
+    4300486: Garland_Balcone
+    4300488: Cylinder001
+    4300490: RedColumn
+    4300492: OrangeHouse_Arcs
+    4300494: MainHouse_Borders
+    4300496: MainHouse_Windows
+    4300498: MainHouse_Walls
+    4300500: Object003
+    4300502: FlagsPapelPicado
+    4300504: FlagsPapelPicado_1
+    4300506: FlagsPapelPicado_2
+    4300508: FlagsPapelPicado_3
+    4300510: FlagsPapelPicado_4
+    4300512: Trees_outland_Mexico
+    4300514: Stones_outland_Mexico
+    4300516: Fountain
+    4300518: WallRed
+    4300520: WallRed_02
+    4300522: Details_49
+    4300524: Details_47
+    4300526: Details_42
+    4300528: Details_34
+    4300530: Details_32
+    4300532: Details_30
+    4300534: Details_31
+    4300536: Details_26
+    4300538: Details_27
+    4300540: Details_25
+    4300542: Details_29
+    4300544: Details_33
+    4300546: Details_36
+    4300548: Details_37
+    4300550: Details_51
+    4300552: Details_52
+    4300554: Details_46
+    4300556: Details_48
+    4300558: Details_45
+    4300560: Details_43
+    4300562: Details_41
+    4300564: Details_44
+    4300566: Details_38
+    4300568: Details_54
+    4300570: Details_53
+    4300572: Details_39
+    4300574: Details_28
+    4300576: Details_23
+    4300578: Details_22
+    4300580: Details_19
+    4300582: Details_17
+    4300584: Details_16
+    4300586: Details_18
+    4300588: Details_15
+    4300590: Wall_05
+    4300592: Border_14
+    4300594: Wall_34
+    4300596: Border_19
+    4300598: Wall_08
+    4300600: Border_20
+    4300602: Wall_14
+    4300604: Wall_20
+    4300606: Details_08
+    4300608: Wall_25
+    4300610: Border_24
+    4300612: Wall_29
+    4300614: Border_16
+    4300616: Wall_39
+    4300618: Border_10
+    4300620: Wall_04
+    4300622: Border_25
+    4300624: Wall_33
+    4300626: Wall_28
+    4300628: Border_08
+    4300630: Wall_32
+    4300632: Wall_10
+    4300634: Wall_01
+    4300636: Border_09
+    4300638: Wall_03
+    4300640: Wall_06
+    4300642: Border_11
+    4300644: Wall_41
+    4300646: Wall_35
+    4300648: Wall_09
+    4300650: Border_06
+    4300652: Border_03
+    4300654: Wall_37
+    4300656: Wall_02
+    4300658: Border_01
+    4300660: Wall_36
+    4300662: Border_02
+    4300664: Wall_38
+    4300666: Border_04
+    4300668: Wall_40
+    4300670: Wall_31
+    4300672: Wall_27
+    4300674: Border_05
+    4300676: Wall_30
+    4300678: Border_07
+    4300680: Wall_07
+    4300682: Wall_24
+    4300684: Border_23
+    4300686: Border_13
+    4300688: Wall_23
+    4300690: Wall_26
+    4300692: Wall_22
+    4300694: Details_05
+    4300696: Border_17
+    4300698: Details_06
+    4300700: Wall_21
+    4300702: Border_21
+    4300704: Details_10
+    4300706: Details_11
+    4300708: Wall_19
+    4300710: Border_12
+    4300712: Wall_18
+    4300714: Border_15
+    4300716: Wall_17
+    4300718: Border_18
+    4300720: Wall_16
+    4300722: Details_04
+    4300724: Border_22
+    4300726: Details_07
+    4300728: Details_01
+    4300730: Details_02
+    4300732: Walls_001
+    4300734: Walls_002
+    4300736: Walls_003
+    4300738: Details_03
+    4300740: Details_50
+    4300742: Details_24
+    4300744: Details_09
+    4300746: Details_35
+    4300748: Details_40
+    4300750: Details_13
+    4300752: Details_12
+    4300754: Rooms_01
+    4300756: Rooms_02
+    4300758: Details_14
+    4300760: Details_20
+    4300762: Wall_15
+    4300764: Wall_13
+    4300766: Details_21
+    4300768: Wall_12
+    4300770: Wall_11
+    4300772: MainHouse_Elements
+    4300774: OrangeWall
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

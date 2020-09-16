@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fde7155e94a890d45969c21dc4e1f1a2, type: 3}
+  m_Name: DiveSkillSpec
+  m_EditorClassIdentifier: 
+  skillName: 19
+  icon: {fileID: 21300000, guid: 8db8791cebf5242f6b17f72fc363077e, type: 3}
+  diveButtonPrefab: {fileID: 4173579770405706993, guid: 8c610c9f0bd64431e86588f124edf4f6,
+    type: 3}
+  diveButtonPosition: {x: -0.07, y: 0.0054, z: -0.029}
+  diveButtonRotation: {x: 270, y: 0, z: 0}
+  rocketPrefab: {fileID: 2473763963741693466, guid: d740b0887c50d544fae964e540a7402d,
+    type: 3}
+  rocketPosition: {x: -1.42, y: 2.4, z: 0}
+  rocketFlyingTime: 0.1

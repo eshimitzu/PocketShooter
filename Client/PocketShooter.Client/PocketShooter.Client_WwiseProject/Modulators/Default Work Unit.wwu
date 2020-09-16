@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FFD52E58-37D0-405B-B2E4-8BBF5113AEAF}" SchemaVersion="89">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{FFD52E58-37D0-405B-B2E4-8BBF5113AEAF}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorTime Name="DashTimeModulator" ID="{45534B51-1431-41AD-BD66-F24F0C702790}" ShortID="363602827">
+					<PropertyList>
+						<Property Name="TimeModDuration" Type="Real64" Value="3"/>
+					</PropertyList>
+				</ModulatorTime>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

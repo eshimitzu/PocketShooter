@@ -1,0 +1,19 @@
+{
+    "name": "Heyworks.PocketShooter.Client.Tests",
+    "references": [
+        "Heyworks.PocketShooter.Realtime.Client",
+        "Microsoft.Extensions.Logging.Unity"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

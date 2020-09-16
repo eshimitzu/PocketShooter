@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: a072a1cb11f466d4fb79a2063ef56774
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: PUBG
+    100002: //RootNode
+    100004: Slot_Ammo
+    100006: Slot_Left
+    100008: Slot_Right
+    100010: Trooper_Head
+    100012: Trooper_Hips
+    100014: Trooper_LeftArm
+    100016: Trooper_LeftFoot
+    100018: Trooper_LeftFootIndex
+    100020: Trooper_LeftFootIndex1
+    100022: Trooper_LeftForeArm
+    100024: Trooper_LeftHand
+    100026: Trooper_LeftHandMiddle1
+    100028: Trooper_LeftHandMiddle2
+    100030: Trooper_LeftHandThumb1
+    100032: Trooper_LeftHandThumb2
+    100034: Trooper_LeftLeg
+    100036: Trooper_LeftShoulder
+    100038: Trooper_LeftUpLeg
+    100040: Trooper_Neck
+    100042: Trooper_Neck1
+    100044: Trooper_RightArm
+    100046: Trooper_RightFoot
+    100048: Trooper_RightFootIndex
+    100050: Trooper_RightFootIndex1
+    100052: Trooper_RightForeArm
+    100054: Trooper_RightHand
+    100056: Trooper_RightHandMiddle1
+    100058: Trooper_RightHandMiddle2
+    100060: Trooper_RightLeg
+    100062: Trooper_RightShoulder
+    100064: Trooper_RightThumb1
+    100066: Trooper_RightThumb2
+    100068: Trooper_RightUpLeg
+    100070: Trooper_Root
+    100072: Trooper_Spine1
+    100074: Trooper_Spine2
+    100076: Trooper_Spine3
+    400000: PUBG
+    400002: //RootNode
+    400004: Slot_Ammo
+    400006: Slot_Left
+    400008: Slot_Right
+    400010: Trooper_Head
+    400012: Trooper_Hips
+    400014: Trooper_LeftArm
+    400016: Trooper_LeftFoot
+    400018: Trooper_LeftFootIndex
+    400020: Trooper_LeftFootIndex1
+    400022: Trooper_LeftForeArm
+    400024: Trooper_LeftHand
+    400026: Trooper_LeftHandMiddle1
+    400028: Trooper_LeftHandMiddle2
+    400030: Trooper_LeftHandThumb1
+    400032: Trooper_LeftHandThumb2
+    400034: Trooper_LeftLeg
+    400036: Trooper_LeftShoulder
+    400038: Trooper_LeftUpLeg
+    400040: Trooper_Neck
+    400042: Trooper_Neck1
+    400044: Trooper_RightArm
+    400046: Trooper_RightFoot
+    400048: Trooper_RightFootIndex
+    400050: Trooper_RightFootIndex1
+    400052: Trooper_RightForeArm
+    400054: Trooper_RightHand
+    400056: Trooper_RightHandMiddle1
+    400058: Trooper_RightHandMiddle2
+    400060: Trooper_RightLeg
+    400062: Trooper_RightShoulder
+    400064: Trooper_RightThumb1
+    400066: Trooper_RightThumb2
+    400068: Trooper_RightUpLeg
+    400070: Trooper_Root
+    400072: Trooper_Spine1
+    400074: Trooper_Spine2
+    400076: Trooper_Spine3
+    2100000: PUBG1
+    4300000: PUBG
+    9500000: //RootNode
+    13700000: PUBG
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

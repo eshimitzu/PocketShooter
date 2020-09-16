@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0AA1288E-4584-4B17-A7EE-BC13E61D2FA6}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{0AA1288E-4584-4B17-A7EE-BC13E61D2FA6}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ZoneProgressFriend" ID="{2A72ECB6-5A33-475A-920C-861C0DAE3209}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="BattleTimer" ID="{4238D272-870F-4130-A493-91F12D39020E}">
+					<PropertyList>
+						<Property Name="Max" Type="Real64" Value="300"/>
+					</PropertyList>
+				</GameParameter>
+				<Folder Name="WeaponParameters" ID="{9F6EE8C2-F158-4083-BC77-099F6AE950E3}" ShortID="152222483">
+					<ChildrenList>
+						<GameParameter Name="WarmupConsumableWeapon" ID="{EA3EBBE7-5ADD-413B-A882-E9F04339C4FE}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="SkillParameters" ID="{147996B2-F2BF-4749-966A-384A2A5611C3}" ShortID="971185425">
+					<ChildrenList>
+						<GameParameter Name="SprintActive" ID="{6CB362DF-DF6F-4B6A-80DD-ED0511C0A02D}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+								<Property Name="Max" Type="Real64" Value="1"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+				<GameParameter Name="ZoneProgressEnemy" ID="{F53F9C0E-B61C-418C-9DA2-F84969CB3D5E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,1856 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e2edf7505bf4d46bf1f89b7af237e2, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438640974802
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438735111844
+    List:
+    - name: ReverbArc
+      guid: 1e03e2d4bad80042a2d06ad82168ec34
+      id: 3895364587
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      - ElementName: ReverbArc
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\SFX\Environment\ReverbArc
+    - name: ReverbBox
+      guid: 889a4ca08a112f4998aab66909e406bf
+      id: 4113326352
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      - ElementName: ReverbBox
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\SFX\Environment\ReverbBox
+    - name: ReverbTunnel
+      guid: 9476ecb2068e654b82c3029183cef147
+      id: 2659487259
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: SFX
+        ObjectType: 2
+      - ElementName: Environment
+        ObjectType: 2
+      - ElementName: ReverbTunnel
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\SFX\Environment\ReverbTunnel
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438734873768
+    List:
+    - name: Character
+      guid: c4c0b3bb02d0e74ea7ceed3f83ef2ddd
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Character
+        ObjectType: 7
+      Path: Default Work Unit\Character
+    - name: EnvMexNightBank
+      guid: dd66f07d44d6a148a69ac22ba5fa161f
+      id: 1785558720
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Environments
+        ObjectType: 4
+      - ElementName: EnvMexNightBank
+        ObjectType: 7
+      Path: Default Work Unit\Environments\EnvMexNightBank
+    - name: Music
+      guid: 9288f9b2200e4a41887092971c99beed
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Music
+        ObjectType: 7
+      Path: Default Work Unit\Music
+    - name: UI
+      guid: 25c70ddc6241db488dbe513c6b9d3853
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UI
+        ObjectType: 7
+      Path: Default Work Unit\UI
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438642929024
+    List:
+    - name: PauseLobbyMusic
+      guid: 7edb7253aa1c5b45a0dd0aa24cbaf162
+      id: 1591770036
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicEvents
+        ObjectType: 4
+      - ElementName: PauseLobbyMusic
+        ObjectType: 3
+      Path: Default Work Unit\MusicEvents\PauseLobbyMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayButtonClick
+      guid: 4908844b9f0f444ab0e6e61acd7e1dc1
+      id: 3105979793
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Lobby
+        ObjectType: 4
+      - ElementName: PlayButtonClick
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Lobby\PlayButtonClick
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayButtonReload
+      guid: 28f57e124787b149a9336783f5b87c37
+      id: 316625824
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Battle
+        ObjectType: 4
+      - ElementName: PlayButtonReload
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Battle\PlayButtonReload
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDash
+      guid: f37f4c8c06ccc54a80504b4e90112c50
+      id: 1030691167
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayDash
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayDash
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDeath
+      guid: 0a64e01f1da633449472d24a350fb8b0
+      id: 2840201783
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayDeath
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayDeath
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDive
+      guid: 341f9af51abe824b9fc81568087fdebd
+      id: 677081109
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayDive
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayDive
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDiveAim
+      guid: 9c1c10eaa5ce3f4c986badae7de9e89c
+      id: 3203537172
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayDiveAim
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayDiveAim
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDiveExplosion
+      guid: 61cc220a860649418baa9b9c44f3a69a
+      id: 182173234
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayDiveExplosion
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayDiveExplosion
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayDiveRocket
+      guid: 90f3aa8053aebf4393ca528dc7e185fa
+      id: 2647086485
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayDiveRocket
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayDiveRocket
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsCommando
+      guid: 3b7cbe16347acd49945d4e32837abbf3
+      id: 3327443438
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsCommando
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsCommando
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsNeo
+      guid: 6d4156607bd0124da1f9eaf08b1e8b0d
+      id: 1798292410
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsNeo
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNeo
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsNorris
+      guid: 4713a9ce082ce94f89c3ae8457363a59
+      id: 3276813625
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsNorris
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsNorris
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsRambo
+      guid: adaa7860309dde4eb455e63659387016
+      id: 2610787897
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsRambo
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRambo
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsRock
+      guid: 4875a7d38b0dee4ba56dc8617755851d
+      id: 3960134683
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsRock
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRock
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsRocketeer
+      guid: 493f1a226dc60a48a976e9c7090eb8cb
+      id: 4245983556
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsRocketeer
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsRocketeer
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsScout
+      guid: 9bda8c763dd00d48a0804dd2672d84eb
+      id: 570964110
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsScout
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsScout
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsSniper
+      guid: c89d6d10b027564db5ae9d70265d7822
+      id: 2417476225
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsSniper
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSniper
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsSpy
+      guid: 8b105d03221eba4c99cc07c77a201a1d
+      id: 1415805818
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsSpy
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsSpy
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayFootstepsStatham
+      guid: c75b535b62dc5647a95ff6c0303d4b2b
+      id: 873250360
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Footsteps
+        ObjectType: 4
+      - ElementName: PlayFootstepsStatham
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Footsteps\PlayFootstepsStatham
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayGrenadeCollision
+      guid: 78b9da01fc7e564f9cb7f4d31ffc4b54
+      id: 3057966133
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayGrenadeCollision
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayGrenadeCollision
+      maxAttenuation: 12
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayGrenadeExplosion
+      guid: cd4b0047b6a2534eb468fa4c86f928e4
+      id: 3395014464
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayGrenadeExplosion
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayGrenadeExplosion
+      maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayGrenadePin
+      guid: 79fe62655f5171478559d61bbe7a7846
+      id: 2032244284
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayGrenadePin
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayGrenadePin
+      maxAttenuation: 12
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayGrenadeStunCollision
+      guid: 0808e83730bb924ca8bd5ef8427c5650
+      id: 2971556329
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayGrenadeStunCollision
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayGrenadeStunCollision
+      maxAttenuation: 12
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayGrenadeThrow
+      guid: c0be73866a10de419f716eded9d59133
+      id: 821551381
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayGrenadeThrow
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayGrenadeThrow
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayHealing
+      guid: 3c806bc90b3217419ecb67ab7ff48a4d
+      id: 1313462519
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayHealing
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayHealing
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayImmortalityImpact
+      guid: 2df6bf4e1da8214bbe8c73c58b378874
+      id: 3393109598
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayImmortalityImpact
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayImmortalityImpact
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayImmortalitySphere
+      guid: 06335f209c88a2489fe5f28e42e2b357
+      id: 377947503
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayImmortalitySphere
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayImmortalitySphere
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayInstantReload
+      guid: 3b263ba20a6c134ea188ce46ad188d71
+      id: 3883208773
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayInstantReload
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayInstantReload
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayInvisibility
+      guid: 31846bcca19ccc4791bd51995d74cd63
+      id: 642563282
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayInvisibility
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayInvisibility
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayJump
+      guid: 8fc784e46e544747b5687bc66b2aabea
+      id: 1717476791
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayJump
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayJump
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayJumpEnd
+      guid: ae39eb843e075443bee6037b42b749fd
+      id: 2605355262
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayJumpEnd
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayJumpEnd
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayLifesteal
+      guid: fbfb308ee5f130448c551498d27713bf
+      id: 4052284670
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayLifesteal
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayLifesteal
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayLifestealMinus
+      guid: 0ae4514a93174b459a13665aaa150dd9
+      id: 1729824178
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayLifestealMinus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayLifestealMinus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayLifestealPlus
+      guid: 7cca657df6aa184798f6fec96072158f
+      id: 1956159050
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayLifestealPlus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayLifestealPlus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayLobbyMusic
+      guid: a2e4d90cd5b0c14e929df11b774dd34f
+      id: 2062291618
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicEvents
+        ObjectType: 4
+      - ElementName: PlayLobbyMusic
+        ObjectType: 3
+      Path: Default Work Unit\MusicEvents\PlayLobbyMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayLucky
+      guid: c56969bc476b2a49b21e05c026ad323c
+      id: 921201313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayLucky
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayLucky
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNeonBuzz
+      guid: fa7e32669a18a746af7046be4c28d228
+      id: 757514116
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNeonBuzz
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNeonBuzz
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightArcade
+      guid: cec33b904d21ef498e7b9e11685f2d8c
+      id: 1385766959
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightArcade
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightArcade
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightBorder01
+      guid: 2525721bf9fe6442aecdc18a3b71bd75
+      id: 2705825680
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightBorder01
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder01
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightBorder02
+      guid: ed40295bea5b084da03b52bb9f584d3c
+      id: 2705825683
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightBorder02
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightBorder02
+      maxAttenuation: 40
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightCar
+      guid: 5d3277aaf1efb049a7092137142294d7
+      id: 1369822775
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightCar
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCar
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightCrickets
+      guid: 7a5fe044fb8a9745bb43caa805b83d9b
+      id: 1635926023
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightCrickets
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightCrickets
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightFridge
+      guid: d61dcbf63977e2459d8f1c0c9fe413dc
+      id: 19614224
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightFridge
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridge
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightFridgeCollisions
+      guid: 4fb6a56af4859e439a07ac3b9497fb73
+      id: 3836397147
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightFridgeCollisions
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightFridgeCollisions
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightGuitar
+      guid: 1415c5fbbb25ca439b33390af3a29bb1
+      id: 2477669841
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightGuitar
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightGuitar
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightPopcorn
+      guid: dfa4d717b4823b47a9366758e335648d
+      id: 2639876882
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightPopcorn
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightPopcorn
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayMexNightSpeaker
+      guid: b90cf10dc254fa4695e753098fdb3978
+      id: 1256139746
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EnvironmentEvents
+        ObjectType: 4
+      - ElementName: MexicoNight
+        ObjectType: 4
+      - ElementName: PlayMexNightSpeaker
+        ObjectType: 3
+      Path: Default Work Unit\EnvironmentEvents\MexicoNight\PlayMexNightSpeaker
+      maxAttenuation: 15
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayNeoFocus
+      guid: 0dc2cc83068db04ca7628b87e8918fe0
+      id: 1007243845
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayNeoFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayNeoFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayNorrisFocus
+      guid: 8a41f019dc0b1743bdf9b0ee3d169723
+      id: 3320537866
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayNorrisFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayNorrisFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRage
+      guid: dfb35d9c653b18469b1bc77808387dc4
+      id: 1998507580
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayRage
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayRage
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRamboFocus
+      guid: 2eb5bb93923cf5439b095b0896a46b17
+      id: 4201560764
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayRamboFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayRamboFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRegeneration
+      guid: 50a18d2fe908ee49af0bf00c7586c7ce
+      id: 1027081642
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayRegeneration
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayRegeneration
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayReloadM16
+      guid: 22440f2bd1429b41b588f141e47b5a56
+      id: 389124200
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayReloadM16
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayReloadM16
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayReloadMinigun
+      guid: cac6066d30bb9f47b4b02e366228a2d6
+      id: 4022900357
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayReloadMinigun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayReloadMinigun
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayReloadRocket
+      guid: a857a6b7c2fdef4ea6ac9db915e66908
+      id: 440143028
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayReloadRocket
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayReloadRocket
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayReloadShotgun
+      guid: 63df17cd2494b04eacc3bd11c2242438
+      id: 21563610
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayReloadShotgun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayReloadShotgun
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayReloadSvd
+      guid: 610f1410224bd440bb54306bb6dbae1d
+      id: 3389360877
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayReloadSvd
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayReloadSvd
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRocketExplosion
+      guid: 4875c60797e6734daebd2c022bbf30c2
+      id: 888888696
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayRocketExplosion
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayRocketExplosion
+      maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRocketShoot
+      guid: b285a82f91838c40963fe33407b2e151
+      id: 2447162584
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayRocketShoot
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayRocketShoot
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayRockFocus
+      guid: 88026f02113d544faa7a3f3eb77d7dd1
+      id: 35691788
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayRockFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayRockFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayScoutFocus
+      guid: 8fa8d2059606d244b5c97e941181b898
+      id: 925121273
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayScoutFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayScoutFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayShockwave
+      guid: 7d9888c5c2295542b89d103b6799fe68
+      id: 2673989888
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayShockwave
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayShockwave
+      maxAttenuation: 50
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayShockwaveHorn
+      guid: 033b292bb5db4e478676ebf36056eadc
+      id: 2951439723
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayShockwaveHorn
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayShockwaveHorn
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlaySniperFocus
+      guid: 1a2dfae1f757dd4bbde9144e7f9e5191
+      id: 824809494
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlaySniperFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlaySniperFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlaySprint
+      guid: 21bc38e49a270f40963b5a4d26e72093
+      id: 2476989423
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlaySprint
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlaySprint
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlaySpyFocus
+      guid: 457d52d3ef5b9f498ff8dfc0ae82edf3
+      id: 2880499329
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlaySpyFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlaySpyFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayStathamFocus
+      guid: ad608c05a490634cac9c00f1b9a7e9e0
+      id: 652493511
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlayStathamFocus
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlayStathamFocus
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayStunEffect
+      guid: f86b3a53f82141459419c0f50535b586
+      id: 3429197936
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayStunEffect
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayStunEffect
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlaySuffer
+      guid: af73c7cd4cf24b47ac422a4560d126ad
+      id: 328285970
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Voiceovers
+        ObjectType: 4
+      - ElementName: PlaySuffer
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Voiceovers\PlaySuffer
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayTrap
+      guid: cb93242472c8034a868d584921f0ffe1
+      id: 4153127022
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: PlayTrap
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\PlayTrap
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayTrooperImpact
+      guid: 9bc0ae5739d7bf4fac7b9dbf55c3ba7d
+      id: 520122814
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayTrooperImpact
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayTrooperImpact
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWallImpact
+      guid: fb8db2cede38f84d8188e1b583b60137
+      id: 3864859669
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWallImpact
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWallImpact
+      maxAttenuation: 5
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWarmUpMinigun
+      guid: c1691f0f05777d42bdf089d83849d690
+      id: 1674377184
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWarmUpMinigun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWarmUpMinigun
+      maxAttenuation: 10
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWarmUpStopMinigun
+      guid: 69adcf261530a7438ac3991775598d5f
+      id: 3751915472
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWarmUpStopMinigun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWarmUpStopMinigun
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponBarret
+      guid: 9b0b6cc62a3221439fdb201d4e111dc0
+      id: 891302319
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponBarret
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponBarret
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponKatana
+      guid: 9f1151087dd07048a99d3e00131dcac3
+      id: 1614160601
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponKatana
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatana
+      maxAttenuation: 7
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponKatanaWhip
+      guid: d371c1949a77454397b23540d1329a6f
+      id: 1148768871
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponKatanaWhip
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponKatanaWhip
+      maxAttenuation: 7
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponKnife
+      guid: a3632b806284e340ac37ef711c0ea7ea
+      id: 1373079386
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponKnife
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnife
+      maxAttenuation: 7
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponKnifeWhip
+      guid: 67a6b3d314eb0d428de8845a5b6043ef
+      id: 3585203664
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponKnifeWhip
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponKnifeWhip
+      maxAttenuation: 7
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponM16
+      guid: 0f404af4c36bae42b23765052a63eb46
+      id: 3772532305
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponM16
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponM16
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponMinigun
+      guid: d86bda6db56fee4a99271ae931c21326
+      id: 626967428
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponMinigun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponMinigun
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponShotgunRemington
+      guid: 12344fcd88caf24db33f92d14d6c186f
+      id: 1171507898
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponShotgunRemington
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunRemington
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponShotgunSpas
+      guid: dd33bdf1529e0f4f9224d60609e2d5d1
+      id: 3015014434
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponShotgunSpas
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponShotgunSpas
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayWeaponSvd
+      guid: 99814dd4d7ef834dba9771fa7c077f0d
+      id: 2652080524
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Weapons
+        ObjectType: 4
+      - ElementName: PlayWeaponSvd
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Weapons\PlayWeaponSvd
+      maxAttenuation: 35
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayZoneProgressEnemy
+      guid: 83f035a1fb42e84d8d8748c6119a7203
+      id: 155309140
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Battle
+        ObjectType: 4
+      - ElementName: ZoneChange
+        ObjectType: 4
+      - ElementName: PlayZoneProgressEnemy
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressEnemy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: PlayZoneProgressFriend
+      guid: 903efa4f51adc74aad3307c8ef0967ed
+      id: 1998900360
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Battle
+        ObjectType: 4
+      - ElementName: ZoneChange
+        ObjectType: 4
+      - ElementName: PlayZoneProgressFriend
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Battle\ZoneChange\PlayZoneProgressFriend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ResumeLobbyMusic
+      guid: e0048e92f407fa48aea8cb108038392b
+      id: 1882043397
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicEvents
+        ObjectType: 4
+      - ElementName: ResumeLobbyMusic
+        ObjectType: 3
+      Path: Default Work Unit\MusicEvents\ResumeLobbyMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateCharacterDead
+      guid: 63a6efaf83c5be429796ece360517c7b
+      id: 3722533827
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: StateCharacterDead
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\StateCharacterDead
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateEffectStun
+      guid: 8dbf98f23c874f4ab871f87638d14c11
+      id: 2828262823
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: StateEffectStun
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\StateEffectStun
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StateMusicCharacterdead
+      guid: 17fbf7b44e4ec448aef3c1a3a1a15e0a
+      id: 473915656
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StateMusicCharacterdead
+        ObjectType: 3
+      Path: Default Work Unit\StateMusicCharacterdead
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopImmortalitySphere
+      guid: 376c2c6f1bb6b24b9c64e95e313643fa
+      id: 1307850985
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: StopImmortalitySphere
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\StopImmortalitySphere
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopLifesteal
+      guid: c40158babd09904c9bfd53f6d188c4fd
+      id: 1517601480
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: StopLifesteal
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\StopLifesteal
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopSprint
+      guid: 3c996ac3610fd140b2e9bb7bc3497c17
+      id: 3711495321
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharachterEvents
+        ObjectType: 4
+      - ElementName: Skills
+        ObjectType: 4
+      - ElementName: StopSprint
+        ObjectType: 3
+      Path: Default Work Unit\CharachterEvents\Skills\StopSprint
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopZoneProgressEnemy
+      guid: 096ca9e2a456224bbb9ae4c029e6e401
+      id: 2783781982
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Battle
+        ObjectType: 4
+      - ElementName: ZoneChange
+        ObjectType: 4
+      - ElementName: StopZoneProgressEnemy
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressEnemy
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopZoneProgressFriend
+      guid: 65cb57575d6a064f894dd465dc3c935c
+      id: 975959046
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: UIEvents
+        ObjectType: 4
+      - ElementName: Battle
+        ObjectType: 4
+      - ElementName: ZoneChange
+        ObjectType: 4
+      - ElementName: StopZoneProgressFriend
+        ObjectType: 3
+      Path: Default Work Unit\UIEvents\Battle\ZoneChange\StopZoneProgressFriend
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438642909184
+    List:
+    - name: BattleTimer
+      guid: 72d238420f873041a49391f12d39020e
+      id: 4182680926
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BattleTimer
+        ObjectType: 13
+      Path: Default Work Unit\BattleTimer
+    - name: SprintActive
+      guid: df62b36c6fdf6a4b80dded0511c0a02d
+      id: 1659627727
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SkillParameters
+        ObjectType: 4
+      - ElementName: SprintActive
+        ObjectType: 13
+      Path: Default Work Unit\SkillParameters\SprintActive
+    - name: WarmupConsumableWeapon
+      guid: e7bb3eeadd5a3b41a882e9f04339c4fe
+      id: 1760649476
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WeaponParameters
+        ObjectType: 4
+      - ElementName: WarmupConsumableWeapon
+        ObjectType: 13
+      Path: Default Work Unit\WeaponParameters\WarmupConsumableWeapon
+    - name: ZoneProgressEnemy
+      guid: 0e9c3ff51cb68c419da2f84969cb3d5e
+      id: 3355860486
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ZoneProgressEnemy
+        ObjectType: 13
+      Path: Default Work Unit\ZoneProgressEnemy
+    - name: ZoneProgressFriend
+      guid: b6ec722a335a5a47920c861c0dae3209
+      id: 541593294
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ZoneProgressFriend
+        ObjectType: 13
+      Path: Default Work Unit\ZoneProgressFriend
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438641029361
+    List:
+    - name: CharacterLocal
+      guid: 877f722e90a13645ae8dbc7ecc39d6f7
+      id: 2133833567
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CharacterLocal
+        ObjectType: 9
+      Path: Default Work Unit\CharacterLocal
+      values:
+      - name: CharacterDead
+        guid: 83cf7dcee54cad45b4aeb09f80525ad3
+        id: 2810514764
+        PathAndIcons:
+        - ElementName: CharacterDead
+          ObjectType: 8
+      - name: None
+        guid: 7ec3b8bb6958ae4ea9aa68b91c508f60
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal:
+      - 
+      - 
+    - name: EffectDash
+      guid: 46d3269e162cd147a52423b2ffb8166b
+      id: 3466749342
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EffectDash
+        ObjectType: 9
+      Path: Default Work Unit\EffectDash
+      values:
+      - name: Dash
+        guid: 57c259cb794a2641a49c08f8cc2352d2
+        id: 1942692385
+        PathAndIcons:
+        - ElementName: Dash
+          ObjectType: 8
+      - name: None
+        guid: 8f19a81a23a20b43a9282d94d6e6ae3f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal:
+      - 
+      - 
+    - name: EffectStun
+      guid: 7d32b05950bee542a5b2d0e944f1b989
+      id: 4058248134
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: EffectStun
+        ObjectType: 9
+      Path: Default Work Unit\EffectStun
+      values:
+      - name: EffectStun
+        guid: c0bb67874d63fb40a9924a04381abb34
+        id: 4058248134
+        PathAndIcons:
+        - ElementName: EffectStun
+          ObjectType: 8
+      - name: None
+        guid: 34680ec2c0b7ec45b8ba250fd0cef331
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal:
+      - 
+      - 
+    - name: MusicStates
+      guid: 06fbd46e2150ce49b447cfb7bc341d44
+      id: 3103015060
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MusicStates
+        ObjectType: 9
+      Path: Default Work Unit\MusicStates
+      values:
+      - name: CharacterDead
+        guid: df3fb4ed9742e540ba0ae999a6713056
+        id: 2810514764
+        PathAndIcons:
+        - ElementName: CharacterDead
+          ObjectType: 8
+      - name: None
+        guid: ed58a155f8361845833c25798143fc3f
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal:
+      - 
+      - 
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438641009515
+    List:
+    - name: Footsteps
+      guid: 2f4269798664364db61b0be942fe13e7
+      id: 2385628198
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Footsteps
+        ObjectType: 11
+      Path: Default Work Unit\Footsteps
+      values:
+      - name: Indoor
+        guid: 83e394389b70cc48bb86ebce7822ed43
+        id: 340398852
+        PathAndIcons:
+        - ElementName: Indoor
+          ObjectType: 10
+      - name: Outdoor
+        guid: ef18d03ead4ad74794a787e49883a50f
+        id: 144697359
+        PathAndIcons:
+        - ElementName: Outdoor
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal:
+      - 
+      - 
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 00000000000000000000000000000000
+    GuidInternal: 
+    m_lastTime: -8586389438640984718
+    List: []
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: Release

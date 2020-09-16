@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f264e3c9eec61413fae4207dbed0300e, type: 3}
+  m_Name: TroopersConfig
+  m_EditorClassIdentifier: 
+  troopers:
+  - trooperClass: 1
+    trooperAvatar: {fileID: 2637194543038233624, guid: b38f331361e048e429005f2eda247832,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 2
+    trooperAvatar: {fileID: 784443020008953551, guid: 9a5d56074f1e6d740b97418e37561dcf,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 3
+    trooperAvatar: {fileID: 2325677235369087670, guid: 069e2e0cbc1da924a947fa5d1f5326a7,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 4
+    trooperAvatar: {fileID: 6412356432235785579, guid: 81b1ba0f1a574114f8398520dd047445,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 6
+    trooperAvatar: {fileID: 3552493140755538249, guid: 613ed092357644a42a4c9bd40c525239,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 7
+    trooperAvatar: {fileID: 1703291291607367949, guid: 41d3dcb872b93a249953443b206cdfe6,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 5
+    trooperAvatar: {fileID: 8993652550283785666, guid: c80a1773817223d4294b326697a58058,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 8
+    trooperAvatar: {fileID: 617663423463306461, guid: f549fb4bbd7bd974587ad82d77011591,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 9
+    trooperAvatar: {fileID: 743652191107660199, guid: e38b5fa9447b4964a8eaac4e66a28465,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 10
+    trooperAvatar: {fileID: 5581537906301923827, guid: a7c1086b232d3f94b9bedee02b5c8f16,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 11
+    trooperAvatar: {fileID: 2357492936242397516, guid: a4c311a732ea1ee48919659686293136,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 12
+    trooperAvatar: {fileID: 993695758184007533, guid: ab17c4b59e471f74a8b4be32c9b71e5a,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 13
+    trooperAvatar: {fileID: 842851207854467845, guid: 3b9bb6bade6c17f40938124043749783,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 14
+    trooperAvatar: {fileID: 4398630514983205448, guid: 1a2451fd76054e643bed4e43dc68a36f,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 15
+    trooperAvatar: {fileID: 2399188646428389485, guid: e77790fe3443f4b438d8243a3613bacd,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 16
+    trooperAvatar: {fileID: 6256537215664641981, guid: f0bac1a5737298640821a4b6323f50e3,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 17
+    trooperAvatar: {fileID: 885189427307238216, guid: 5199128b41a145e4d8ddab8176420dcc,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  - trooperClass: 18
+    trooperAvatar: {fileID: 4714272640776402066, guid: 9f14c0bc6d10aaf46815aeb1e3bc8e31,
+      type: 3}
+    botCharacter: {fileID: 114891524807083870, guid: 5d279431275f24abdb91c06fb79071f0,
+      type: 3}
+  remoteCharacter: {fileID: 114891524807083870, guid: 6748ad09d921947b19fc56c8bdb8fcb6,
+    type: 3}
+  localCharacter: {fileID: 6389112528546216138, guid: fb5448f3ce9c041f185597c060b8ae8e,
+    type: 3}
+  trooperMaterialConfig:
+    highlightedShader: {fileID: 4800000, guid: 878580df86e3447c9970217897cbe0b8, type: 3}
+    enemyHighlightRimColor: {r: 1, g: 0.0627451, b: 0, a: 1}
+    enemyHighlightOutlineColor: {r: 1, g: 0.0627451, b: 0, a: 1}
+    friendHighlightRimColor: {r: 0, g: 0.43137255, b: 1, a: 0}
+    friendHighlightOutlineColor: {r: 0, g: 0.43137255, b: 1, a: 1}
+    rimPower: 6
+    outlineWidth: 1
+  deadHitPower: 50

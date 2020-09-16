@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &920716801989808825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7860494344759053167}
+  - component: {fileID: 1044659514343520487}
+  m_Layer: 0
+  m_Name: OfflineTrooperCreator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7860494344759053167
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920716801989808825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.798661, y: 18.37135, z: -33.064438}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1044659514343520487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920716801989808825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e5d256f7be4a6d40b4ae8e54248f5df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  troopersConfig: {fileID: 11400000, guid: 7516d907fc73a1b4d809a58c1f27ae58, type: 2}
+  offlineLocalCharacter: {fileID: 4125211023693174435, guid: 1b1eee24f4a05344bb43fe9e2b4ce28f,
+    type: 3}
+  weaponsConfig: {fileID: 11400000, guid: 10c0eab2fa82a4aa8a0b5d238b871a81, type: 2}
+  orbitCamera: {fileID: 114470886221950918, guid: 3f83f278bcafc4064b5beafc32c513b1,
+    type: 3}

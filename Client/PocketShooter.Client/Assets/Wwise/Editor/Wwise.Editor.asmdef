@@ -1,0 +1,12 @@
+{
+    "name": "Wwise.Editor",
+    "references": [
+        "Wwise"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

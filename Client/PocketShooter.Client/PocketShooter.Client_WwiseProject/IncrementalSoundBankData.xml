@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="878078161">
+	<Platform GUID="{E7C480C6-DDE4-4235-B0E3-2239A3F2CF17}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Character" Hash="414621834" Timestamp="1562666707"/>
+				<File Name="EnvMexNightBank" Hash="3908270744" Timestamp="1562666707"/>
+				<File Name="Init" Hash="1837760272" Timestamp="1562666707"/>
+				<File Name="Music" Hash="1314743046" Timestamp="1562666707"/>
+				<File Name="UI" Hash="3838678862" Timestamp="1562666707"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3010969423" Timestamp="1562666707"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{3D6ECA35-6B52-4742-BCD7-4E8E15C82239}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Character" Hash="414621834" Timestamp="1562666715"/>
+				<File Name="EnvMexNightBank" Hash="1794470195" Timestamp="1562666715"/>
+				<File Name="Init" Hash="1186838353" Timestamp="1562666715"/>
+				<File Name="Music" Hash="1962279206" Timestamp="1562666715"/>
+				<File Name="UI" Hash="3989391872" Timestamp="1562666715"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="226838237" Timestamp="1562666715"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{5C988C43-940F-4A5F-BDE7-74B6D7042C54}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Character" Hash="414621834" Timestamp="1562666710"/>
+				<File Name="EnvMexNightBank" Hash="3908270744" Timestamp="1562666710"/>
+				<File Name="Init" Hash="3096012106" Timestamp="1562666710"/>
+				<File Name="Music" Hash="1314743046" Timestamp="1562666710"/>
+				<File Name="UI" Hash="3838678862" Timestamp="1562666710"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="72735841" Timestamp="1562666710"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{1BB304D8-9188-4C8F-A17F-388314D9048B}">
+		<Banks>
+			<Language ID="393239870">
+				<File Name="Character" Hash="414621834" Timestamp="1562666713"/>
+				<File Name="EnvMexNightBank" Hash="1794470195" Timestamp="1562666713"/>
+				<File Name="Init" Hash="2311529303" Timestamp="1562666713"/>
+				<File Name="Music" Hash="1962279206" Timestamp="1562666713"/>
+				<File Name="UI" Hash="3989391872" Timestamp="1562666713"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3514462727" Timestamp="1562666713"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

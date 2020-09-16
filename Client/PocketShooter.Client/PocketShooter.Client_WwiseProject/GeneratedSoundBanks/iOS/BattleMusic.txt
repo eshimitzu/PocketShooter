@@ -1,0 +1,21 @@
+Event	ID	Name			Wwise Object Path	Notes
+	473915656	StateMusicCharacterdead			\Default Work Unit\MusicEvents\StateMusicCharacterdead	
+	3960000920	PlayMusicTest			\Default Work Unit\MusicEvents\PlayMusicTest	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3103015060	MusicStates			\Default Work Unit\MusicStates	
+
+State	ID	Name	State Group			Notes
+	0	None	MusicStates			
+	2810514764	CharacterDead	MusicStates			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	400911654	CharacterDead	MusicStates	\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	4182680926	BattleTimer			\Default Work Unit\BattleTimer	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	723014791	BattleNewYork	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\BattleNewYork_CFB351BA.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\MusicTest\BattleNewYork		491223
+	762351616	MapNewYork	C:\Projects\PocketShooter\git\Client\PocketShooter.Client\PocketShooter.Client_WwiseProject\.cache\iOS\SFX\MapNewYork_CFB351BA.wem		\Interactive Music Hierarchy\Default Work Unit\New Music Playlist Container\MusicTest\MapNewYork		552066
+

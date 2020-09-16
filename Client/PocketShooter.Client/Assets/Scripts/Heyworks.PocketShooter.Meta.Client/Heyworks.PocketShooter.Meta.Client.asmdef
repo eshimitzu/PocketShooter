@@ -1,0 +1,20 @@
+{
+    "name": "Heyworks.PocketShooter.Meta.Client",
+    "references": [
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.PocketShooter.Meta.Common",
+        "Microsoft.Extensions.Logging.Unity",
+        "UniRx",
+        "UniRx.Async",
+        "Heyworks.PocketShooter.Client.Common",
+        "Collections.Pooled"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}

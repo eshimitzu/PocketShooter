@@ -1,0 +1,28 @@
+{
+    "name": "Heyworks.PocketShooter.Tests.Integration",
+    "references": [
+        "Heyworks.PocketShooter.Common",
+        "Heyworks.PocketShooter.Meta.Common",
+        "Heyworks.PocketShooter.Meta.Client",
+        "Heyworks.PocketShooter.Realtime.Common",
+        "Heyworks.PocketShooter.Realtime.Client",
+        "Heyworks.PocketShooter.Realtime.Client.Common",
+        "Heyworks.Realtime.State",
+        "Microsoft.Extensions.Logging.Unity",
+        "UniRx",
+        "UniRx.Async",
+        "Collections.Pooled"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": []
+}
